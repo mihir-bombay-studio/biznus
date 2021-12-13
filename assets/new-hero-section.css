@@ -32,8 +32,8 @@
           	margin-top:0px;
         }
 
-        a:link,
-        a:visited {
+        .aa:link,
+        .aa:visited {
             text-decoration: none;
             padding: 5px 25px;
             background-color: transparent;
@@ -57,8 +57,8 @@
         }
 
         /* hover effect */
-        a:hover,
-        a:active {
+        .aa:hover,
+        .aa:active {
             background-color: #f9f9f9;
             color: #222;
         }
