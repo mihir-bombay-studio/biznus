@@ -32,7 +32,7 @@
             line-height: 1.5;
             margin-bottom: 25px;
           	margin-top:0px;
-                 font-family: 'Sen', sans-serif;
+            font-family: 'Sen', sans-serif;
 
         }
 
@@ -49,6 +49,8 @@
             font-size: 16px;
             line-height: 1.5;
             font-weight: bold;
+			font-family: 'Sen', sans-serif;
+
         }
 
         .hero-wrapper {
