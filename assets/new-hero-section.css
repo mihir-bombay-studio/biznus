@@ -1,6 +1,4 @@
-body{
-       font-family: 'Sen', sans-serif;
-}
+
 .hero-section {
             background-repeat: no-repeat;
             background-size: cover;
@@ -22,7 +20,7 @@ body{
             font-weight: 700;
             margin-top: 20px;
             margin-bottom: 10px;
-                 font-family: 'Sen', sans-serif;
+            font-family: 'Sen', sans-serif;
 
         }
 
