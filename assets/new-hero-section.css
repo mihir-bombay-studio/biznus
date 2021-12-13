@@ -24,11 +24,12 @@
 
         .hero-para {
             width: 35%;
-            margin-bottom: 25px;
             color: #f9f9f9;
             font-size: 18px;
             font-weight: normal;
             line-height: 1.5;
+            margin-bottom: 25px;
+          	margin-top:0px;
         }
 
         a:link,
