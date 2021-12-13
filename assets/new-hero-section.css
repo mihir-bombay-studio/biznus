@@ -1,0 +1,91 @@
+.hero-section {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            font-family: 'Sen', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0px auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .hero-heading {
+            width: 35%;
+            color: #f9f9f9;
+            font-size: 62px;
+            line-height: 1.2;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .hero-para {
+            width: 35%;
+            margin-bottom: 25px;
+            color: #f9f9f9;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 1.5;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            padding: 5px 25px;
+            background-color: transparent;
+            color: #f9f9f9;
+            border: solid 1px #f9f9f9;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+
+        .hero-wrapper {
+            min-height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-bottom: 45px;
+        }
+
+        /* hover effect */
+        a:hover,
+        a:active {
+            background-color: #f9f9f9;
+            color: #222;
+        }
+
+        /* responsive  */
+
+        @media screen and (max-width: 991px) {
+            .hero-heading {
+                width: 60%;
+            
+            }
+            .hero-para{
+                width:55%;
+            }
+        }
+        
+        @media screen and (max-width: 479px) {
+            .hero-heading {
+                font-size: 30px;
+                width: 60%;
+            
+            }
+            .hero-para{
+                font-size: 13px;
+                width:70%;
+            }
+            .hero-wrapper {
+                justify-content: flex-end;
+   
+        }
+        }
