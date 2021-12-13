@@ -1,8 +1,10 @@
+body{
+       font-family: 'Sen', sans-serif;
+}
 .hero-section {
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%;
-            font-family: 'Sen', sans-serif;
         }
 
         .container {
