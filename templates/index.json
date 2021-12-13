@@ -1,9 +1,9 @@
 {
   "sections": {
-    "163939567521e5b41c": {
+    "1639397768d3dcaef3": {
       "type": "new-hero-section",
       "blocks": {
-        "a17ade96-c672-43cb-967c-a1cfc951edc5": {
+        "1639397768c4362b95-0": {
           "type": "select",
           "settings": {
             "heading-txt": "Serving you since 1989.",
@@ -14,7 +14,7 @@
         }
       },
       "block_order": [
-        "a17ade96-c672-43cb-967c-a1cfc951edc5"
+        "1639397768c4362b95-0"
       ],
       "settings": {
         "images-box-content": "shopify:\/\/shop_images\/img1.jpg"
@@ -194,7 +194,7 @@
     }
   },
   "order": [
-    "163939567521e5b41c",
+    "1639397768d3dcaef3",
     "image_banner",
     "rich_text",
     "featured_products",
