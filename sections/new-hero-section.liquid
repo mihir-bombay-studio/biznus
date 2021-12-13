@@ -2,20 +2,65 @@
 
 
 
-
-
-
-
 {% schema %}
+
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Hero Section",
+    "max_blocks": 1,
+    "settings": [
+        {
+            "id": "images-box-content",
+            "label":"background image",
+            "type": "image_picker"
+        }        
+    ],
+
+    "blocks":[
+        {
+            "type": "select",
+            "name": "select",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading-txt",
+                    "label": "Your Heading goes here",
+                    "default": "Serving you since 1989."
+          
+                },
+                {
+                    "type": "text",
+                    "id": "para-txt",
+                    "label": "Your Sub-heading goes here",
+                    "default": "Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City."
+          
+                },
+                {
+                    "id":"btn-lnk",
+                    "type": "url",
+                    "label":"Your Button URL here"
+                },
+                {
+                    "type": "text",
+                    "id": "btn-txt",
+                    "label": "Button Text here",
+                    "default": "Shop Merch",
+                    "info": "This is a button"
+                }
+                
+            ]
+        }
+    ],
+
+    "presets": [
+        {
+            "category": "Adnan Custom",
+            "name":"My new hero section"
+        }
+    ]
   }
 
-
-
-
 {% endschema %}
+
 
 {% stylesheet %}
 {% endstylesheet %}
