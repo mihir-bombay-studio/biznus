@@ -1,5 +1,44 @@
 {
   "sections": {
+    "16394784353b4b60ea": {
+      "type": "support-section",
+      "blocks": {
+        "9603ee12-da91-47e1-a2d5-9219e70b1201": {
+          "type": "infocard",
+          "settings": {
+            "heading": "My heading",
+            "images": "shopify:\/\/shop_images\/circle.png",
+            "para": "<p>Our full product line is still available online here on our site! Getting outside and hiking is still something you can do. Get your gear now!<\/p>"
+          }
+        },
+        "e299413d-ed63-4849-a31b-f7cad275bcca": {
+          "type": "infocard",
+          "settings": {
+            "heading": "My heading",
+            "images": "shopify:\/\/shop_images\/Triangle.png",
+            "para": "<p>Since we've changed the way we operate to online only, and to ensure your safety, not all our staff is working. Donate to keep them afloat.<\/p>"
+          }
+        },
+        "d52a96d2-d659-4b32-9cf9-556055794fa7": {
+          "type": "infocard",
+          "settings": {
+            "heading": "My heading",
+            "images": "shopify:\/\/shop_images\/rectangle.png",
+            "para": "<p>Have all the outdoor gear you need for now? Buy a gift card and use it later or share it with friends and family.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9603ee12-da91-47e1-a2d5-9219e70b1201",
+        "e299413d-ed63-4849-a31b-f7cad275bcca",
+        "d52a96d2-d659-4b32-9cf9-556055794fa7"
+      ],
+      "settings": {
+        "top-details": "WAYS TO SUPPORT",
+        "top-heading": "Support Acme Outdoors.",
+        "para": "Covid-19 has forced us to close our retail price,but we need to support from patrons                     like yourself                     now more than ever.Below we've the best way to help us through this season."
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -171,54 +210,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16394784353b4b60ea": {
-      "type": "support-section",
-      "blocks": {
-        "9603ee12-da91-47e1-a2d5-9219e70b1201": {
-          "type": "infocard",
-          "settings": {
-            "heading": "My heading",
-            "images": "shopify:\/\/shop_images\/circle.png",
-            "para": "<p>Our full product line is still available online here on our site! Getting outside and hiking is still something you can do. Get your gear now!<\/p>"
-          }
-        },
-        "e299413d-ed63-4849-a31b-f7cad275bcca": {
-          "type": "infocard",
-          "settings": {
-            "heading": "My heading",
-            "images": "shopify:\/\/shop_images\/Triangle.png",
-            "para": "<p>Since we've changed the way we operate to online only, and to ensure your safety, not all our staff is working. Donate to keep them afloat.<\/p>"
-          }
-        },
-        "d52a96d2-d659-4b32-9cf9-556055794fa7": {
-          "type": "infocard",
-          "settings": {
-            "heading": "My heading",
-            "images": "shopify:\/\/shop_images\/rectangle.png",
-            "para": "<p>Have all the outdoor gear you need for now? Buy a gift card and use it later or share it with friends and family.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "9603ee12-da91-47e1-a2d5-9219e70b1201",
-        "e299413d-ed63-4849-a31b-f7cad275bcca",
-        "d52a96d2-d659-4b32-9cf9-556055794fa7"
-      ],
-      "settings": {
-        "top-details": "WAYS TO SUPPORT",
-        "top-heading": "Support Acme Outdoors.",
-        "para": "Covid-19 has forced us to close our retail price,but we need to support from patrons                     like yourself                     now more than ever.Below we've the best way to help us through this season."
-      }
     }
   },
   "order": [
+    "16394784353b4b60ea",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16394784353b4b60ea"
+    "multi_column"
   ]
 }
