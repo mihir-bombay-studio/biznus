@@ -1,0 +1,72 @@
+{{ 'safe.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="Safe_maincontainer">
+    {% for block in section.blocks %}
+    <div class="Safe_container">
+    <div class="Safe_containerWrapper">
+
+         <h2 class="Safe_headings">{{ block.settings.heading }}</h2>
+
+        <p class="Safe_paragraphs">
+            {{ block.settings.paragraph }}
+        </p>
+        <div class="Safe_button">
+            <a href="#" class="safeBtn">Read Our Statement</a>
+        </div>
+        </div>
+        </div>
+  {% endfor %}
+
+
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Section name",
+    "max_blocks":1,
+    "settings": [],
+    "blocks":[{
+        "type": "select",
+        "name": "select",
+        "settings":[
+            {
+                "id":"heading",
+                "type":"text",
+                "label":"heading",
+                "default":"How we're keeping you safe during COVID-19"
+            
+            },
+            {
+                "id":"paragraph",
+                "type":"text",
+                "label":"paragraph",
+                "default":"As an outdoor shop, we've taken precautionary measures to ensure the safety of all our customers and team members."
+            
+            }
+        ]
+    }],
+    "presets":[
+        {   
+            "name":"Safe Section",
+            "category":"Safe Section",
+	        "blocks" : [
+                {
+                    "type":"select"
+                }
+
+            ]
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
