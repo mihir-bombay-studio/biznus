@@ -9,7 +9,12 @@ color: black;
 color : white;
 } 
 
-
+.image{
+    padding-left:10%;
+padding-right:10%;
+    width: 100%;
+    height: 75%;
+}
   .para{
     
     font-weight: bold;
