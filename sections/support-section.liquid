@@ -14,7 +14,7 @@
   <div class="square">
       <div class="nos">0{{ forloop.index}}</div>
       <div class="heading">{{blocks.settings.heading}}</div>
-      <div class="images2">
+      <div class="images{{ forloop.index}}">
           <!-- <img src="./Triangle.svg" alt="triangle-image"> -->
           <img src="{{blocks.settings.images | img_url: 'medium'}}"/>
       </div>
