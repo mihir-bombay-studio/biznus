@@ -9,11 +9,12 @@
 {%- for block in section.blocks -%}
   <div class="column">
     <div class="card">
-      <img src={{ block.settings.image| img_url: '100px'}} alt="shopping" class="img1">
+      <img src={{ block.settings.image| img_url: '400px'}} alt="shopping" class="img1">
+      
+    </div
       <p>{{block.settings.details}}</p>
       <p>{{block.settings.Price}}</p>
       <button name="Details" value="Details">Details</button>
-    </div>
   </div>
 {% endfor %}
    
