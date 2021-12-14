@@ -1,0 +1,55 @@
+{{ 'support-section.css' | asset_url | stylesheet_tag }}
+  <div class="section">
+        <div class="container">
+<div class="top-wrapper">
+    <div class="wrapper-flex">
+        <div class="top-details">{{section.settings.top-details}}</div>
+        <div class="top-heading">{{section.settings.top-heading}}</div>
+    </div>
+    <div class="para">{{section.settings.para}}</div>
+</div>
+</div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "support-section",
+	
+    "settings": [
+		{
+        "id":"top-details",
+        "type":"text",
+        "label":"details",
+       "default":"your-details"
+        },
+        {
+            "id":"top-heading",
+            "type":"text",
+            "label":"heading",
+           "default":"your-heading"
+         },
+         {
+            "id":"para",
+            "type":"text",
+            "label":"para",
+           "default":"your-paragraph"
+        }
+     ],
+        "presets": [
+                {
+                    "category": "ankit-section",
+                    "name":"support-section"
+
+                }
+            ]
+
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
