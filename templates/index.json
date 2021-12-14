@@ -6,7 +6,7 @@
         "16394774210fedff15-0": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dec1.jpg",
+            "image": "shopify:\/\/shop_images\/deco2.jpg",
             "details": "<p>Add details<\/p>",
             "Price": "<p>Price<\/p>"
           }
@@ -14,7 +14,7 @@
         "4f73d933-26e7-4975-bf8e-6601663e470f": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/causal.jpg",
+            "image": "shopify:\/\/shop_images\/dec2.jpg",
             "details": "<p> Add details <\/p>",
             "Price": "<p>Price<\/p>"
           }
@@ -22,7 +22,7 @@
         "77d28b06-4aec-4438-8a09-14f5b45a26ac": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shirt.jpg",
+            "image": "shopify:\/\/shop_images\/deco1.jpg",
             "details": "<p> Add details <\/p>",
             "Price": "<p>Price<\/p>"
           }
