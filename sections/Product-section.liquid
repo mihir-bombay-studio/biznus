@@ -9,8 +9,8 @@
 {%- for block in section.blocks -%}
   <div class="column">
     <div class="card">
-      <img style="width:100%;" src={{ block.settings.image| img_url: '1600px'}} >
-      
+     
+       <img src={{ block.settings.image| img_url: '1600x'}} alt="shopping" class="img1">
     </div>
       <h4 class="details">{{block.settings.details}}</h4>
       <h5 class="details">{{block.settings.Price}}</h5>
