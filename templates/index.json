@@ -6,22 +6,24 @@
         "16394774210fedff15-0": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/men_shirt.jpg",
-            "details": "<p>hii<\/p>",
+            "image": "shopify:\/\/shop_images\/checks.jpg",
+            "details": "<p>data<\/p>",
             "Price": "<p>Price<\/p>"
           }
         },
         "4f73d933-26e7-4975-bf8e-6601663e470f": {
           "type": "image_picker",
           "settings": {
-            "details": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/causal.jpg",
+            "details": "<p> Add details on availability, style, or even provide a review.<\/p>",
             "Price": "<p>Price<\/p>"
           }
         },
         "77d28b06-4aec-4438-8a09-14f5b45a26ac": {
           "type": "image_picker",
           "settings": {
-            "details": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/shirt.jpg",
+            "details": "<p> Add details <\/p>",
             "Price": "<p>Price<\/p>"
           }
         }
