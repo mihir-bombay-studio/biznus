@@ -7,9 +7,17 @@ color: black;
 .button{
   background-color: red;
 color : white;
-  
+} 
 
-}
+
+  .para{
+    
+    font-weight: 900;
+  }
+  
+  .details{
+  font-weight: bold;
+  }
 .row {
   
   
