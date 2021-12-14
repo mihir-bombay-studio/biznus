@@ -12,8 +12,8 @@
       <img style="width:80%;" src={{ block.settings.image| img_url: '400px'}} alt="shopping" class="img1">
       
     </div>
-      <p style="padding:auto">{{block.settings.details}}</p>
-      <p style="padding:auto">{{block.settings.Price}}</p>
+      <p>{{block.settings.details}} <br>
+      {{block.settings.Price}}</p>
       <button name="Details" value="Details">Details</button>
   </div>
 {% endfor %}
