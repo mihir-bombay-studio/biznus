@@ -179,7 +179,7 @@
           "type": "infocard",
           "settings": {
             "heading": "My heading",
-            "images": "shopify:\/\/shop_images\/dec5.jpg",
+            "images": "shopify:\/\/shop_images\/circle.png",
             "para": "<p>Details of products<\/p>"
           }
         },
