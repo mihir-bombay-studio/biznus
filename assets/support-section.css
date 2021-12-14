@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Sen', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.section{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.container{
+   
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.top-wrapper{
+    display: flex;
+    margin-bottom: 40px;
+    
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;   
+  
+}
+.wrapper-flex{
+    flex-direction: column; 
+    max-width: 473px;
+
+}
+.top-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 1.2;
+    color:#333;
+    font-weight: 700;
+
+}
+.para{
+    margin:0;
+    color:#333;
+    opacity: 100%;
+    max-width: 526px;
+    font-weight: 400;
+    margin-bottom:10px;
+
+}
+
+ .contain {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    width: 30%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+
+.square {
+    position:relative;
+    min-height: 350px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.heading {
+    justify-self: center;
+    align-self: center;
+}
+
+.nos {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: auto;
+    bottom: auto;
+    color: #f9f9f9;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.images1{
+    
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -25%;
+    bottom: -25%;
+    
+}
+
+.images2{
+    
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -10%;
+    bottom: -17%;
+    
+}
+.images3{
+    
+    position: absolute;
+    left: auto;
+    right: -14%;
+    top: 75%;
+    right: -14%;
+    
+}
+@media screen and (max-width: 767px){
+.contain {
+
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 45px;
+}
+.column1 {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+        
+}
+
+}
