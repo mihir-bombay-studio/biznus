@@ -10,7 +10,8 @@
   <div class="column">
     <div class="card">
       <img src={{  blocks.settings.image| img_url: '600x'}} alt="shopping" class="img1">
-      <p>Some text</p>
+      <p>{{  blocks.settings.details}}</p>
+      <p>{{  blocks.settings.Price}}</p>
       <button name="Details" value="Details">Details</button>
     </div>
   </div>
@@ -25,13 +26,12 @@
 {% schema %}
   {
     "name": "Product Section",
-    "max_blocks":3,
+    "max_blocks":3, 
      "settings": [
-        
-        {
-          "type": "richtext",
-          "id": "title",
-		   "default": "<p>Fashion</p>",
+          {
+          "type":"richtext",
+          "id":"title",
+		  "default": "<p>Fashion</p>",
           "label": "title"
         },
         {
@@ -50,11 +50,35 @@
 		{
 		"type": "image_picker",
         "id": "image",
-      	"label": "Image"}
+      	"label": "Image"
+		},
+		{
+          "type": "richtext",
+          "id": "details",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "details"
+        },
+		{
+          "type": "richtext",
+          "id": "Price",
+		   "default": "<p>Price</p>",
+          "label": "Price"
+        }
 ]
 }
+],
+
+ "presets": [
+    {
+      "name": "image",
+      "blocks": [
+        {
+          "type": "image_picker"
+        }
 ]
-  }
+    }
+  ]
+ }
 {% endschema %}
 
 {% stylesheet %}
