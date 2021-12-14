@@ -8,10 +8,11 @@
     </div>
     <div class="para">{{section.settings.para}}</div>
 </div>
+     <div class="contain">
  {% for blocks in section.blocks %}    
 <div class="column1">
   <div class="square">
-      <div class="nos">02</div>
+      <div class="nos">{{ forloop.index}}</div>
       <div class="heading">{{blocks.settings.heading}}</div>
       <div class="images2">
           <!-- <img src="./Triangle.svg" alt="triangle-image"> -->
@@ -23,6 +24,7 @@
   
 </div>
 {% endfor %}
+       </div>
 </div>
 </div>
 
