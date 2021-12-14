@@ -1,5 +1,43 @@
 {
   "sections": {
+    "1639481997994df2e6": {
+      "type": "Product-section",
+      "blocks": {
+        "16394819977e0607e9-0": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dec3.jpg",
+            "details": "<p> Add details<\/p>",
+            "Price": "<p>Price<\/p>"
+          }
+        },
+        "4e462e80-5899-445c-970e-75402afaf1e2": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4dddf264-247b-422c-8b0d-c6c8cac3a3ad.jpg",
+            "details": "<p> Add details<\/p>",
+            "Price": "<p>Price<\/p>"
+          }
+        },
+        "617d60fc-6fc3-4757-9445-d6b65e2cb635": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dec1_8dd9cc93-fc97-43ff-967a-58302e5bf012.jpg",
+            "details": "<p> Add details<\/p>",
+            "Price": "<p>Price<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16394819977e0607e9-0",
+        "4e462e80-5899-445c-970e-75402afaf1e2",
+        "617d60fc-6fc3-4757-9445-d6b65e2cb635"
+      ],
+      "settings": {
+        "title": "<p>Product Section<\/p>",
+        "text": "<p> Add details on availability<\/p>"
+      }
+    },
     "1639477421138a4354": {
       "type": "Product-section",
       "blocks": {
@@ -36,25 +74,6 @@
       "settings": {
         "title": "<p>Product Section<\/p>",
         "text": "<p> Add details on availability, style, or even provide a review.<\/p>"
-      }
-    },
-    "1639481997994df2e6": {
-      "type": "Product-section",
-      "blocks": {
-        "16394819977e0607e9-0": {
-          "type": "image_picker",
-          "settings": {
-            "details": "<p> Add details<\/p>",
-            "Price": "<p>Price<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16394819977e0607e9-0"
-      ],
-      "settings": {
-        "title": "<p>Product Section<\/p>",
-        "text": "<p> Add details on availability<\/p>"
       }
     },
     "image_banner": {
@@ -231,8 +250,8 @@
     }
   },
   "order": [
-    "1639477421138a4354",
     "1639481997994df2e6",
+    "1639477421138a4354",
     "image_banner",
     "rich_text",
     "featured_products",
