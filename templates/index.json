@@ -187,7 +187,7 @@
           "type": "infocard",
           "settings": {
             "heading": "My heading",
-            "images": "shopify:\/\/shop_images\/dec1_8dd9cc93-fc97-43ff-967a-58302e5bf012.jpg",
+            "images": "shopify:\/\/shop_images\/Triangle.png",
             "para": "<p>Details of products<\/p>"
           }
         },
@@ -195,7 +195,7 @@
           "type": "infocard",
           "settings": {
             "heading": "My heading",
-            "images": "shopify:\/\/shop_images\/dec2.jpg",
+            "images": "shopify:\/\/shop_images\/rectangle.png",
             "para": "<p>Details of products<\/p>"
           }
         }
