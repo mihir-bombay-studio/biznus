@@ -33,7 +33,7 @@
  {%- for product in section.settings.collection -%}
   <div class="column">
     <div class="card">
-        <img src={{ product.featured-image}} class="image">
+        <img src={{ product.featured-image| img_url: '300x'}} class="image">
     </div>
       <h4 class="details">{{product.title}}</h4>
       <h5 class="details ">{{product.price | money}}</h5>
