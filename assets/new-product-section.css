@@ -1,0 +1,186 @@
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-right: 15px;
+            padding-left: 15px;
+            font-family: 'Sen', sans-serif;
+            line-height: 1.5;
+        }
+
+
+        .product-list {
+            display: grid;
+            grid-auto-columns: 1fr;
+            grid-column-gap: 16px;
+            grid-row-gap: 16px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto;
+        }
+
+        .shop-item-wrap {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .shop-item {
+
+            width: 100%;
+            text-decoration: none;
+            display: inline-block;
+
+        }
+
+        .shop-image {
+            position: relative;
+            background-position: 50% 50%;
+            background-size: cover;
+            min-height: 500px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .shop-details-wrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        .shop-item-name {
+            color: #222;
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .price {
+            margin-right: 10px;
+            color: #222;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: left;
+            margin-bottom: 15px;
+            display: flex;
+            column-gap: 10px;
+        }
+
+        .shop-btn-wrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        .shop-btn {
+            padding: 5px 25px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #eb5757;
+            border-radius: 5px;
+            background-color: #eb5757;
+            transition: border-color 300ms ease, background-color 300ms ease;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .shop-btn:hover {
+            border-color: #222;
+            background-color: #222;
+        }
+
+        .aaa:hover {
+            text-decoration: none;
+        }
+
+        .aaa:active,
+        .aaa:hover {
+            outline: 0;
+        }
+
+        .shop-top-wrap {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .shop-top-details {
+            text-transform: uppercase;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+
+        }
+
+        .shop-top-heading {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 40px;
+            line-height: 1.2;
+        }
+
+        .shop-more {
+            display: flex;
+            justify-content: center;
+        }
+
+        .shop-more-product {
+            color: white;
+            background-color: #222;
+            text-decoration: none;
+            padding: 5px 25px;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 5px;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+
+        }
+
+        .shop-more-product:hover {
+            border-color: #eb5757;
+            background-color: #eb5757;
+            transition: border-color 300ms ease, background-color 300ms ease;
+        }
+
+        .shop-sale {
+            position: absolute;
+            top: 4%;
+            right: 2%;
+            left: auto;
+            bottom: auto;
+            border-radius: 5px;
+            background-color: #eb5757;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 5px 20px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #eb5757;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .product-discount {
+            color: #eb5757;
+            text-decoration: line-through;
+        }
+
+        @media screen and (max-width: 991px) {
+            .product-list {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .shop-image {
+                min-height: 350px;
+            }
+
+        }
+
+        @media screen and (max-width: 767px) {
+            .product-list {
+                grid-template-columns: 1fr;
+
+            }
+        }
