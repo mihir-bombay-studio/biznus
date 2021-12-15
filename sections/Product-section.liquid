@@ -27,9 +27,7 @@
 <div class="container">
 
 <div class="row box">
-  {% if section.settings.collection.image %}
-  {{ collection.image | image_url: width: 2048 | image_tag }}
-{% endif %}        
+       
  {%- for product in section.settings.collection.products -%} 
   <div class="column">
     <div class="card">
