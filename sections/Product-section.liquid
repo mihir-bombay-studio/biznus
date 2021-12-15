@@ -23,6 +23,31 @@
 </div>
 
 
+
+<div class="container">
+
+<p class="para">{{ section.settings.title}}</p>
+<h2 class="heading">{{ section.settings.text}}</h2>
+
+<div class="row box">
+            
+ {%- for block in section.setting.collection -%}
+  <div class="column">
+    <div class="card">
+        <img src={{ block.settings.product.featured_image| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="image">
+    </div>
+      <h4 class="details">{{block.settings.product.title}}</h4>
+      <h5 class="details ">{{block.settings.product.price | money}}</h5>
+      <button name="Details" value="Details" class="btn">Details</button>
+  </div>
+{% endfor %}
+   
+</div>
+  
+  
+</div>
+
+
 {% schema %}
   {
     "name": "Product Section",
@@ -39,6 +64,11 @@
           "id": "text",
           "default": "<p> Add details on availability</p>",
           "label": "text"
+        },
+		{
+          "type": "collection",
+          "id": "collection",
+           "label": "collection"
         }
           ],
 
