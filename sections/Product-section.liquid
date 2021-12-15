@@ -29,7 +29,9 @@
 
 
 <div class="row box">
-            
+ {% if collection.image %}
+  {{ collection.image | image_url: width: 2048 | image_tag }}
+{% endif %}           
  {%- for block in section.setting.collection -%}
   <div class="column">
     <div class="card">
