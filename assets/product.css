@@ -52,6 +52,7 @@ padding-right:10%;
     background-size: cover;
     min-height: 300px;
     max-height: 300px;
+  width: 100%;
 }
 .image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -61,7 +62,7 @@ padding-right:10%;
     max-height: 300px;
     margin-bottom: 30px;
     border-radius: 5px;
-  width: auto;
+  width: 100%;
 }
 .btn {
     padding: 5px 25px ;
