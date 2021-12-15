@@ -6,25 +6,19 @@
         "16394819977e0607e9-0": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dec3.jpg",
-            "details": "<p> Add details<\/p>",
-            "Price": "<p>Price<\/p>"
+            "product": "tshirt"
           }
         },
         "4e462e80-5899-445c-970e-75402afaf1e2": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dec5.jpg",
-            "details": "<p> Add details<\/p>",
-            "Price": "<p>Price<\/p>"
+            "product": ""
           }
         },
         "617d60fc-6fc3-4757-9445-d6b65e2cb635": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dec1_8dd9cc93-fc97-43ff-967a-58302e5bf012.jpg",
-            "details": "<p> Add details<\/p>",
-            "Price": "<p>Price<\/p>"
+            "product": ""
           }
         }
       },
@@ -44,25 +38,19 @@
         "16394774210fedff15-0": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/deco2.jpg",
-            "details": "<p>Add details<\/p>",
-            "Price": "<p>Price<\/p>"
+            "product": ""
           }
         },
         "4f73d933-26e7-4975-bf8e-6601663e470f": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dec2.jpg",
-            "details": "<p> Add details <\/p>",
-            "Price": "<p>Price<\/p>"
+            "product": ""
           }
         },
         "77d28b06-4aec-4438-8a09-14f5b45a26ac": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/deco1.jpg",
-            "details": "<p> Add details <\/p>",
-            "Price": "<p>Price<\/p>"
+            "product": ""
           }
         }
       },
