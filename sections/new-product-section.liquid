@@ -1,19 +1,105 @@
 {{ 'new-product-section.css' | asset_url | stylesheet_tag }}
 
+<div class="container-product">
+
+    <div class="shop-top-wrap">
+        <div class="shop-top-left">
+            <div class="shop-top-details">{{ section.settings.shop-top-details }}</div>
+            <h2 class="shop-top-heading">{{ section.settings.shop-top-heading }}</h2>
+        </div>
+    </div>
+
+    <div class="product-list-wrap">
+        {% for collection in section.settings limit: 3 %}
+        <div class="product-list">
+            <div class="item-list">
+                <div class="shop-item-wrap">
+                    <a class="shop-item" href="">
+                        <div class="shop-image" style="background-image: url({{section.settings.collection.featured_image | img_url:'1000px'}});">
+                            <div class="shop-sale">
+                                Sale
+                            </div>
+                        </div>
+                        <div class="shop-details-wrap">
+                            <div class="shop-details">
+                                <div class="shop-item-name">{{section.settings.collection.title}}</div>
+                                <div class="price">
+                                    <div class="product-price">{{section.settings.product.price}}</div>
+                                    <div class="product-discount">$ 95.00 USD</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="shop-btn-wrap">
+                        <a class="shop-btn aaa" href="">
+                            Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="shop-more">
+        <a class="shop-more-product aaaa" href="{{ section.settings.shop-more-product }}">
+            {{ section.settings.shop-more }}
+        </a>
+    </div>
+
+</div>
+
 
 
 
 {% schema %}
 
 
+{
+    "name": "New Product Section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "shop-top-details",
+            "label": "Top shop details goes here",
+            "default": "SHOP PRODUCTS"
+  
+        },
+        {
+            "type": "text",
+            "id": "shop-top-heading",
+            "label": "Top shop heading goes here",
+            "default": "Open 24/7/365."
+  
+        },
+        {
+            "type": "url",
+            "id": "shop-more-product",
+            "label": "Your Button URL here"
+        },
+        {
+            "type": "text",
+            "id": "shop-more",
+            "label": "Bottom Buttom goes here",
+            "default": "View All Products"
+  
+        },
+        {
+           "type": "collection",
+           "id":"collection",
+			"label":"collection here"
+        }
+    ],
 
+    
 
-  {
-    "name": "Section name",
-    "settings": []
-  }
-
-
+"presets": [
+    {
+        "category": "Adnan Custom",
+        "name":"Final Task Section"
+    }
+]
+}
 
 
 
