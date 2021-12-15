@@ -5,7 +5,18 @@ color: black;
 
 }
 
-
+.para{
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+.heading{margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 1.2;}
+    .box{
+      min-height: 350px;
+      padding-top: 25px;
+    }
 .image{
     padding-left:10%;
 padding-right:10%;
@@ -13,11 +24,7 @@ padding-right:10%;
   height:100%;
 
 }
-  .para{
-    
-    text-transform: uppercase;
-}
-   
+ 
   
   .details{
     
