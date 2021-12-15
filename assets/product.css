@@ -43,7 +43,7 @@ padding-right:10%;
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
-  height:auto;
+  height:100%;
 }
 .btn {
     padding: 5px 25px ;
