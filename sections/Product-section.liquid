@@ -33,7 +33,7 @@
  {%- for block in section.setting.collection -%}
   <div class="column">
     <div class="card">
-        <img src={{ section.settings.collection.url}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="image">
+        <img src={{ section.settings.collection.url}} class="image">
     </div>
       <h4 class="details">{{block.settings.product.title}}</h4>
       <h5 class="details ">{{block.settings.product.price | money}}</h5>
