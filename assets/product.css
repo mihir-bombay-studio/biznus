@@ -52,7 +52,7 @@ padding-right:10%;
     background-size: cover;
     width: 100%;
    min-height: 300px;
-    max-height: 300px;
+    max-height: 500px;
 }
 .image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
