@@ -28,7 +28,7 @@
 
 <div class="row box">
           
- {%- for products in section.settings.collection %} 
+ {%- for products in section.settings.collection.product %} 
   <div class="column">
     <div class="card">
         <img src={{ products.featured-image| img_url: '300x'}} class="image">
