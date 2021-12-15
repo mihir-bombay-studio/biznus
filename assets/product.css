@@ -44,15 +44,15 @@ color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-position: 50% 50%;
     background-size: cover;
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 350px;
+    max-height: 350px;
   width: 100%;
 }
 .image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-position: 50% 50%;
     background-size: cover;
-    min-height: 350px;
+    min-height: 200px;
     max-height: 350px;
     margin-bottom: 30px;
     border-radius: 5px;
