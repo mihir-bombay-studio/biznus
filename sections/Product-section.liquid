@@ -6,10 +6,10 @@
 
 <div class="row">
             
- {%- for block in section.settings.collection -%}
+ {%- for block in section.blocks -%}
   <div class="column">
     <div class="card">
-        <img src={{ block.settings.collection.featured_image| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="img1">
+        <img src={{ block.settings.product.featured_image| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="img1">
     </div>
       <h4 class="details">{{block.settings.product.title}}</h4>
       <h5 class="details ">{{block.settings.product.price | money}}</h5>
