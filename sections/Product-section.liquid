@@ -30,13 +30,13 @@
 
 <div class="row box">
           
- {%- for block in section.setting.collection -%}
+ {%- for product in section.setting.collection -%}
   <div class="column">
     <div class="card">
-        <img src={{ section.settings.collection.url}} class="image">
+        <img src={{ product.featured-image}} class="image">
     </div>
-      <h4 class="details">{{block.settings.collection.product.title}}</h4>
-      <h5 class="details ">{{block.settings.collection.product.price | money}}</h5>
+      <h4 class="details">{{product.title}}</h4>
+      <h5 class="details ">{{product.price | money}}</h5>
       <button name="Details" value="Details" class="btn">Details</button>
   </div>
 {% endfor %}
