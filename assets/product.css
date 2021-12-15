@@ -14,26 +14,10 @@ padding-right:10%;
 
 }
   .para{
-    font-family: Sen;
-    color: rgb(51, 51, 51);
-    font-size: 16px;
-    line-height: 1.5;
-margin-bottom: 0px;
+    
     text-transform: uppercase;
 }
- 
-.title{
-  margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 40px;
-    line-height: 1.2;
-  display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+   
   
   .details{
     
