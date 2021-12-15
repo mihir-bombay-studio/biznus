@@ -52,15 +52,15 @@ padding-right:10%;
     background-size: cover;
     width: 100%;
    min-height: 300px;
-    max-height: 400px;
+    max-height: 300px;
 }
 .image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-position: 50% 50%;
     background-size: cover;
     
-   min-height: 400px;
-    max-height: 400px;
+   min-height: 300px;
+    max-height: 300px;
     margin-bottom: 30px;
     border-radius: 5px;
   
