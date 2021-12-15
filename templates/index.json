@@ -29,13 +29,11 @@
       ],
       "settings": {
         "title": "<p>SHOP PRODUCTS<\/p>",
-        "text": "<p>Open 24\/7\/365.<\/p>",
-        "collection": ""
+        "text": "<p>Open 24\/7\/365.<\/p>"
       }
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -68,7 +66,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
