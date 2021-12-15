@@ -12,7 +12,9 @@ color: black;
 .heading{margin-top: -10px;
     margin-bottom: 0px;
     font-size: 40px;
-    line-height: 1.2;}
+    line-height: 1.2;
+  font-weight:bold;
+}
 .box{
       min-height: 350px;
      
