@@ -18,6 +18,21 @@
 {% endfor %}
    
 </div>
+  
+  <div class="row">
+            
+{%- for block in section.setting.product.collection limit:3 -%}
+  <div class="column">
+    <div class="card">
+        <img src={{ block.settings.product.featured_image| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="img1">
+    </div>
+      <h4 class="details">{{block.settings.product.title}}</h4>
+      <h5 class="details ">{{block.settings.collection.price | money}}</h5>
+      <button name="Details" value="Details" class="btn">Details</button>
+  </div>
+{% endfor %}
+   
+</div>
 </div>
 
 
@@ -37,8 +52,14 @@
           "id": "text",
           "default": "<p> Add details on availability</p>",
           "label": "text"
+        },
+        {
+        "type": "collection",
+        "id":"collection",
+        "label":"collection"
+
         }
-      ],
+              ],
 
 "blocks":[
 {
