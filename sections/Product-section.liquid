@@ -24,10 +24,10 @@
 {%- for block in section.settings.collection.products limit:3 -%}
   <div class="column">
     <div class="card">
-        <img src={{ section.settings.collection.url| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="img1">
+        <img src={{ block.url| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="img1">
     </div>
-      <h4 class="details">{{block.settings.product.title}}</h4>
-      <h5 class="details ">{{block.settings.collection.price | money}}</h5>
+      <h4 class="details">{{block.title}}</h4>
+      <h5 class="details ">{{block.price | money}}</h5>
       <button name="Details" value="Details" class="btn">Details</button>
   </div>
 {% endfor %}
