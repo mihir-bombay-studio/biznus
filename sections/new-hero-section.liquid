@@ -2,6 +2,7 @@
 
 <div class="hero-section" style="background-image: linear-gradient(360deg, rgba(34, 34, 34, 1) 0%, rgba(0, 0, 0, 0) 100%), url({{section.settings.images-box-content | img_url: '1200x'}});">
     <div class="container">
+ 		{% for blocks in section.blocks %}
           <div class="hero-wrapper">
               <h1 class="hero-heading">{{blocks.settings.heading-txt}}</h1>
               <p class="hero-para">{{blocks.settings.para-txt}}</p>
@@ -9,6 +10,7 @@
                   <a class="aa" href="{{blocks.settings.btn-lnk}}">{{blocks.settings.btn-txt}}</a>
               </div>
           </div>
+        {% endfor %}
 
     </div>
 </div>
@@ -17,45 +19,61 @@
 
   {
     "name": "Hero Section",
+    "max_blocks": 1,
     "settings": [
         {
             "id": "images-box-content",
             "label":"background image",
             "type": "image_picker"
-        },
-        {
-            "type": "text",
-            "id": "heading-txt",
-            "label": "Your Heading goes here",
-            "default": "Serving you since 1989."
-  
-        },
-        {
-            "type": "text",
-            "id": "para-txt",
-            "label": "Your Sub-heading goes here",
-            "default": "Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City."
-  
-        },
-        {
-            "id":"btn-lnk",
-            "type": "url",
-            "label":"Your Button URL here"
-        },
-        {
-            "type": "text",
-            "id": "btn-txt",
-            "label": "Button Text here",
-            "default": "Shop Merch",
-            "info": "This is a button"
         }        
+    ],
+
+    "blocks":[
+        {
+            "type": "select",
+            "name": "Edit Content",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "heading-txt",
+                    "label": "Your Heading goes here",
+                    "default": "Serving you since 1989."
+          
+                },
+                {
+                    "type": "text",
+                    "id": "para-txt",
+                    "label": "Your Sub-heading goes here",
+                    "default": "Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City."
+          
+                },
+                {
+                    "id":"btn-lnk",
+                    "type": "url",
+                    "label":"Your Button URL here"
+                },
+                {
+                    "type": "text",
+                    "id": "btn-txt",
+                    "label": "Button Text here",
+                    "default": "Shop Merch",
+                    "info": "This is a button"
+                }
+                
+            ]
+        }
     ],
 
     "presets": [
         {
             "category": "Adnan Custom",
-            "name":"New Hero Section"
+            "name":"New Hero Section",
+			"blocks":[
+				{
+					"type":"select"
+				}
 
+			]
         }
     ]
   }
