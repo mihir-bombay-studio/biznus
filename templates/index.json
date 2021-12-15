@@ -39,6 +39,13 @@
         "para": "Covid-19 has forced us to close our retail price,but we need to support from patrons                     like yourself                     now more than ever.Below we've the best way to help us through this season."
       }
     },
+    "163958331980c88b5a": {
+      "type": "product-section",
+      "settings": {
+        "top-details": "SHOP-PRODUCT",
+        "top-heading": "Open 24\/7\/365"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -119,13 +126,6 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false
-      }
-    },
-    "163958331980c88b5a": {
-      "type": "product-section",
-      "settings": {
-        "top-details": "SHOP-PRODUCT",
-        "top-heading": "Open 24\/7\/365"
       }
     },
     "collage": {
@@ -221,10 +221,10 @@
   },
   "order": [
     "16394784353b4b60ea",
+    "163958331980c88b5a",
     "image_banner",
     "rich_text",
     "featured_products",
-    "163958331980c88b5a",
     "collage",
     "video",
     "multi_column"
