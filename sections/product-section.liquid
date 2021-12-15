@@ -13,8 +13,33 @@
   
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "product-section",
+	
+    "settings": [
+		{
+        "id":"top-details",
+        "type":"text",
+        "label":"details",
+       "default":"your-details"
+        },
+        {
+        "id":"top-heading",
+        "type":"text",
+        "label":"heading",
+        "default":"your-heading"
+         }
+        
+     ],
+
+        "presets": [
+                {
+                    "category": "ankit-section",
+                    "name":"support-section"
+
+                }
+            ]
+
+
   }
 {% endschema %}
 
