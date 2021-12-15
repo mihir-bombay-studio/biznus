@@ -21,7 +21,7 @@
   
   <div class="row">
             
-{%- for block in section.settings.collection.products limit:3 -%}
+{%- for block in section.settings.collection limit:3 -%}
   <div class="column">
     <div class="card">
         <img src={{ block.settings.product.featured_image| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="img1">
