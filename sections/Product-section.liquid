@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="{{ 'product.css' | asset_url }}" media="print" onload="this.media='all'">
 <div class="container">
 
+<p class="para">{{ section.settings.title}}</p>
+<h2 class="heading">{{ section.settings.text}}</h2>
+
 <div class="row box">
             
  {%- for block in section.blocks -%}
@@ -15,17 +18,23 @@
 {% endfor %}
    
 </div>
+  
+  
 </div>
 
 
 
 <div class="container">
+
+<p class="para">{{ section.settings.title}}</p>
+<h2 class="heading">{{ section.settings.text}}</h2>
+
 <div class="row box">
             
  {%- for block in section.setting.collection -%}
   <div class="column">
     <div class="card">
-        <img src={{ section.settings.collection.url}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="image">
+        <img src={{ block.settings.product.featured_image| img_url: '300x'}} alt="{{ block.settings.product.featured_image.alt | default: block.settings.product.title }}" class="image">
     </div>
       <h4 class="details">{{block.settings.product.title}}</h4>
       <h5 class="details ">{{block.settings.product.price | money}}</h5>
