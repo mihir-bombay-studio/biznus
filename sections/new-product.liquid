@@ -30,10 +30,56 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+    "name": "Product Section",
+    "max_blocks":3, 
+     "settings": [
+          {
+          "type":"richtext",
+          "id":"title",
+		  "default": "<p>Product Section</p>",
+          "label": "title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p> Add details on availability</p>",
+          "label": "text"
+        },
+        {
+        "type": "collection",
+        "id":"collection",
+        "label":"collection"
+
+        }
+              ],
+
+"blocks":[
+{
+	"type": "image_picker",
+    "name": "product",
+	"settings":[
+		{
+		"type": "product",
+        "id": "product",
+      	"label": "Select product"
+		}
+]
+}
+],
+
+ "presets": [
+    {
+      "name": "Product section",
+      "blocks": [
+        {
+          "type": "image_picker"
+        }
+]
+    }
+  ]
+ }
 {% endschema %}
+
 
 {% stylesheet %}
 {% endstylesheet %}
