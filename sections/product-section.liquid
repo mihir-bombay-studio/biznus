@@ -29,7 +29,7 @@
                                         <div class="shop-details-left">
                                             <div class="shop-details-name">{{ product.title}}</div>
                                             <div class="price-wrapper">
-                                                <div class="shop-item-price">{{product.price | money}}USD </div>
+                                                <div class="shop-item-price">{{product.price | money}} </div>
                                                 {% if product.compare_at_price_max != 0 %}
                                                 <div class="shop-item-price-cancelled">{{ product.compare_at_price_max | money }} EURO</div>
                                                 {% endif %}
