@@ -17,10 +17,15 @@
                 <div class="shop-item-wrap">
                     <a class="shop-item" href="">
                         <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
-                            <div class="shop-sale">
-                                Sale{{product.compare_at_price}}
+                          {% if product.compare_at_price %} 
+                          <div class="shop-sale">
+                                Sale
                             </div>
-                        </div>
+                          {% else %}
+                                <div class="shop-sale">
+                                    </div>
+                                </div>
+                      	  {% endif %}
                         <div class="shop-details-wrap">
                             <div class="shop-details">
                                 <div class="shop-item-name">{{ product.title}}</div>
