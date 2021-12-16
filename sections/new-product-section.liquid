@@ -32,10 +32,8 @@
                                 
                               <div class="price">
                                     <div class="product-price">{{product.price | money}}</div>
-                                    {%if product.compare_at_price_max %}
                                     <div class="product-discount">{{product.compare_at_price_max | money}}</div>
-                                	{% else %}
-                                	{%endif%}
+                            
                                 </div>
                             
                           
