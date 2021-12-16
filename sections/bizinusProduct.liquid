@@ -1,7 +1,89 @@
+{{ 'bizinusProduct.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="mainContainerProduct">
+    <div class="topWrapper">
+        <div class="topLeft">
+            <div class="heading1">Shop Products</div>
+            <h2 class="heading2">Open 24/7/365.</h2>
+        </div>
+        <div class="topRight"></div>
+    </div>
+
+    <div class="productList">
+        {% for block in section.blocks %}
+        <div class="listWrapper">
+            <div class="productListItem">
+                <a href="#" class="linkItem"> 
+                    <!-- <div class="cardImage" style="background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg);"> -->
+                    <div class="cardImage" style="background-image: url({{ block.settings.product.featured_image | img_url: '600x' }})" >
+                        <!-- <img src = ""/> -->
+                        {% if block.settings.product.compare_at_price_max != 0 %}
+                        <div class="sale">Sale</div>
+                        {% endif %}
+                    </div>
+                    <div class="productDetailsWrapper">
+                        <div class="productDetails">
+                            <div class="productName">{{ block.settings.product.title }}</div>
+                            <div class="priceWrapper">
+                                <div class="productPrice">$ {{ block.settings.product.price }} USD</div>
+                                {% if block.settings.product.compare_at_price_max != 0 %}
+                                <div class="productPrice productCancelledPrize">$ {{ block.settings.product.compare_at_price_max }} USD</div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="productButtonWrapper">
+                    <a href="#" class="productButton">Details</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+        
+       
+    </div>
+    
+</div>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Product Section",
+    "max_blocks":3,
+    "settings": [],
+    "blocks":[{
+        "type": "select",
+        "name": "select",
+        "settings":[
+            {
+                "id":"product",
+                "type":"product",
+                "label":"Select Product"
+            
+            }
+        ]
+    }],
+    "presets":[
+        {   
+            "name":"Product Section",
+            "category":"Product Section",
+	        "blocks" : [
+                {
+                    "type":"select"
+                },
+                {
+                    "type":"select"
+                },
+                {
+                    "type":"select"
+                }
+
+            ]
+        }
+    ]
   }
 {% endschema %}
 
@@ -10,3 +92,4 @@
 
 {% javascript %}
 {% endjavascript %}
+
