@@ -31,11 +31,10 @@
                                 <div class="shop-item-name">{{ product.title}}</div>
                                 
                               <div class="price">
-                              		{%if product.compare_at_price_max %}
                                     <div class="product-price">{{product.price | money}}</div>
+                                    {%if product.compare_at_price_max %}
                                     <div class="product-discount">{{product.compare_at_price_max | money}}</div>
                                 	{% else %}
-                                    <div class="product-price">{{product.price | money}}</div>
                                 	{%endif%}
                                 </div>
                             
