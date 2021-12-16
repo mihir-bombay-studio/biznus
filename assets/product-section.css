@@ -1,4 +1,4 @@
-{{ 'product-section.css' | asset_url | stylesheet_tag }}
+
 body {
     font-family: 'Sen', sans-serif;
     color:black;
@@ -44,7 +44,7 @@ body {
 
 }
 
-.products-items{
+ .w-dyn-item{
     
     display: grid;
     grid-auto-columns: 1fr;
