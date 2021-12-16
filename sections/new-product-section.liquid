@@ -29,11 +29,15 @@
                         <div class="shop-details-wrap">
                             <div class="shop-details">
                                 <div class="shop-item-name">{{ product.title}}</div>
-                                <div class="price">
+                                
+                              <div class="price">
+                              
                                     <div class="product-price">{{product.price | money}}</div>
-                                    <div class="product-discount">$ 95.00 USD</div>
+                                    <div class="product-discount">{{product.compare_at_price_max | money}}</div>
                                 </div>
-                            </div>
+                            
+                          
+                          </div>
                         </div>
                     </a>
                     <div class="shop-btn-wrap">
