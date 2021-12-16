@@ -43,7 +43,8 @@
       "type": "product-section",
       "settings": {
         "top-details": "SHOP-PRODUCT",
-        "top-heading": "Open 24\/7\/365"
+        "top-heading": "Open 24\/7\/365",
+        "collection": ""
       }
     },
     "image_banner": {
@@ -217,6 +218,14 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1639659365e14c7b87": {
+      "type": "product-section",
+      "settings": {
+        "top-details": "your-details",
+        "top-heading": "your-heading",
+        "collection": ""
+      }
     }
   },
   "order": [
@@ -227,6 +236,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1639659365e14c7b87"
   ]
 }
