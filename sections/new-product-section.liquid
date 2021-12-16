@@ -13,8 +13,7 @@
                 {%- for product in section.settings.collection.products limit:3 -%}
                 <div class="shop-item-wrap1">
                     <a class="shop-item1" href="{{product.url}}">
-                        <div class="shop-image1"
-                            style="background-image: url({{ product.featured_image | img_url:'large'}});">
+                        <div class="shop-image1" style="background-image: url({{ product.featured_image | img_url:'large'}});">
                             {% if product.compare_at_price %}
                             <div class="shop-sale1">
                                 Sale
