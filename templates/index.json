@@ -29,7 +29,8 @@
       ],
       "settings": {
         "title": "<p>SHOP PRODUCTS<\/p>",
-        "text": "<p>Open 24\/7\/365.<\/p>"
+        "text": "<p>Open 24\/7\/365.<\/p>",
+        "collection": "adnans-cool-shoe-collection"
       }
     },
     "image_banner": {
