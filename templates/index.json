@@ -49,6 +49,36 @@
       "settings": {
       }
     },
+    "1639639392de2ad562": {
+      "type": "bizinusProduct",
+      "blocks": {
+        "16396393922377260c-0": {
+          "type": "select",
+          "settings": {
+            "product": "white-tent"
+          }
+        },
+        "16396393922377260c-1": {
+          "type": "select",
+          "settings": {
+            "product": "tin-coffee-tumbler"
+          }
+        },
+        "16396393922377260c-2": {
+          "type": "select",
+          "settings": {
+            "product": "blue-canvas-pack"
+          }
+        }
+      },
+      "block_order": [
+        "16396393922377260c-0",
+        "16396393922377260c-1",
+        "16396393922377260c-2"
+      ],
+      "settings": {
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -188,46 +218,16 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1639639392de2ad562": {
-      "type": "bizinusProduct",
-      "blocks": {
-        "16396393922377260c-0": {
-          "type": "select",
-          "settings": {
-            "product": "white-tent"
-          }
-        },
-        "16396393922377260c-1": {
-          "type": "select",
-          "settings": {
-            "product": ""
-          }
-        },
-        "16396393922377260c-2": {
-          "type": "select",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "16396393922377260c-0",
-        "16396393922377260c-1",
-        "16396393922377260c-2"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "image_banner",
     "1639493413bfd153ce",
+    "1639639392de2ad562",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "1639639392de2ad562"
+    "multi_column"
   ]
 }
