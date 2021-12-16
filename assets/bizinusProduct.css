@@ -1,0 +1,260 @@
+body{
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.mainContainerProduct {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (max-width: 991px){
+    .mainContainerProduct {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
+
+.topWrapper{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .topWrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.topLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:767px){
+    .topLeft{
+        margin-bottom: 15px;
+    }
+}
+
+.topRight{
+    width: 45%;
+}
+
+@media (max-width:767px){
+    .topRight{
+        width: 100%;
+    }
+}
+
+.heading1{
+    text-transform: uppercase;
+}
+
+.heading2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.productList{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+@media (max-width:767px){
+    .productList{
+        grid-template-columns: 1fr;
+    }
+}
+
+.productListItem{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px){
+    .productListItem{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+.linkItem{
+    width: 100%;
+    text-decoration: none;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.cardImage{
+    /* background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg); */
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 15px;
+    min-height: 500px;
+    border-radius: 5px;
+}
+
+@media (max-width:767px){
+    .cardImage{
+        min-height: 350px;
+    }
+}
+
+.sale{
+    position: absolute;
+    left: auto;
+    top: 4%;
+    right: 2%;
+    bottom: auto;
+    border-radius: 5px;
+    background-color: #eb5757;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 5px 20px;
+    color: #f9f9f9;
+}
+
+@media (max-width:767px){
+    .sale{
+        right: 2%;
+    }
+}
+@media (max-width:479px){
+    .sale{
+        position: absolute;
+        left: auto;
+        top: 3%;
+        right: 0%;
+        bottom: auto;
+        border-radius: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+
+.listWrapper{
+    display: block;
+}
+
+.productDetailsWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:479px){
+    .productDetailsWrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:991px){
+    .productDetailsWrapper{
+        font-size: 14px;
+    }
+
+}
+
+
+.productDetails{
+    width: 100%;
+}
+
+@media (max-width:991px){
+    .productDetails{
+        margin-right: 25px;
+    }
+
+}
+@media (max-width:479px){
+    .productDetails{
+        margin-right: 0px;
+    }
+
+}
+
+.productName{
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.priceWrapper{
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    justify-content: center;
+    border-bottom: 1px none rgba(34, 34, 34, 0.08);
+
+}
+
+.productPrice{
+    margin-right: 10px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+@media (max-width:479px){
+    .productPrice{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+.productCancelledPrize{
+    color: #eb5757;
+    text-decoration: line-through;
+}
+
+.productButtonWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.productButton{
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    background-color: #eb5757;
+    -webkit-transition: border-color 300ms ease, background-color 300ms ease;
+    transition: border-color 300ms ease, background-color 300ms ease;
+    font-weight: 700;
+    display: inline-block;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.productButton:hover{
+    background-color: #222;
+}
