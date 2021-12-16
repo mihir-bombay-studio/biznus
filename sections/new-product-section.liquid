@@ -25,15 +25,15 @@
                             <div class="shop-details">
                                 <div class="shop-item-name">{{ product.title}}</div>
                                 <div class="price">
-                                    <div class="product-price">{{product.price}}</div>
+                                    <div class="product-price">{{product.price | money}}</div>
                                     <div class="product-discount">$ 95.00 USD</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                     <div class="shop-btn-wrap">
-                        <a class="shop-btn aaa" href="">
-                            {{product.url}}
+                        <a class="shop-btn aaa" href="{{product.url}}">
+                            Details
                         </a>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
 "presets": [
     {
         "category": "Adnan Custom",
-        "name":"Final Task Section"
+        "name":"My  Section"
     }
 ]
 }
