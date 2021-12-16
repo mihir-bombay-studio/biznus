@@ -2,22 +2,22 @@
   "sections": {
     "1639397768d3dcaef3": {
       "type": "new-hero-section",
-      "blocks": {
-        "1639397768c4362b95-0": {
-          "type": "select",
-          "settings": {
-            "heading-txt": "Serving you since 1989.",
-            "para-txt": "Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City.",
-            "btn-lnk": "shopify:\/\/collections\/all",
-            "btn-txt": "Shop Merch"
-          }
-        }
-      },
-      "block_order": [
-        "1639397768c4362b95-0"
-      ],
       "settings": {
-        "images-box-content": "shopify:\/\/shop_images\/img1.jpg"
+        "images-box-content": "shopify:\/\/shop_images\/img1.jpg",
+        "heading-txt": "Serving you since 1989.",
+        "para-txt": "Acme Outdoors is an outdoor and adventure shop located in the Boathouse District in Oklahoma City.",
+        "btn-lnk": "",
+        "btn-txt": "Shop Merch"
+      }
+    },
+    "163963879953078b7e": {
+      "type": "new-product-section",
+      "settings": {
+        "shop-top-details": "SHOP PRODUCTS",
+        "shop-top-heading": "Open 24\/7\/365.",
+        "shop-more-product": "",
+        "shop-more": "View All Products",
+        "collection": "adnans-cool-shoe-collection"
       }
     },
     "image_banner": {
@@ -195,6 +195,7 @@
   },
   "order": [
     "1639397768d3dcaef3",
+    "163963879953078b7e",
     "image_banner",
     "rich_text",
     "featured_products",
