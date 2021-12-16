@@ -9,7 +9,7 @@
           }
 
 
-          .product-list1 {
+          .item-list1 {
               display: grid;
               grid-auto-columns: 1fr;
               grid-column-gap: 16px;
