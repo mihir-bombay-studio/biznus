@@ -161,7 +161,7 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-    .products-items {
+    .w-dyn-item {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -172,7 +172,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .products-items {
+    .w-dyn-item {
         grid-template-columns: 1fr;
 
     }
