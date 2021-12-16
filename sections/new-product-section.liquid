@@ -1,62 +1,63 @@
 {{ 'new-product-section.css' | asset_url | stylesheet_tag }}
 
-<div class="container-product">
+<div class="container-product1">
 
-    <div class="shop-top-wrap">
-        <div class="shop-top-left">
-            <div class="shop-top-details">{{ section.settings.shop-top-details }}</div>
-            <h2 class="shop-top-heading">{{ section.settings.shop-top-heading }}</h2>
+    <div class="shop-top-wrap1">
+        <div class="shop-top-left1">
+            <div class="shop-top-details1">{{ section.settings.shop-top-details }}</div>
+            <h2 class="shop-top-heading1">{{ section.settings.shop-top-heading }}</h2>
         </div>
     </div>
 
-    <div class="product-list-wrap">
-        <div class="product-list">
-            <div class="item-list">
-                          {%- for product in section.settings.collection.products limit:3 -%}
+    <div class="product-list-wrap1">
+        <div class="product-list1">
+            <div class="item-list1">
+                {%- for product in section.settings.collection.products limit:3 -%}
 
-                <div class="shop-item-wrap">
-                    <a class="shop-item" href="{{product.url}}">
-                        <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
-                          {% if product.compare_at_price %} 
-                          <div class="shop-sale">
+                <div class="shop-item-wrap1">
+                    <a class="shop-item1" href="{{product.url}}">
+                        <div class="shop-image1"
+                            style="background-image: url({{ product.featured_image | img_url:'large'}});">
+                            {% if product.compare_at_price %}
+                            <div class="shop-sale1">
                                 Sale
                             </div>
-                          {% else %}
-                                <div class="">
-                                    </div>
-                         </div>
-                      	  {% endif %}
-                        <div class="shop-details-wrap">
-                            <div class="shop-details">
-                                <div class="shop-item-name">{{ product.title}}</div>
-                                
-                              <div class="price">
-                                    <div class="product-price">{{product.price | money}}</div>
-                                    <div class="product-discount">{{product.compare_at_price_max | money}}</div>
-                            
+                            {% else %}
+                            <div class="">
+                            </div>
+                        </div>
+                        {% endif %}
+                        <div class="shop-details-wrap1">
+                            <div class="shop-details1">
+                                <div class="shop-item-name1">{{ product.title}}</div>
+
+                                <div class="price1">
+                                    <div class="product-price1">{{product.price | money}}</div>
+                                    <div class="product-discount1">{{product.compare_at_price_max | money}}</div>
+
                                 </div>
-                            
-                          
-                          </div>
+
+
+                            </div>
                         </div>
                     </a>
-                  
-                  
-                    <div class="shop-btn-wrap">
-                        <a class="shop-btn aaa" href="{{product.url}}">
+
+
+                    <div class="shop-btn-wrap1">
+                        <a class="shop-btn1 aaa" href="{{product.url}}">
                             Details
                         </a>
                     </div>
                 </div>
-              
+
             </div>
-                  {% endfor %}
+            {% endfor %}
 
         </div>
     </div>
 
-    <div class="shop-more">
-        <a class="shop-more-product aaaa" href="{{ section.settings.shop-more-product }}">
+    <div class="shop-more1">
+        <a class="shop-more-product1 aaaa" href="{{ section.settings.shop-more-product }}">
             {{ section.settings.shop-more }}
         </a>
     </div>
@@ -70,49 +71,49 @@
 
 
 {
-    "name": "New Product Section",
-    "settings": [
+"name": "New Product Section",
+"settings": [
         {
-            "type": "text",
-            "id": "shop-top-details",
-            "label": "Top shop details goes here",
-            "default": "SHOP PRODUCTS"
-  
+        "type": "text",
+        "id": "shop-top-details",
+        "label": "Top shop details goes here",
+        "default": "SHOP PRODUCTS"
+
         },
         {
-            "type": "text",
-            "id": "shop-top-heading",
-            "label": "Top shop heading goes here",
-            "default": "Open 24/7/365."
-  
+        "type": "text",
+        "id": "shop-top-heading",
+        "label": "Top shop heading goes here",
+        "default": "Open 24/7/365."
+
         },
         {
-            "type": "url",
-            "id": "shop-more-product",
-            "label": "Your Button URL here"
+        "type": "url",
+        "id": "shop-more-product",
+        "label": "Your Button URL here"
         },
         {
-            "type": "text",
-            "id": "shop-more",
-            "label": "Bottom Buttom goes here",
-            "default": "View All Products"
-  
+        "type": "text",
+        "id": "shop-more",
+        "label": "Bottom Buttom goes here",
+        "default": "View All Products"
+
         },
         {
-           "type": "collection",
-           "id":"collection",
-			"label":"collection here"
+        "type": "collection",
+        "id":"collection",
+        "label":"collection here"
         }
     ],
 
-    
+
 
 "presets": [
-    {
+        {
         "category": "Adnan Custom",
-        "name":"My  Section"
-    }
-]
+        "name":"My Section"
+        }
+    ]
 }
 
 
