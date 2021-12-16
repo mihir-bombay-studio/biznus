@@ -12,13 +12,13 @@
     <div class="product-list-wrap">
         <div class="product-list">
             <div class="item-list">
-                          {%- for product in section.settings.collection.products limit:3-%}
+                          {%- for product in section.settings.collection.products limit:3 -%}
 
                 <div class="shop-item-wrap">
                     <a class="shop-item" href="">
                         <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
                             <div class="shop-sale">
-                                Sale
+                                Sale{{product.compare_at_price}}
                             </div>
                         </div>
                         <div class="shop-details-wrap">
