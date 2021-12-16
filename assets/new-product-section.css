@@ -60,6 +60,7 @@
               text-align: left;
               margin-bottom: 15px;
               display: flex;
+            justify-content: center;
   /*             column-gap: 10px; */
           }
   .product-price1{
