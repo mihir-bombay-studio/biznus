@@ -19,7 +19,7 @@
                     <!-- <div class="cardImage" style="background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg);"> -->
                     <div class="cardImage" style="background-image: url({{ block.settings.product.featured_image | img_url: '600x' }})" >
                         <!-- <img src = ""/> -->
-                        {% if block.settings.product.compare_at_price_max != 0 %}
+                        {% if block.settings.product.compare_at_price_max != 0 or block.settings.product.compare_at_price_max =="" %}
                         <div class="sale">Sale</div>
                         {% endif %}
                     </div>
