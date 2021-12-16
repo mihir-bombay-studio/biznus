@@ -174,7 +174,7 @@
           }
 
           @media screen and (max-width: 991px) {
-              .product-list1 {
+               .item-list1 {
                   grid-template-columns: 1fr 1fr;
               }
 
@@ -185,7 +185,7 @@
           }
 
           @media screen and (max-width: 767px) {
-              .product-list1 {
+               .item-list1 {
                   grid-template-columns: 1fr;
 
               }
