@@ -188,6 +188,36 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1639639392de2ad562": {
+      "type": "bizinusProduct",
+      "blocks": {
+        "16396393922377260c-0": {
+          "type": "select",
+          "settings": {
+            "product": ""
+          }
+        },
+        "16396393922377260c-1": {
+          "type": "select",
+          "settings": {
+            "product": ""
+          }
+        },
+        "16396393922377260c-2": {
+          "type": "select",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "16396393922377260c-0",
+        "16396393922377260c-1",
+        "16396393922377260c-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -197,6 +227,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1639639392de2ad562"
   ]
 }
