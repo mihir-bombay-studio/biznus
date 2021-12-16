@@ -10,8 +10,8 @@
     </div>
 
     <div class="product-list-wrap">
-        {% for collection in section.settings %}
         <div class="product-list">
+            {% for collection in section.settings limit: 3 %}
             <div class="item-list">
                 <div class="shop-item-wrap">
                     <a class="shop-item" href="">
