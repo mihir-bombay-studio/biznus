@@ -44,8 +44,8 @@ color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-position: 50% 50%;
     background-size: cover;
-    min-height: 100px;
-    max-height: 350px;
+   
+    height: 350px;
   width: 100%;
 }
 .image {
