@@ -1,0 +1,188 @@
+
+body {
+    font-family: 'Sen', sans-serif;
+    color:black;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.section{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.container{
+   
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.top-wrapper{
+    display: flex;
+    margin-bottom: 40px; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+    
+  
+}
+.wrapper-left{
+    flex-direction: column; 
+    max-width: 473px;
+
+}
+.top-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 39px;
+    line-height: 1.2;
+    color:#333;
+    font-weight: 700;
+    
+
+}
+
+.products-items{
+    
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.shop-items{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.shop-item-linker {
+    width: 100%;
+    text-decoration: none;
+}
+
+.shop-image{
+    background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 15px;
+    margin-bottom: 30px;
+    min-height: 500px;
+    border-radius: 5px
+}
+.sale{
+    position: absolute;
+    left: auto;
+    top: 4%;
+    right: 2%;
+    bottom: auto;
+    border-radius: 5px;
+    background-color: #eb5757;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 5px 20px;
+    color: #f9f9f9;
+
+}
+.shop-details{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.shop-details-left {
+    width: 100%;
+}
+.shop-details-name {
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.price-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 1px none rgba(34, 34, 34, 0.08);
+}
+
+.shop-item-price {
+    color: black;
+    margin-right: 10px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+.shop-button{
+    
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    background-color: #eb5757;
+    transition: border-color 300ms ease, background-color 300ms ease;
+ 
+   font-weight: 700;
+
+    display: inline-block;
+    padding: 9px 15px;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .products-items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop-image {
+        min-height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .products-items {
+        grid-template-columns: 1fr;
+
+    }
+}
+.shop-item-price-cancelled{
+    color: #eb5757;
+    text-decoration: line-through;
+    margin-right: 10px;
+   
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
