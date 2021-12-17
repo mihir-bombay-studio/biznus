@@ -82,17 +82,6 @@
       	padding: 10px 10px 0px 10px;
 }
 
-.w-button {
-        display: inline-block;
-        padding: 9px 15px 0px;
-        background-color: #3898EC;
-        color: white;
-        border: 0;
-        line-height: inherit;
-        text-decoration: none;
-        cursor: pointer;
-        border-radius: 0;
-}
 
 .shop-more {
         display: -webkit-box;
