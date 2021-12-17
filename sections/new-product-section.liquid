@@ -21,10 +21,9 @@
               <div class="shop-imggg">
            		<img class="shop-image" src="{{ product.featured_image | img_url:'large'}}">
               
-{% if product.compare_at_price %}
+{%  if product.compare_at_price_max != product.price %}
          <div class="shop-sale ">Sale</div>
-{% else %}
-         <div class=""></div>
+
 {% endif %}
              </div>
     		</div>
