@@ -190,6 +190,6 @@
             background-color: #222;
         }
 
-.dark:hover {
+.btn.dark {
             text-decoration: none;
         }
