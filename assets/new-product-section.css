@@ -1,15 +1,16 @@
 .container {
-     max-width: 1200px;
+     		max-width: 1200px;
             margin: 0 auto;
             padding-right: 15px;
             padding-left: 15px;
             font-family: 'Sen', sans-serif;
             line-height: 1.5;
+  			padding-top: 65px;
 }
 .shop-top-wrapper {
-    display: flex;
+    		display: flex;
             justify-content: space-between;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
 }
 
 .support-top-details-text {
