@@ -25,13 +25,15 @@
             <div class="shop-details-left">
               <div class="shop-item-name">{{product.title}}</div>
               <div class="price-wrapper">
-                <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="shop-item-price">{{product.price | money_with_currency}}</div>
-                <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D" class="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
+                <div class="shop-item-price">{{product.price | money_with_currency}}</div>
+                <div class="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
                 </div>
               </div>
               </div>
             </div>
-         </div></a><div class="shop-button-wrapper"><a href="/product/white-tent" class="btn w-button">Details</a>
+         </div></a>
+         
+         <div class="shop-button-wrapper"><a href="/product/white-tent" class="btn w-button">Details</a>
           </div>
         
       </div>
