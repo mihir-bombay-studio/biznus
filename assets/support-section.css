@@ -28,8 +28,12 @@ body {
   
 }
 .wrapper-flex{
-    flex-direction: column; 
-    max-width: 473px;
+    
+    
+  	flex-direction: column;
+    /* max-width: 473px; */
+    text-transform: uppercase;
+}
 
 }
 .top-heading{
