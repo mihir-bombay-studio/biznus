@@ -8,6 +8,14 @@
         "collection": "decoration-items"
       }
     },
+    "16397353112c91e9e7": {
+      "type": "new-product-section",
+      "settings": {
+        "title": "<p>PRODUCT SESSION<\/p>",
+        "text": "<p>Add details on availability<\/p>",
+        "collection": "decoration-items"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -179,24 +187,16 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16397353112c91e9e7": {
-      "type": "new-product-section",
-      "settings": {
-        "title": "<p>PRODUCT SESSION<\/p>",
-        "text": "<p>Add details on availability<\/p>",
-        "collection": "decoration-items"
-      }
     }
   },
   "order": [
     "1639481997994df2e6",
+    "16397353112c91e9e7",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16397353112c91e9e7"
+    "multi_column"
   ]
 }
