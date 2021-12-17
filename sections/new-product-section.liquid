@@ -28,12 +28,13 @@
                             {% endif %}
              {% if product.compare_at_price_max != 0 %}
              </div>
+            <div class="shop-item-name">{{product.title}}</div>
             <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }}</div>
               {% endif %}
             
             <div class="shop-details-wrapper">
             <div class="shop-details-left">
-              <div class="shop-item-name">{{product.title}}</div>
+              
               <div class="price-wrapper">
                 <div class="shop-item-price">{{product.price | money_with_currency}}</div>
                 <div class="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
