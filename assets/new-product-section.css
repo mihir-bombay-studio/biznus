@@ -9,8 +9,9 @@
 }
 .shop-top-wrapper {
     		
-            justify-content: flex;
-            margin-bottom: 0px;
+           display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
 }
 
 .support-top-details-text {
@@ -26,11 +27,7 @@
             color: #222;
  			 
 }
-.shop-top-wrap1 {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 40px;
-        }
+
 
 .support-top-right {
     width: 45%;
