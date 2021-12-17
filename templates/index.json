@@ -3,9 +3,12 @@
     "16397353112c91e9e7": {
       "type": "new-product-section",
       "settings": {
-        "title": "<p>PRODUCT SESSION<\/p>",
-        "text": "<p>Add details on availability<\/p>",
-        "collection": "adnans-cool-shoe-collection"
+        "title": "PRODUCT SESSION",
+        "text": "Add details on availabilit",
+        "collection": "adnans-cool-shoe-collection",
+        "Details": "Details",
+        "more-product": "",
+        "shop-more": "View All Products"
       }
     },
     "1639481997994df2e6": {
