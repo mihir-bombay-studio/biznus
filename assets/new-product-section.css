@@ -17,13 +17,12 @@
             text-transform: uppercase;
             color: #333;
             font-size: 16px;
-  					
+  			justify-content: flex;	
                    }
 .support-top-heading {
-    		
+    		justify-content: flex;
             font-size: 40px;
             font-weight: bold;
-            
             color: #222;
  			 
 }
