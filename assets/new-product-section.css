@@ -166,23 +166,7 @@
         }
 
 
-@media screen and (max-width: 991px) {
-    .w-dyn-item {
-        grid-template-columns: 1fr 1fr;
-    }
 
-    .shop-image {
-        min-height: 350px;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-    .w-dyn-item {
-        grid-template-columns: 1fr;
-
-    }
-}
   
 .btn:hover {
             border-color: #222;
