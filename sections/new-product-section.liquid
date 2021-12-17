@@ -4,28 +4,32 @@
       
   <div class="shop-top-wrapper">
     <div class="wrapper-flex">
+      {% if section.settings.collection.size > 0 %}
       <div class="support-top-details-text">{{ section.settings.title}}</div>
       <div class="support-top-heading">{{ section.settings.text}}</div>
+      {% endif %}
     </div>
 
   </div>
   
-  <div class="product-list-wrap1">
-        <div class="product-list1">
+  <div class="product-list-wrap">
+        <div class="product-list">
             <div class="item-list">
   {%- for product in section.settings.collection.products limit:3 -%}
                    
        <div class="shop-item-wrapper">
-          <a href={{product.url}} class="shop-item-link-wrapper ">
-           <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
-             
+          <a href={{product.url}} class="shop-item">
+            <div class="shop-imgg">
+              <div class="shop-imggg">
+           		<img class="shop-image" src="{{ product.featured_image | img_url:'large'}}">
+              
 {% if product.compare_at_price %}
          <div class="shop-sale ">Sale</div>
 {% else %}
          <div class=""></div>
 {% endif %}
              </div>
-    
+    		</div>
             
             
             <div class="shop-details-wrapper">
@@ -41,14 +45,17 @@
             </div>
          </a>
          
-         <div class="shop-button-wrapper "><a href={{product.url}} class="btn w-button ">Details</a>
+         <div class="shop-button-wrapper ">
+           <a href={{product.url}} class="btn  ">Details</a>
           </div>
         </div>
      
       {% endfor %}
-     </div></div></div>
+     </div>
+    </div>
+  </div>
   <div class="shop-more ">
-    <a href="{{ section.settings.shop-more-product }}" class="btnb w-button">View All Products</a>
+    <a href="{{ section.settings.shop-more-product }}" class="btnb ">View All Products</a>
   </div>
 </div>
 
