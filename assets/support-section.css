@@ -30,7 +30,6 @@ body {
 .wrapper-flex{
     flex-direction: column; 
     max-width: 473px;
-  	
 
 }
 .top-heading{
@@ -40,6 +39,7 @@ body {
     line-height: 1.2;
     color:#333;
     font-weight: 700;
+    
 
 }
 .para{
@@ -144,3 +144,134 @@ body {
 }
 
 }
+
+
+/* position: relative; */
+    /* left: 10%;
+   
+}
+
+/* .top-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 1.2;
+    color:#333;
+
+}
+.squares{
+
+    position: relative;
+    display: flex;
+    overflow: hidden;
+     min-height: 350px;
+    margin-bottom: 45px;
+    justify-content: space-between;
+    border-radius: 5px;
+   
+}
+
+.support-coloum1, .support-coloum2{
+        margin-right: 44px;
+        background-color:red;
+}
+.support-coloum1, .support-coloum2,.support-coloum3{
+    background-color: red;
+    width:30%;
+    min-height: 200;
+
+}
+.top-wrapper p{
+    margin:0px;
+}
+/* .support-coloum1 {
+    background-color: black;
+}
+.support-coloum2 {
+    background-color: black;
+}
+.support-coloum3 {
+    background-color: black;
+} */
+
+/* 
+.number{
+   
+    inset: 10% auto auto 10%;
+    color: var(--swatch_c07981f9);
+    font-size: 40px;
+    font-weight: 700
+}
+.text{
+    color: var(--swatch_c07981f9);
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* .paragraph{
+    margin-top: 0;
+    margin-bottom: 10px;
+/* } */
+/* .para{
+    display:flex;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}  */
+
+
+/* 
+.bottom{
+    display:flex;
+    flex-direction: column;
+
+
+    
+}
+.square1,.square2{
+    min-height: 350px;
+    width: 30%;
+    background-color:#333 ;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: content;
+    margin-bottom: 45px;
+}
+.para{
+    width:30%;
+    
+    
+}
+.number{
+
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+  
+
+    /* position: relative; */
+    /* left: 10%;
+    top: 20px;
+    right: auto;
+    bottom: auto;
+   
+    
+}
+.text{
+
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+  
+    
+} */ 
+
