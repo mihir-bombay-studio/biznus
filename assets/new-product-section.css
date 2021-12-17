@@ -148,6 +148,15 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+.price {
+            color: #222;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: left;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+        }
 .pill-2.badge {
     border-radius: 0px;
 }
