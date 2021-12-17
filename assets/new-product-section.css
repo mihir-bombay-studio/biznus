@@ -202,6 +202,6 @@
         }
 
 .btnb:hover {
-             border-color: #eb5757;
-            background-color: #eb5757;
+             border-color: red;
+            background-color: red;
         }
