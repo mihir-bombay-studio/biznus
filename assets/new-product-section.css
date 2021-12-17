@@ -184,3 +184,12 @@
 
     }
 }
+
+.shop-btn:hover {
+            border-color: #222;
+            background-color: #222;
+        }
+
+.productbtn:hover {
+            text-decoration: none;
+        }
