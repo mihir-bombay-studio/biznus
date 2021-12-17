@@ -131,11 +131,9 @@ body {
     font-weight: 700;
     text-align: left;
 }
-.shop-button{
+.shop-button:hover{
     
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+   
     display: flex;
     justify-content: center;
 
