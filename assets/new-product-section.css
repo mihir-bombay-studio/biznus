@@ -176,12 +176,23 @@
 
 }
 
-@media screen and (max-width: 767px) {
-   .item-list {
-    grid-template-columns: 1fr;
+ @media screen and (max-width: 991px) {
+            .item-list {
+                grid-template-columns: 1fr 1fr;
+            }
 
-    }
-}
+            .shop-image {
+                min-height: 350px;
+            }
+
+        }
+
+        @media screen and (max-width: 767px) {
+            .item-list {
+                grid-template-columns: 1fr;
+
+            }
+        }
 
 .btn:hover {
             border-color: #222;
