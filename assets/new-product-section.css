@@ -21,6 +21,7 @@
   			justify-content: flex;	
                    }
 .support-top-heading {
+  			margin-top: 0px;
     		justify-content: flex;
             font-size: 40px;
             font-weight: bold;
