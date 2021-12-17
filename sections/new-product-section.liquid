@@ -43,14 +43,14 @@
             </div>
          </a>
          
-         <div class="shop-button-wrapper"><a href="/product/white-tent" class="btn w-button">Details</a>
+         <div class="shop-button-wrapper"><a href={{product.url}} class="btn w-button">Details</a>
           </div>
         </div>
       </div>
       {% endfor %}
      </div></div>
   <div class="shop-more">
-    <a href="/shop" class="btn dark w-button">View All Products</a>
+    <a href="{{ section.settings.shop-more-product }}" class="btn dark w-button">View All Products</a>
   </div>
 </div>
 
