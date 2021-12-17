@@ -7,9 +7,9 @@
             line-height: 1.5;
 }
 .shop-top-wrapper {
-         display: flex;
-           
-            margin-bottom: 0px;
+    display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
 }
 
 .support-top-details-text {
@@ -25,6 +25,15 @@
             font-weight: bold;
             line-height: 1.2;
             color: #222;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 .support-top-right {
     width: 45%;
