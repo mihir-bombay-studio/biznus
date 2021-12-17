@@ -3,6 +3,7 @@
 
 
 <div class="mainContainerProduct">
+  {% if section.blocks.size > 0 %}
     <div class="topWrapper">
         <div class="topLeft">
             <div class="heading1">Shop Products</div>
@@ -10,6 +11,7 @@
         </div>
         <div class="topRight"></div>
     </div>
+  {% endif %}
 
     <div class="productList">
         {% for block in section.blocks %}
