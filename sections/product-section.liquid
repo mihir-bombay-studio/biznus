@@ -40,7 +40,7 @@
                                 </a>
                               <div class="shop-button">
                        				 <a class="btn hh" href="{{product.url}}">
-                           					Details
+                           				{{ section.settings.shop-btn }}
                         				</a>
                    			 </div>
                             </div>
@@ -88,13 +88,18 @@
       "type":"collection",
       "label":"enter your collection"   
      },
-	 
+	 {
+                "type": "text",
+                "id": "btn",
+                "label": "Button Label here",
+                "default": "Details"
+     },
      {
                 "type": "url",
                 "id": "shop-more-product",
                 "label": "Your Button URL here"
       },
-       {
+      {
                 "type": "text",
                 "id": "shop-more",
                 "label": "Bottom Buttom goes here",
