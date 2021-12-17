@@ -9,7 +9,7 @@
 }
 .shop-top-wrapper {
     		
-            justify-content: space-between;
+            justify-content: flex;
             margin-bottom: 0px;
 }
 
