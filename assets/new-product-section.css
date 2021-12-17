@@ -166,8 +166,6 @@
         }
 
 
-
-  
 @media screen and (max-width: 991px) {
     .w-dyn-item {
         grid-template-columns: 1fr 1fr;
@@ -185,7 +183,7 @@
 
     }
 }
-
+  
 .btn:hover {
             border-color: #222;
             background-color: #222;
