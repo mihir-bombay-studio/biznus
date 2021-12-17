@@ -46,7 +46,7 @@
          </a>
          
          <div class="shop-button-wrapper ">
-           <a href={{product.url}} class="btn  ">Details</a>
+           <a href={{product.url}} class="btn  ">{{ section.settings.Details }}</a>
           </div>
         </div>
      
@@ -55,7 +55,7 @@
     </div>
   </div>
   <div class="shop-more ">
-    <a href="{{ section.settings.shop-more-product }}" class="btnb ">View All Products</a>
+    <a href="{{ section.settings.more-product }}" class="btnb ">{{ section.settings.shop-more }}</a>
   </div>
 </div>
 
@@ -80,7 +80,24 @@
           "type": "collection",
           "id": "collection",
            "label": "collection"
-        }
+        },
+		{
+                "type": "text",
+                "id": "Details",
+                "label": "Details Button",
+                "default": "Details"
+            },
+		{
+                "type": "url",
+                "id": "more-product",
+                "label": "Your Button URL here"
+            },
+            {
+                "type": "text",
+                "id": "shop-more",
+                "label": "Bottom Buttom ",
+                "default": "View All Products"
+            }
           ],
 
 
