@@ -165,6 +165,7 @@
             justify-content: center;
         }
  .product-price {
+   font-size: 12px;
             margin-right: 10px;
         }
 .pill-2.badge {
@@ -181,7 +182,7 @@
     display: none !important;
 }
 .product-discount {
-  
+  font-size: 12px;
             color: #eb5757;
             text-decoration: line-through;
         }
