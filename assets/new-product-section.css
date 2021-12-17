@@ -43,11 +43,7 @@
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
 }
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-      box-sizing: border-box;
-}
+
 .shop-item-wrapper {
       width: 100%;
       margin-bottom: 40px;
