@@ -25,12 +25,12 @@
          <div class=""></div>
 {% endif %}
              </div>
-            <div class="shop-item-name">{{product.title}}</div>
+    
             
             
             <div class="shop-details-wrapper">
-            <div class="shop-details-left">
-              
+            <div class="shop-details">
+              <div class="shop-item-name">{{product.title}}</div>
               <div class="price">
                  <div class="product-price">{{product.price | money_with_currency}}  </div>
                     {% if product.compare_at_price_max != 0 %}

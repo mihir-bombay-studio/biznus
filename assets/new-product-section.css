@@ -154,7 +154,10 @@
             width: 100%;
             object-fit: cover;
         }
-
+.shop-details-wrapper{
+            display: flex;
+            justify-content: center;
+        }
 .price {
             color: #222;
             font-size: 5px;
