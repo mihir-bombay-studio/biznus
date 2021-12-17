@@ -137,3 +137,27 @@
             border-radius: 5px;
             margin-bottom: 15px;
         }
+.pill-2.badge.primary.sale {
+    position: absolute;
+    left: auto;
+    top: 4%;
+    right: 2%;
+    bottom: auto;
+    border-radius: 5px;
+    background-color: #eb5757;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.pill-2.badge {
+    border-radius: 0px;
+}
+.pill-2 {
+    margin-right: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #1976d2;
+    color: #f9f9f9;
+}
+.w-condition-invisible {
+    display: none !important;
+}
