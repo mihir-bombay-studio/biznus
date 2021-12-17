@@ -16,8 +16,9 @@
        <div class="shop-item-wrapper">
           <a href={{product.url}} class="shop-item-link-wrapper w-inline-block">
            <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
-             <div data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D" class="pill-2 badge primary sale w-condition-invisible">Sale</div>
-            </div>
+             {% if product.compare_at_price_max != 0 %}
+               <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }}</div>
+              {% endif %}
             <div class="shop-details-wrapper">
             <div class="shop-details-left">
               <div class="shop-item-name">{{product.title}}</div>
