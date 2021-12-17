@@ -19,7 +19,7 @@
            <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
              
              {% if product.compare_at_price %}
-                            <div class="shop-sale">
+                            <div class="shop-sale pill-2">
                                 Sale
                             </div>
                             {% else %}
@@ -33,13 +33,11 @@
             <div class="shop-details-wrapper">
             <div class="shop-details-left">
               
-              <div class="price-wrapper">
-                <div class="shop-item-price">{{product.price | money_with_currency}}</div>
-                 {% if product.compare_at_price_max != 0 %}
-             
-            <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }}</div>
-              {% endif %}
-                
+              <div class="price">
+                 <div class="product-price1">{{product.price | money}} EURO </div>
+                    {% if product.compare_at_price_max != 0 %}
+                   <div class="product-discount1">{{ product.compare_at_price_max | money }} EURO</div>
+                     {% endif %}
               </div>
               </div>
             </div>
