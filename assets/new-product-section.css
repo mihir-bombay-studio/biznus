@@ -208,28 +208,16 @@
         }
 
 
-@media screen and (max-width: 991px) {
-    .w-dyn-item {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .shop-image {
-        min-height: 350px;
-    }
-
+.column {
+  
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 0 10px;
 }
-
-@media screen and (max-width: 767px) {
-    .w-dyn-item {
-        grid-template-columns: 1fr;
-
-    }
-}
-  @media screen and (max-width: 991px)
-.shop-image {
-    min-height: 350px;
-}
-@media screen and (max-width: 991px)
-.shop-image {
-    min-height: 350px;
-}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
