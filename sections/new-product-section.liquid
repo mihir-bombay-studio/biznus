@@ -33,9 +33,9 @@
                             <div class="shop-details1">
                                 <div class="shop-item-name1">{{ product.title}}</div>
                                 <div class="price1">
-                                    <div class="product-price1">{{product.price | money}} EURO </div>
+                                    <div class="product-price1">{{product.price | money_with_currency}}</div>
                                     {% if product.compare_at_price_max != 0 %}
-                                    <div class="product-discount1">{{ product.compare_at_price_max | money }} EURO</div>
+                                    <div class="product-discount1">{{ product.compare_at_price_max | money_with_currency }}</div>
                                     {% endif %}
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                     </a>
                     <div class="shop-btn-wrap1">
                         <a class="shop-btn1 aaa" href="{{product.url}}">
-                            Details
+                              {{ section.settings.shop-btn1 }}
                         </a>
                     </div>
                 </div>
@@ -82,6 +82,12 @@
                 "type": "collection",
                 "id":"collection",
                 "label":"collection here"
+            },
+            {
+                "type": "text",
+                "id": "shop-btn1",
+                "label": "Button Label here",
+                "default": "Details"
             },
             {
                 "type": "url",
