@@ -8,7 +8,7 @@
   			padding-top: 65px;
 }
 .shop-top-wrapper {
-    		display: flex;
+    		
             justify-content: space-between;
             margin-bottom: 0px;
 }
@@ -17,11 +17,8 @@
             text-transform: uppercase;
             color: #333;
             font-size: 16px;
-  			margin:0px;
-  			display: flex;
-  			padding:0px;
-            line-height: 1.5;
-       }
+  					
+                   }
 .support-top-heading {
     		margin-top: 0px;
             margin-bottom: 0px;
