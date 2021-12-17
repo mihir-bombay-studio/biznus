@@ -210,11 +210,11 @@ body {
 }
 
 
-.shop-more1 {
+.shop-more{
             display: flex;
             justify-content: center;
         }
-.shop-more-product1 {
+.shop-more-product {
             color: white;
             background-color: #222;
             text-decoration: none;
@@ -230,7 +230,7 @@ body {
 
         }
 
-        .shop-more-product1:hover {
+        .shop-more-product:hover {
             border-color: #eb5757;
             background-color: #eb5757;
             transition: border-color 300ms ease, background-color 300ms ease;
