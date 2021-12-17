@@ -168,17 +168,6 @@ body {
     text-decoration: none;
     cursor: pointer;-->
 }
-.hh{
-	display: inline-block;
-    padding: 9px 15px;
-    background-color: #3898EC;
-    color: white;
-    border: 0;
-    line-height: inherit;
-    text-decoration: none;
-    cursor: pointer;
-
-}
 	btn:hover {
             border-color: #222;
       background-color: #222;
