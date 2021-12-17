@@ -31,8 +31,8 @@ body {
     
     
   	flex-direction: column;
-    /* max-width: 473px; */
-    text-transform: uppercase;
+     max-width: 473px;
+    
 }
 
 }
