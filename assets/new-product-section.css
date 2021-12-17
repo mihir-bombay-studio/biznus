@@ -13,16 +13,18 @@
 }
 
 .support-top-details-text {
-             text-transform: uppercase;
+            text-transform: uppercase;
             color: #333;
             font-size: 16px;
             line-height: 1.5;
        }
 .support-top-heading {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 30px;
-    line-height: 1.2;
+    		margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 1.2;
+            color: #222;
 }
 .support-top-right {
     width: 45%;
