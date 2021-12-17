@@ -19,14 +19,11 @@
           <a href={{product.url}} class="shop-item-link-wrapper w-inline-block">
            <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
              
-             {% if product.compare_at_price %}
-                            <div class="shop-sale ">
-                                Sale
-                            </div>
-                            {% else %}
-                            <div class="">
-                            </div>
-                            {% endif %}
+{% if product.compare_at_price %}
+         <div class="shop-sale ">Sale</div>
+{% else %}
+         <div class=""></div>
+{% endif %}
              </div>
             <div class="shop-item-name">{{product.title}}</div>
             
