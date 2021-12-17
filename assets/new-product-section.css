@@ -161,3 +161,7 @@
 .w-condition-invisible {
     display: none !important;
 }
+.product-discount1 {
+            color: #eb5757;
+            text-decoration: line-through;
+        }
