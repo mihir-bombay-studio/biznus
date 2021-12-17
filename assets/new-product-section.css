@@ -202,5 +202,6 @@
         }
 
 .btnb:hover {
-            text-decoration: none;
+             border-color: #eb5757;
+            background-color: #eb5757;
         }
