@@ -1,24 +1,16 @@
 .container {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+     max-width: 1200px;
+            margin: 0 auto;
+            padding-right: 15px;
+            padding-left: 15px;
+            font-family: 'Sen', sans-serif;
+            line-height: 1.5;
+            padding-top: 65px;
 }
 .shop-top-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    margin-bottom: 40px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
 }
 .support-top-left {
     display: -webkit-box;
