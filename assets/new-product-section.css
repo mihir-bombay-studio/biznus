@@ -80,6 +80,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  padding: 10px;
 }
 .btn {
     padding: 5px 25px;
