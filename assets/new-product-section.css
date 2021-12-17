@@ -225,3 +225,11 @@
 
     }
 }
+  @media screen and (max-width: 991px)
+.shop-image {
+    min-height: 350px;
+}
+@media screen and (max-width: 991px)
+.shop-image {
+    min-height: 350px;
+}
