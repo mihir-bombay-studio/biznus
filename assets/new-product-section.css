@@ -11,7 +11,7 @@
     		display:flex;
             justify-content: flex;
             margin-bottom: 0px;
-  flex-wrap: wrap;
+  			flex-wrap: wrap;
 }
 
 .support-top-details-text {
@@ -195,27 +195,3 @@
 
 
 
-.top-wrapper{
-    display: flex;
-    margin-bottom: 40px; 
-    justify-content: space-between; 
-    align-items: center;
-    flex-wrap: wrap; 
-    
-  
-}
-.wrapper-left{
-    flex-direction: column; 
-    max-width: 473px;
-
-}
-.top-heading{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 39px;
-    line-height: 1.2;
-    color:#333;
-    font-weight: 700;
-    
-
-}
