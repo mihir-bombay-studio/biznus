@@ -147,7 +147,8 @@ body {
     border-color: #eb5757;
     border-radius: 5px;
     background-color: #eb5757;
-    transition: border-color 300ms ease, background-color 300ms ease;
+    transition: border-color 300ms ease;
+    background-color 300ms ease;
  
    font-weight: 700;
 
