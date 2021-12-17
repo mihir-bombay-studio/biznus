@@ -161,7 +161,12 @@ body {
             border-color: #222;
       background-color: #222;
     }
-
+	
+	.h:active,
+        .h:hover {
+            outline: 0;
+        }
+	
 @media screen and (max-width: 991px) {
     .w-dyn-item {
         grid-template-columns: 1fr 1fr;
