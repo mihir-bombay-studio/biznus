@@ -172,7 +172,9 @@ body {
             border-color: #222;
       background-color: #222;
     }
-	
+	.h:hover {
+            text-decoration: none;
+        }
 	.h:active,
         .h:hover {
             outline: 0;
