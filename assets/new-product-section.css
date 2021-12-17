@@ -69,10 +69,7 @@
         }
 
 
-.w-inline-block {
-        max-width: 100%;
-        display: inline-block;
-}
+
 .shop-button-wrapper {
         display: -webkit-box;
         display: -webkit-flex;
@@ -178,6 +175,8 @@
           -webkit-transition: border-color 300ms ease, background-color 300ms ease;
           transition: border-color 300ms ease, background-color 300ms ease;
           font-weight: 700;
+  		  text-decoration: none;
+  		  color:white
 }
 
 
