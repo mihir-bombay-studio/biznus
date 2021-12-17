@@ -2,31 +2,6 @@
   "sections": {
     "1639481997994df2e6": {
       "type": "Product-section",
-      "blocks": {
-        "16394819977e0607e9-0": {
-          "type": "image_picker",
-          "settings": {
-            "product": "leaving-room-decorator"
-          }
-        },
-        "4e462e80-5899-445c-970e-75402afaf1e2": {
-          "type": "image_picker",
-          "settings": {
-            "product": "plant-decorator"
-          }
-        },
-        "617d60fc-6fc3-4757-9445-d6b65e2cb635": {
-          "type": "image_picker",
-          "settings": {
-            "product": "brown-wooden-tripod-floor-lamp"
-          }
-        }
-      },
-      "block_order": [
-        "16394819977e0607e9-0",
-        "4e462e80-5899-445c-970e-75402afaf1e2",
-        "617d60fc-6fc3-4757-9445-d6b65e2cb635"
-      ],
       "settings": {
         "title": "<p>SHOP PRODUCTS<\/p>",
         "text": "<p>Open 24\/7\/365.<\/p>",
@@ -204,6 +179,14 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16397353112c91e9e7": {
+      "type": "new-product-section",
+      "settings": {
+        "title": "<p>PRODUCT SESSION<\/p>",
+        "text": "<p>Add details on availability<\/p>",
+        "collection": "decoration-items"
+      }
     }
   },
   "order": [
@@ -213,6 +196,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "16397353112c91e9e7"
   ]
 }
