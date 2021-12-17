@@ -11,6 +11,7 @@
     <div class="card">
         <img src={{ product.featured_image| img_url: '300x'}} alt="{{ product.featured_image.alt | default: product.title }}" class="image">
     </div>
+    <div class="tags">{% if product.tags contains "sale" %}SALE{% endif %}</div>
       <h4 class="details">{{product.title}}</h4>
       <h5 class="details ">{{product.price | money}}</h5>
       <button name="Details" value="Details" class="btn">Details</button>
