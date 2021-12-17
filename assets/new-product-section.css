@@ -5,7 +5,7 @@
             padding-left: 15px;
             font-family: 'Sen', sans-serif;
             line-height: 1.5;
-            padding-top: 65px;
+            
 }
 .shop-top-wrapper {
     display: flex;
@@ -52,30 +52,30 @@
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+      box-sizing: border-box;
 }
 .shop-item-wrapper {
-    width: 100%;
-    margin-bottom: 40px;
+      width: 100%;
+      margin-bottom: 40px;
 }
 .shop-item-link-wrapper {
     width: 100%;
     text-decoration: none;
 }
 .w-inline-block {
-    max-width: 100%;
-    display: inline-block;
+        max-width: 100%;
+        display: inline-block;
 }
 .shop-button-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  padding: 10px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      	padding: 10px;
 }
 .btn {
       padding: 5px 25px;
