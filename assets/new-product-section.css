@@ -157,6 +157,9 @@
             display: flex;
             justify-content: center;
         }
+ .product-price {
+            margin-right: 10px;
+        }
 .pill-2.badge {
     border-radius: 0px;
 }
@@ -171,6 +174,7 @@
     display: none !important;
 }
 .product-discount {
+  padding-left:10px;
             color: #eb5757;
             text-decoration: line-through;
         }
