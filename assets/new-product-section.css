@@ -5,24 +5,13 @@
             padding-left: 15px;
             font-family: 'Sen', sans-serif;
             line-height: 1.5;
-            
 }
 .shop-top-wrapper {
     display: flex;
             justify-content: space-between;
             margin-bottom: 40px;
 }
-.support-top-left {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
+
 .support-top-details-text {
               text-transform: uppercase;
             color: #333;
