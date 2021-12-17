@@ -34,9 +34,9 @@
             <div class="shop-details-left">
               
               <div class="price">
-                 <div class="product-price">{{product.price | money}} EURO </div>
+                 <div class="product-price">{{product.price | money_with_currency}}  </div>
                     {% if product.compare_at_price_max != 0 %}
-                   <div class="product-discount">{{ product.compare_at_price_max | money }} EURO</div>
+                   <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }} </div>
                      {% endif %}
               </div>
               </div>
@@ -50,7 +50,7 @@
       {% endfor %}
      </div></div>
   <div class="shop-more ">
-    <a href="{{ section.settings.shop-more-product }}" class="btn dark w-button shop-btn1">View All Products</a>
+    <a href="{{ section.settings.shop-more-product }}" class="btnb w-button shop-btn1">View All Products</a>
   </div>
 </div>
 
