@@ -27,8 +27,9 @@
                             </div>
                             {% endif %}
              {% if product.compare_at_price_max != 0 %}
-                                    <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }}</div>
-                                    {% endif %}
+             </div>
+            <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }}</div>
+              {% endif %}
             
             <div class="shop-details-wrapper">
             <div class="shop-details-left">
@@ -40,7 +41,7 @@
               </div>
               </div>
             </div>
-         </div></a>
+         </a>
          
          <div class="shop-button-wrapper"><a href="/product/white-tent" class="btn w-button">Details</a>
           </div>
