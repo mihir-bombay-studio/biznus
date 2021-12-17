@@ -1,13 +1,13 @@
 <link rel="stylesheet" href="{{ 'new-product-section.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="container">
-      
+  {% if section.settings.collection.size > 0 %}    
   <div class="shop-top-wrapper">
     <div class="wrapper-flex">
-      {% if section.settings.collection.size > 0 %}
+      
       <div class="support-top-details-text">{{ section.settings.title}}</div>
       <div class="support-top-heading">{{ section.settings.text}}</div>
-      {% endif %}
+      
     </div>
 
   </div>
@@ -57,6 +57,8 @@
   <div class="shop-more ">
     <a href="{{ section.settings.more-product }}" class="btnb ">{{ section.settings.shop-more }}</a>
   </div>
+  
+  {% endif %}
 </div>
 
 {% schema %}
