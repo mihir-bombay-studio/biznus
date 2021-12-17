@@ -11,14 +11,6 @@
         "shop-more": "View All Products"
       }
     },
-    "1639481997994df2e6": {
-      "type": "Product-section",
-      "settings": {
-        "title": "<p>SHOP PRODUCTS<\/p>",
-        "text": "<p>Open 24\/7\/365.<\/p>",
-        "collection": "decoration-items"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -194,7 +186,6 @@
   },
   "order": [
     "16397353112c91e9e7",
-    "1639481997994df2e6",
     "image_banner",
     "rich_text",
     "featured_products",
