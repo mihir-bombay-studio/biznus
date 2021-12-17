@@ -11,8 +11,9 @@
   <div class="products-list-wrapper w-dyn-list">
     <div role="list" class="products-list w-dyn-items">
       
-      {%- for product in section.settings.collection.products limit:3 -%} 
+      
       <div role="listitem" class="w-dyn-item">
+        {%- for product in section.settings.collection.products limit:3 -%} 
        <div class="shop-item-wrapper">
           <a href={{product.url}} class="shop-item-link-wrapper w-inline-block">
            <div class="shop-image1" style="background-image: url({{ product.featured_image | img_url:'large'}});">
