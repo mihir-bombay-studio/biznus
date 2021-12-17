@@ -17,6 +17,15 @@
        <div class="shop-item-wrapper">
           <a href={{product.url}} class="shop-item-link-wrapper w-inline-block">
            <div class="shop-image1" style="background-image: url({{ product.featured_image | img_url:'large'}});">
+             
+             {% if product.compare_at_price %}
+                            <div class="shop-sale">
+                                Sale
+                            </div>
+                            {% else %}
+                            <div class="">
+                            </div>
+                            {% endif %}
              {% if product.compare_at_price_max != 0 %}
                                     <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }}</div>
                                     {% endif %}
