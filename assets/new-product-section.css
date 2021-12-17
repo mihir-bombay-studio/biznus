@@ -199,14 +199,16 @@
             }
 
         }
-
-        @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
             .item-list {
                 grid-template-columns: 1fr;
 
             }
         }
-
+@media screen and (max-width: 767px)
+.item-list {
+    grid-template-columns: 1fr;
+}
 .btn:hover {
             border-color: #222;
             background-color: #222;
