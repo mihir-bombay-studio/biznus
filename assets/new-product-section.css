@@ -8,7 +8,7 @@
   			padding-top: 65px;
 }
 .shop-top-wrapper {
-    		
+    		display:flex;
             justify-content: flex;
             margin-bottom: 0px;
 }
