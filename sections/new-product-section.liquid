@@ -17,7 +17,7 @@
         
        <div class="shop-item-wrapper">
           <a href={{product.url}} class="shop-item-link-wrapper w-inline-block">
-           <div class="shop-image column" style="background-image: url({{ product.featured_image | img_url:'large'}});">
+           <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
              
 {% if product.compare_at_price %}
          <div class="shop-sale ">Sale</div>
