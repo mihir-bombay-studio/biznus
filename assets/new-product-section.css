@@ -14,7 +14,6 @@
 }
 
 .support-top-details-text {
-  display: flex;
             text-transform: uppercase;
             color: #333;
             font-size: 16px;
@@ -22,7 +21,6 @@
             line-height: 1.5;
        }
 .support-top-heading {
-  display: flex;
     		margin-top: 0px;
             margin-bottom: 0px;
             font-size: 40px;
@@ -187,11 +185,11 @@
     }
 }
 
-.shop-btn:hover {
+.btn:hover {
             border-color: #222;
             background-color: #222;
         }
 
-.btn.dark {
+.dark:hover {
             text-decoration: none;
         }
