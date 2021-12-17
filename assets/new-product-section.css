@@ -132,6 +132,17 @@
           transition: border-color 300ms ease, background-color 300ms ease;
           font-weight: 700;
 }
+.btnb {
+          padding: 5px 25px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #eb5757;
+          border-radius: 5px;
+          background-color: #eb5757;
+          -webkit-transition: border-color 300ms ease, background-color 300ms ease;
+          transition: border-color 300ms ease, background-color 300ms ease;
+          font-weight: 700;
+}
 .shop-item-name{
             color: #222;
             font-size: 17px;
@@ -190,6 +201,6 @@
             background-color: #222;
         }
 
-.dark:hover {
+.btnb:hover {
             text-decoration: none;
         }
