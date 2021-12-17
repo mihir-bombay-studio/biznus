@@ -9,14 +9,14 @@
     </div>
 
   </div>
-  <div class="products-list-wrapper ">
-    <div role="list" class="products-list w-dyn-items">
-{%- for product in section.settings.collection.products limit:3 -%} 
-      
-      <div role="listitem" class="w-dyn-item">
-        
+  
+  <div class="product-list-wrap1">
+        <div class="product-list1">
+            <div class="item-list">
+  {%- for product in section.settings.collection.products limit:3 -%}
+                   
        <div class="shop-item-wrapper">
-          <a href={{product.url}} class="shop-item-link-wrapper w-inline-block">
+          <a href={{product.url}} class="shop-item-link-wrapper ">
            <div class="shop-image" style="background-image: url({{ product.featured_image | img_url:'large'}});">
              
 {% if product.compare_at_price %}
