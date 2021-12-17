@@ -10,7 +10,7 @@
 .shop-top-wrapper {
     		display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
 }
 
 .support-top-details-text {
