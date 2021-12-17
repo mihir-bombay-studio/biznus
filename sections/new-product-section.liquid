@@ -35,7 +35,7 @@
               <div class="shop-item-name">{{product.title}}</div>
               <div class="price">
                  <div class="product-price">{{product.price | money_with_currency}}  </div>
-                    {% if product.compare_at_price_max != 0 %}
+                    {% if product.compare_at_price_max != product.price %}
                    <div class="product-discount">{{ product.compare_at_price_max | money_with_currency }} </div>
 {% endif %}
               </div>
