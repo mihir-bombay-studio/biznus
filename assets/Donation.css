@@ -34,6 +34,7 @@
     padding-left: 15px;
 }
 
+
 .donate-heading-1 {
   	
     margin-bottom: -5px;
@@ -51,6 +52,14 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .content-section {
     
@@ -87,4 +96,9 @@
 .donate-link-block:hover{
   border-color: #222;
   background-color: #222;
+}
+@media screen and (max-width: 991px)
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
 }
