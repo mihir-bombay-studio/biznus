@@ -20,20 +20,15 @@
 }
 
 .donate-heading-1 {
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+  	
     margin-bottom: -5px;
     font-size: 38px;
     font-weight: 800;
     text-align: center;
 }
 .donate-heading-2 {
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+  	
+  	
     margin-bottom: 15px;
     font-size: 30px;
     text-align: center;
