@@ -1,27 +1,21 @@
 .donate-explainer {
-  position: relative;
-  text-align: center;
-  color: white;
-    min-height: 380px;
+  	min-height: 550px;
+    padding-top: 151px;
     padding-bottom: 35px;
-  background-size: auto, cover;
-  	
-}
-
-.image{
-  
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.56)), to(#222))url('static.jpg');
+ 	padding-bottom: 35px;
+  	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.56)), to(#222))url('static.jpg');
     background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.56), #222),url('static.jpg');
-  min-height: 380px; 
-  width:100%;
-  background-size: auto, cover; 
+	background-position: 0px 0px, 50% 25%;
+    background-size: auto, cover;
+    color: #f9f9f9;
 }
-.img-container{
-  background-position: 0px 0px, 50% 25%;
-   min-height: 380px;
-  background-size: auto, cover;
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-
 .container1 {
   	color:white;
    	position: absolute;
