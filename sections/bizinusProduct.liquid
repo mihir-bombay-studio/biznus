@@ -17,7 +17,7 @@
         {% for block in section.blocks %}
         <div class="listWrapper">
             <div class="productListItem">
-                <a href="#" class="linkItem"> 
+                <a href="{{ block.settings.product.url }}" class="linkItem"> 
                     <!-- <div class="cardImage" style="background-image: url(https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg);"> -->
                     <div class="cardImage" style="background-image: url({{ block.settings.product.featured_image | img_url: '600x' }})" >
                         <!-- <img src = ""/> -->
