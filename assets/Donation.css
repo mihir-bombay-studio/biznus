@@ -1,4 +1,7 @@
 .donate-explainer {
+  position: relative;
+  text-align: center;
+  color: white;
     padding-top: 50px;
     padding-bottom: 35px;
    max-width: 100%;
