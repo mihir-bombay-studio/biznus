@@ -9,6 +9,7 @@
     "1639851729df9a5fb4": {
       "type": "Donation",
       "settings": {
+        "collection": "decoration-items"
       }
     }
   },
