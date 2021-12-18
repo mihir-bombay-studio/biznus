@@ -182,6 +182,11 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16398364422cc2e961": {
+      "type": "Donation",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -191,6 +196,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "16398364422cc2e961"
   ]
 }
