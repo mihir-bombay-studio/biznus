@@ -4,7 +4,7 @@
   color: white;
     padding-top: 50px;
     padding-bottom: 35px;
-   min-height: 380px;
+  
   	
 }
 
@@ -12,11 +12,17 @@
   
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.56)), to(#222));
     background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.56), #222);
-  max-height: 580px; 
-  background-size: auto, cover;
+   
+  
   width:100%;
    
 }
+.img-container{
+  background-size: auto, cover;
+   min-height: 380px;
+  max-height: 580px;
+}
+
 .container1 {
   	color:white;
    	position: absolute;
