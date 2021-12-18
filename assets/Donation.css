@@ -2,12 +2,11 @@
     min-height: 550px;
     padding-top: 151px;
     padding-bottom: 35px;
-    
-    
    
 }
 
 .image{
+   min-height: 550px;
    color: #f9f9f9;
 	max-width: 1200px;
     background-position: 0px 0px, 50% 25%;
