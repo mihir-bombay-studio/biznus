@@ -29,9 +29,9 @@
                         <div class="productDetails">
                             <div class="productName">{{ block.settings.product.title }}</div>
                             <div class="priceWrapper">
-                                <div class="productPrice">$ {{ block.settings.product.price }} USD</div>
+                                <div class="productPrice">{{ block.settings.product.price | money_with_currency }}</div>
                                 {% if block.settings.product.compare_at_price_max != 0 %}
-                                <div class="productPrice productCancelledPrize">$ {{ block.settings.product.compare_at_price_max }} USD</div>
+                                <div class="productPrice productCancelledPrize">{{ block.settings.product.compare_at_price_max | money_with_currency }}</div>
                                 {% endif %}
                             </div>
                         </div>
@@ -39,6 +39,9 @@
                 </a>
                 <div class="productButtonWrapper">
                     <a href="{{ block.settings.product.url }}" class="productButton">Details</a>
+                </div>
+              	<div class="productButtonWrapper">
+                    <a href="#" class="productButton">Details</a>
                 </div>
             </div>
         </div>
