@@ -46,14 +46,6 @@
     margin-left: auto;
     text-align: center;
 }
-
-.container {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 .content-section {
     
     padding-bottom: 65px;
@@ -105,11 +97,7 @@
 .donate-wrapper {
     width: 90%;
 }
-@media screen and (max-width: 991px)
-.container1 {
-    padding-right: auto;
-    padding-left: auto;
-}
+
 @media screen and (max-width: 479px)
 .donate-heading-1 {
     font-size: 30px;
