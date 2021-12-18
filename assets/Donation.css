@@ -102,6 +102,8 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+@media screen and (max-width: 991px)
+
 @media screen and (max-width: 479px)
 .donate-wrapper {
     width: 100%;
@@ -112,8 +114,8 @@
 }
 @media screen and (max-width: 991px)
 .container1 {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: auto;
+    padding-left: auto;
 }
 @media screen and (max-width: 479px)
 .donate-heading-1 {
