@@ -2,7 +2,7 @@
 
 <div class="donate-explainer">
    <div class="container">
-    <div class="donate-heading-1"><a href="/products/100" class="donate-link-block w-inline-block">Here at Acme Outdoors</a></div>
+    <div class="donate-heading-1">Here at Acme Outdoors</div>
     <div class="donate-heading-2">every dollar counts</div>
     <p class="donate-paragraph">Acme Outdoors is more than just a company, we're a 
       community of people who care for one another and for our city. During this time, 
@@ -16,22 +16,37 @@
     <div class="donate-wrapper">
       <div class="donate-collection w-dyn-ilst">
         <div role="list" class="w-dyn-items">
-           {%- for product in section.settings.collection.products limit:5 -%}
+           
           <div role="listitem" class="w-dyn-items">
-            <a href="{{product.url}}" class="donate-link-block w-inline-block">
-              <div class="text-block">Donate {{product.title}}</div>
+            <a href="/products/100" class="donate-link-block w-inline-block">
+              <div class="text-block">Donate $100</div>
             </a>
           </div>
-          {% endfor %}
+           <div role="listitem" class="w-dyn-items">
+            <a href="/products/50" class="donate-link-block w-inline-block">
+              <div class="text-block">Donate $50</div>
+            </a>
+          </div>
+           <div role="listitem" class="w-dyn-items">
+            <a href="/products/25" class="donate-link-block w-inline-block">
+              <div class="text-block">Donate $25</div>
+            </a>
+          </div>
+           <div role="listitem" class="w-dyn-items">
+            <a href="/products/15" class="donate-link-block w-inline-block">
+              <div class="text-block">Donate $15</div>
+            </a>
+          </div> <div role="listitem" class="w-dyn-items">
+            <a href="/products/5" class="donate-link-block w-inline-block">
+              <div class="text-block">Donate $5</div>
+            </a>
+          </div>
+          
           </div></div></div></div></div>
 {% schema %}
   {
     "name": "Donation",
-    "settings": [{
-          "type": "collection",
-          "id": "collection",
-           "label": "collection"
-        }],
+    "settings": [],
 "presets": [
     {
       "name": "Donation"
