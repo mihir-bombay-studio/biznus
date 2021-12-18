@@ -4,7 +4,7 @@
   color: white;
     min-height: 380px;
     padding-bottom: 35px;
-  
+  background-size: auto, cover;
   	
 }
 
@@ -14,12 +14,12 @@
     background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.56), #222);
   min-height: 380px; 
   width:100%;
-   
+  background-size: auto, cover; 
 }
 .img-container{
   background-position: 0px 0px, 50% 25%;
    min-height: 380px;
-  
+  background-size: auto, cover;
 }
 
 .container1 {
