@@ -258,3 +258,18 @@ h2{
 .productButton:hover{
     background-color: #222;
 }
+
+.shopMore{
+    display: flex;
+    justify-content: center;
+}
+
+.shopMoreBtn{
+    border-color: #222;
+    background-color: #222;
+}
+
+.shopMoreBtn:hover{
+    border-color: #eb5757;
+    background-color: #eb5757;
+}
