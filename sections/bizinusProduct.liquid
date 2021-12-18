@@ -49,7 +49,7 @@
        
     </div>
       <div class="shopMore">
-        <a href = "#" class = "shopMoreBtn productButton">{{ section.settings.shopMore }}</a>
+        <a href = "{{ section.settings.shopMoreUrl }}" class = "shopMoreBtn productButton">{{ section.settings.shopMore }}</a>
     </div>
     
 </div>
@@ -80,6 +80,12 @@
            	"type":"text",
 			"label":"All Products Button",
             "default":"View All Products"
+            
+         },
+		{
+           "id":"shopMoreUrl",
+           	"type":"url",
+			"label":"All Products Url"
             
          }
 	
