@@ -11,6 +11,7 @@
 	max-width: 1200px;
     background-position: 0px 0px, 50% 25%;
     background-size: auto, cover;
+  position: center;
 }
 .container {
     position: relative;
