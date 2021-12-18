@@ -182,11 +182,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16398367828debb583": {
-      "type": "Donation",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -196,7 +191,6 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16398367828debb583"
+    "multi_column"
   ]
 }
