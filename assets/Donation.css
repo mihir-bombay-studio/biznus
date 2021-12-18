@@ -1,0 +1,70 @@
+.donate-explainer {
+    min-height: 550px;
+    padding-top: 151px;
+    padding-bottom: 35px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.56)), to(#222)), url(https://assets.website-files.com/5e7ff3e…/5e85758…_jed-villejo-bEcC0nyIp2g-unsplash%20(1)%20(1).jpg);
+    background-image: linear-gradient(
+180deg, rgba(34, 34, 34, 0.56), #222), url(https://assets.website-files.com/5e7ff3e…/5e85758…_jed-villejo-bEcC0nyIp2g-unsplash%20(1)%20(1).jpg);
+    background-position: 0px 0px, 50% 25%;
+    background-size: auto, cover;
+    color: #f9f9f9;
+}
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.donate-heading-1 {
+    margin-bottom: -5px;
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+}
+.donate-heading-2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+.donate-paragraph {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.content-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.donate-wrapper {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 30px 10px;
+    border: 2px solid #222;
+    border-radius: 5px;
+}
+.donate-link-block {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #eb5757;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: #f9f9f9;
+    text-align: center;
+    text-decoration: none;
+}
+.text-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    color: #f9f9f9;
+    font-size: 24px;
+    font-weight: 800;
+}
