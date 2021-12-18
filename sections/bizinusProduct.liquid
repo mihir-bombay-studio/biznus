@@ -48,10 +48,12 @@
         
        
     </div>
+    {% if section.blocks.size > 0 %}
+
       <div class="shopMore">
         <a href = "{{ section.settings.shopMoreUrl }}" class = "shopMoreBtn productButton">{{ section.settings.shopMore }}</a>
     </div>
-    
+	{% endif %}    
 </div>
 
 
