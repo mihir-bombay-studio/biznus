@@ -3,11 +3,16 @@
     padding-top: 151px;
     padding-bottom: 35px;
     
-    background-size: auto, cover;
-    color: #f9f9f9;
+    
+   
 }
 
-
+.image{
+   color: #f9f9f9;
+	max-width: 1200px;
+    background-position: 0px 0px, 50% 25%;
+    background-size: auto, cover;
+}
 .container {
     position: relative;
     text-align: center;
