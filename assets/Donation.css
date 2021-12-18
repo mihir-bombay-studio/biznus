@@ -10,27 +10,33 @@
     color: #f9f9f9;
 }
 
-.image{
-  
-}
+
 .container {
+    position: relative;
+    text-align: center;
+    color: white;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
 }
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
 .donate-heading-1 {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
     margin-bottom: -5px;
     font-size: 38px;
     font-weight: 800;
     text-align: center;
 }
 .donate-heading-2 {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
     margin-bottom: 15px;
     font-size: 30px;
     text-align: center;
