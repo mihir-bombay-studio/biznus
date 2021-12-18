@@ -34,19 +34,12 @@
     },
     "1639493413bfd153ce": {
       "type": "Safe",
-      "blocks": {
-        "16394934137b645aed-0": {
-          "type": "select",
-          "settings": {
-            "heading": "How we're keeping you safe during COVID-19",
-            "paragraph": "As an outdoor shop, we've taken precautionary measures to ensure the safety of all our customers and team members."
-          }
-        }
-      },
-      "block_order": [
-        "16394934137b645aed-0"
-      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/img1.jpg",
+        "heading": "How we're keeping you safe during COVID-19",
+        "paragraph": "As an outdoor shop, we've taken precautionary measures to ensure the safety of all our customers and team members.",
+        "button": "Read Our Statement",
+        "button_url": ""
       }
     },
     "1639639392de2ad562": {
