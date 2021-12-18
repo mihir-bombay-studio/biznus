@@ -58,7 +58,11 @@
     border: 2px solid #222;
     border-radius: 5px;
 }
-
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .donate-link-block {
     width: 100%;
     margin-bottom: 20px;
