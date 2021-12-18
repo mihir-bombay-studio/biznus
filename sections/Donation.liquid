@@ -16,35 +16,22 @@
     <div class="donate-wrapper">
       <div class="donate-collection ">
         <div role="list" >
+           {%- for product in section.settings.collection.products limit:5 -%}
           <div role="listitem"  >
-            <a href="#" class="donate-link-block">
-              <div class="text-block">Donate $100</div>
+            <a href="{{product.url}}" class="donate-link-block">
+              <div class="text-block">Donate {{product.title}}</div>
             </a>
           </div>
-          <div role="listitem" >
-            <a href="/product/donate-50"class="donate-link-block">
-              <div class="text-block">Donate $50</div>
-            </a>
-          </div>
-          <div role="listitem" >
-            <a href="/product/donate-25" class="donate-link-block">
-              <div class="text-block">Donate $25</div>
-            </a>
-          </div>
-          <div role="listitem" >
-            <a href="/product/donate-15" class="donate-link-block">
-              <div class="text-block">Donate $15</div>
-            </a>
-          </div>
-          <div role="listitem" >
-            <a href="/product/donate-5" class="donate-link-block">
-  <div class="text-block">Donate $5</div>
-            </a>
-          </div></div></div></div></div></div>
+          {% endfor %}
+          </div></div></div></div></div>
 {% schema %}
   {
     "name": "Donation",
-    "settings": [],
+    "settings": [{
+          "type": "collection",
+          "id": "collection",
+           "label": "collection"
+        }],
 "presets": [
     {
       "name": "Donation"
