@@ -16,8 +16,8 @@
 .container1 {
   	color:white;
    	position: absolute;
-  bottom: 20px;
-  right: 20px;
+  	top: 20px;
+  	right: 20px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
