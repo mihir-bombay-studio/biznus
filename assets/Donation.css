@@ -14,10 +14,9 @@
   
 }
 .container1 {
-  color:white;
-   position: absolute;
-  
-   margin-right: auto;
+  	color:white;
+   	position: absolute;
+    margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -31,15 +30,11 @@
     text-align: center;
 }
 .donate-heading-2 {
-  	
-  	
-  	
-    margin-bottom: 15px;
+  	margin-bottom: 15px;
     font-size: 30px;
     text-align: center;
 }
 .donate-paragraph {
-  
     width: 65%;
     margin-right: auto;
     margin-left: auto;
