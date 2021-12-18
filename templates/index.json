@@ -187,6 +187,11 @@
       "type": "Donation",
       "settings": {
       }
+    },
+    "16398367828debb583": {
+      "type": "Donation",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -197,6 +202,7 @@
     "collage",
     "video",
     "multi_column",
-    "16398364422cc2e961"
+    "16398364422cc2e961",
+    "16398367828debb583"
   ]
 }
