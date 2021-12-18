@@ -1,64 +1,78 @@
 {{ 'safe.css' | asset_url | stylesheet_tag }}
 
 
+{% if section.settings.image != blank %}
 
-<div class="Safe_maincontainer">
-    {% for block in section.blocks %}
+<div class="Safe_maincontainer" style="background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url({{section.settings.image | img_url : '600x'}})">
+    
+
     <div class="Safe_container">
-    <div class="Safe_containerWrapper">
+        <div class="Safe_containerWrapper">
+    
+            <h2 class="Safe_headings">{{ section.settings.heading }}</h2>
+    
+            <p class="Safe_paragraphs">
+                {{ section.settings.paragraph }}
+            </p>
+            <div class="Safe_button">
+                <a href="{{ section.settings.button_url }}" class="safeBtn"> {{ section.settings.button }} </a>
+            </div>
+        </div>
+    </div>
 
-         <h2 class="Safe_headings">{{ block.settings.heading }}</h2>
-
-        <p class="Safe_paragraphs">
-            {{ block.settings.paragraph }}
-        </p>
-        <div class="Safe_button">
-            <a href="#" class="safeBtn">Read Our Statement</a>
-        </div>
-        </div>
-        </div>
-  {% endfor %}
 
 
 
 </div>
 
+{% endif %}
 
 {% schema %}
   {
-    "name": "Section name",
-    "max_blocks":1,
-    "settings": [],
-    "blocks":[{
-        "type": "select",
-        "name": "select",
-        "settings":[
-            {
-                "id":"heading",
-                "type":"text",
-                "label":"heading",
-                "default":"How we're keeping you safe during COVID-19"
-            
-            },
-            {
-                "id":"paragraph",
-                "type":"text",
-                "label":"paragraph",
-                "default":"As an outdoor shop, we've taken precautionary measures to ensure the safety of all our customers and team members."
-            
-            }
-        ]
-    }],
+    "name": "Safe Section",
+    "settings": [
+
+        {
+        "id":"image",
+        "type":"image_picker",
+        "label":"select image"    
+    
+        },
+
+        {
+            "id":"heading",
+            "type":"text",
+            "label":"heading",
+            "default":"How we're keeping you safe during COVID-19"
+        
+        },
+        {
+            "id":"paragraph",
+            "type":"text",
+            "label":"paragraph",
+            "default":"As an outdoor shop, we've taken precautionary measures to ensure the safety of all our customers and team members."
+        
+        },
+        {
+            "id":"button",
+            "type":"text",
+            "label":"button text",
+            "default":"Read Our Statement"
+        
+        },
+        {
+            "id":"button_url",
+            "type":"url",
+            "label":"Linked URL"
+        
+        }
+    ],
+    
     "presets":[
         {   
             "name":"Safe Section",
-            "category":"Safe Section",
-	        "blocks" : [
-                {
-                    "type":"select"
-                }
-
-            ]
+            "category":"Safe Section"
+	        
         }
     ]
   }
