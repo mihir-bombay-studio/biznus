@@ -100,15 +100,17 @@
     padding-left: 15px;
 }
 
-@media screen and (max-width: 479px)
+@media screen and (max-width: 530px)
 .donate-wrapper {
     width:100%;
   
 }
+
 @media screen and (max-width: 850px)
 .donate-wrapper {
     width:90%;
 }
+
 @media screen and (max-width: 479px)
 .donate-heading-1 {
     font-size: 30px;
