@@ -1,8 +1,37 @@
+{{ 'shop-section-heading.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="title-section">
+    <div class="title-section-container">
+        <div class="title-heading">
+           {{section.settings.title-heading}}
+        </div>
+    </div>
+</div>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+
+{
+    "name": "Product Section Heading",
+    "settings": [
+            {
+                "type": "text",
+                "id": "title-heading",
+                "label": "Shop Our Products",
+                "default": "Type page Heading"
+            }
+        ],
+
+    "presets": [
+            {
+                "category": "Adnan Custom",
+                "name":"Biznus Product Section"
+            }
+        ]
+}
+
 {% endschema %}
 
 {% stylesheet %}
