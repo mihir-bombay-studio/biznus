@@ -6,17 +6,17 @@
         <div class="featured-content">
             <a href="" class="content-btn">
                 <div class="content-wrap">
-                    <img class="featured-item-img" src="{{product.featured_image | img_url:"large"}}">
+                    <img class="featured-item-img" src="{{section.settings.product.featured_image | img_url:"large"}}">
 
                     <div class="featured-item-badge">
                         {{section.settings.featured-item-badge}}
                     </div>
                     <div class="item-details">
                         <div class="item-name-tag">
-                            {{product.title}}
+                            {{section.settings.product.title}}
                         </div>
                         <div class="item-price-tag">
-                            {{product.price | money_with_currency}}
+                            {{section.settings.product.price | money_with_currency}}
                         </div>
                     </div>
                     <div class="featured-item-img-gradient"></div>
