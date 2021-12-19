@@ -1,12 +1,60 @@
 {{ 'shop-section-featured.css' | asset_url | stylesheet_tag }}
 
+<div class="featured-item-section">
+    
+    <div class="featured-item-container">
+        <div class="featured-content">
+            <a href="" class="content-btn">
+                <div class="content-wrap">
+                    <img class="featured-item-img" src="{{product.featured_image}}">
 
+                    <div class="featured-item-badge">
+                        {{section.settings.featured-item-badge}}
+                    </div>
+                    <div class="item-details">
+                        <div class="item-name-tag">
+                            {{product.title}}
+                        </div>
+                        <div class="item-price-tag">
+                            {{product.price | money_with_currency}}
+                        </div>
+                    </div>
+                    <div class="featured-item-img-gradient"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+
+{
+    "name": "Featured Product",
+    "settings": [
+            {
+                "type": "text",
+                "id": "featured-item-badge",
+                "label": "Enter Some text here",
+                "default": "Featured item"
+            },
+            {
+                "type": "product",
+                "id":"product",
+                "label":"select any product of your choice"
+            }
+
+        ],
+
+
+
+    "presets": [
+            {
+                "category": "Adnan Custom",
+                "name":"Biznus Featured Product Section"
+            }
+        ]
+}
+
 {% endschema %}
 
 {% stylesheet %}
