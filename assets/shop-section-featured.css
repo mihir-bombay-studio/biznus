@@ -33,6 +33,7 @@
         }
 
         .featured-item-img-gradient {
+          	display: block !important;
             position: absolute;
             left: 0%;
             top: 0%;
