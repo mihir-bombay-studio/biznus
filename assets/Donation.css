@@ -102,11 +102,12 @@
 
 @media screen and (max-width: 479px)
 .donate-wrapper {
-    width: 100%;
+    width:100%;
+  col
 }
 @media screen and (max-width: 767px)
 .donate-wrapper {
-    width: 90%;
+    width:90%;
 }
 @media screen and (max-width: 479px)
 .donate-heading-1 {
