@@ -103,7 +103,7 @@
 @media screen and (max-width: 530px)
 .donate-wrapper {
     width:100%;
-  
+  padding:0;
 }
 
 @media screen and (max-width: 850px)
