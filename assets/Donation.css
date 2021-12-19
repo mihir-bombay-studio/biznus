@@ -105,7 +105,10 @@
     width:100%;
   padding:0;
 }
-
+@media screen and (max-width: 530px)
+.text-block {
+   font-size: 18px; 
+}
 @media screen and (max-width: 850px)
 .donate-wrapper {
     width:90%;
