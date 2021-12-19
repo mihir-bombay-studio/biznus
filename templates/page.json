@@ -11,10 +11,18 @@
       "settings": {
         "title-heading": "Shop Our Products"
       }
+    },
+    "1639921880a9e9c2f6": {
+      "type": "shop-section-featured",
+      "settings": {
+        "featured-item-badge": "Featured item",
+        "product": "white-tent"
+      }
     }
   },
   "order": [
     "main",
-    "1639921062e47d0ab6"
+    "1639921062e47d0ab6",
+    "1639921880a9e9c2f6"
   ]
 }
