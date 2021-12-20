@@ -39,11 +39,30 @@
       ],
       "settings": {
       }
+    },
+    "163999377082da2848": {
+      "type": "about-block2",
+      "blocks": {
+        "e2481e96-fe43-48ac-9c91-4378335aaea5": {
+          "type": "select",
+          "settings": {
+            "pic": "shopify:\/\/shop_images\/q.jpg",
+            "heading": "lifetime warranty",
+            "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e2481e96-fe43-48ac-9c91-4378335aaea5"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "1639977700215ffca7",
-    "163998443043687d57"
+    "163998443043687d57",
+    "163999377082da2848"
   ]
 }
