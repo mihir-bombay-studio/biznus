@@ -27,8 +27,9 @@
         "eae45a43-c769-4bb1-a8f6-9755fd42c355": {
           "type": "select",
           "settings": {
-            "heading": "your-heading",
-            "owner-bio-paragraph": "<p>Details of products<\/p>"
+            "owner-avatar-wrapper": "shopify:\/\/shop_images\/john.png",
+            "heading": "Jahn Doe",
+            "owner-bio-paragraph": "<p>efbebfjbfkgjelagf wehr whh h4 kkuytyrr<\/p>"
           }
         }
       },
