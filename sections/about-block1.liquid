@@ -21,8 +21,31 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "about-block1",
+    "settings": [
+
+		{
+        "id":"why-acme-small-text",
+        "type":"text",
+        "label":"toptext",
+       "default":"your-top text"
+        },
+        {
+            "id":"why-acme-heading",
+            "type":"text",
+            "label":"heading",
+           "default":"your-heading"
+         },
+         {
+            "id":"why-acme-paragraph",
+            "type":"text",
+            "label":"para",
+           "default":"your-paragraph"
+         }
+
+
+
+]
   }
 {% endschema %}
 
