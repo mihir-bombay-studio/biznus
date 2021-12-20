@@ -3,15 +3,15 @@
        <div class="content-section wf-section">
             <div class="container">
 
-			
+		{% for blocks in section.blocks %}	
                 <div class="owner-bios-wrapper">
                     <div class="owner-bio">
 
                         <div class="owner-avatar-wrapper">
-                            <img src=" {{section.settings.owner-avatar-wrapper |img_url:'large' }}"  >
+                            <img src=" {{blocks.settings.owner-avatar-wrapper |img_url:'large' }}"  >
                         </div>
-                        <h3 class="heading">{{section.settings.heading}}</h3>
-                        <p class="owner-bio-paragraph">{{section.settings.owner-bio-paragraph}}
+                        <h3 class="heading">{{blocks.settings.heading}}</h3>
+                        <p class="owner-bio-paragraph">{{blocks.settings.owner-bio-paragraph}}
                            
                         </p>
 
@@ -21,7 +21,7 @@
              </div>
           </div>
 
-
+		{% endfor %}
 
 
 
@@ -31,32 +31,45 @@
 	
     "settings": [ 
 
-		{
+],
+	
+	"blocks":[
+        {
+            "name":"about-block4",
+             "type":"select",
+            "settings":[
+            {
                 "id":"owner-avatar-wrapper",
                 "type":"image_picker",
                 "label":"imagepic"
                  
-        },
-		{
+           },
+		   {
                 "id":"heading",
                 "type":"text",
                 "label":"headings",
                "default":"your-heading"
-         },
+           },
 		
-		 {
+		  {
                 "id":"owner-bio-paragraph",
                 "type":"richtext",
                 "label":"paragraph",
 				"default":"<p>Details of products</p>"
-         }
+          }
+
+                    
+            ]
 
 
-],
+        }
+  ],
+
+
 
 "presets": [
                 {
-                    "category": "about",
+                    "category": "about block4",
                     "name":"about-block4"
 
                 }
