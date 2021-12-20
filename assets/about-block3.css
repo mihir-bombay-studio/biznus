@@ -1,6 +1,6 @@
 body {
     font-family: Sen, sans-serif;
-    
+    color: #333;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -112,4 +112,5 @@ p {
     margin-bottom: 10px;
 }
 .heading{
-  color: #f9f9f9;}
+  color: #f9f9f9;
+}
