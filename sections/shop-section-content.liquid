@@ -58,7 +58,7 @@
                                         <div class="price">
                                             <div class="product-price">{{product.price | money_with_currency}}</div>
                                             {% if product.compare_at_price_max != 0 %}
-                                            <div class="product-discount1">{{ product.compare_at_price_max |  money_with_currency }}</div>
+                                            <div class="product-discount">{{ product.compare_at_price_max |  money_with_currency }}</div>
                                             {% endif %}
                                         </div>
 
