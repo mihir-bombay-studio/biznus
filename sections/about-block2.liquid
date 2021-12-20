@@ -25,11 +25,50 @@
     "name": "about-block2",
     "settings": [
 
- 			
+],
+"blocks":[
+        {
+            "name":"about-block4",
+             "type":"select",
+            "settings":[
+            {
+                "id":"owner-avatar-wrapper",
+                "type":"image_picker",
+                "label":"imagepic"
+                 
+           },
+		   {
+                "id":"heading",
+                "type":"text",
+                "label":"headings",
+               "default":"your-heading"
+           },
+		
+		  {
+                "id":"owner-bio-paragraph",
+                "type":"richtext",
+                "label":"paragraph",
+				"default":"<p>Details of products</p>"
+          }
+
+                    
+            ]
+
+
+        }
+  ],
+
+"presets": [
+                {
+                    "category": "about block4",
+                    "name":"about-block4"
+
+                }
+            ]
 
 
 
-]
+
   }
 {% endschema %}
 
