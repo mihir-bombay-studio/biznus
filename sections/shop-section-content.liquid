@@ -1,11 +1,124 @@
 {{ 'shop-section-content.css' | asset_url | stylesheet_tag }}
 
+<div class="main-content-section">
+
+    <div class="main-content-container">
+        <div class="main-content-container-wrap">
+
+            <div class="shop-menu">
+
+                <div class="menu-heading">
+                    {{secton.settings.menu-heading}}
+                </div>
+
+                <ul class="indicator">
+                    <li data-filter="ALL" class="menu-list-items active">
+                        <a data-filter="ALL" href="#" class="cat-btn">ALL</a>
+                    </li>
+                    <li data-filter="gift" class="menu-list-items">
+                        <a data-filter="gift" href="#" class="cat-btn">Gift Cards</a>
+                    </li>
+                    <li data-filter="tents" class="menu-list-items">
+                        <a data-filter="tents" href="#" class="cat-btn">Tents</a>
+                    </li>
+                    <li data-filter="Accessories" class="menu-list-items">
+                        <a data-filter="Accessories" href="#" class="cat-btn">Accessories</a>
+                    </li>
+                    <li data-filter="Packs" class="menu-list-items">
+                        <a data-filter="Packs" href="#" class="cat-btn">Packs</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="product-list-wrap">
+                <ul class="product-list" id="store-products">
+
+                    {%- for product in section.settings.collection.products -%}
+                    <li data-category="gift" class="item-list gift">
+                        <div class="shop-item-wrap">
+                            <a class="shop-item" href="{{product.url}}">
+                                <div class="shop-imgg">
+                                    <div class="shop-imggg">
+                                        <img class="shop-image" src="{{ product.featured_image | img_url:'1200x'}}">
+                                        {% if product.compare_at_price %}
+                                        <div class="shop-sale">
+                                            Sale
+                                        </div>
+                                        {% else %}
+                                        <div></div>
+                                        {% endif %}
+                                    </div>
+
+                                </div>
+                                <div class="shop-details-wrap">
+                                    <div class="shop-details">
+                                        <div class="shop-item-name">{{ product.title}}</div>
+                                        <div class="price">
+                                            <div class="product-price">{{product.price | money_with_currency}}</div>
+                                            {% if product.compare_at_price_max != 0 %}
+                                            <div class="product-discount1">{{ product.compare_at_price_max |  money_with_currency }}</div>
+                                            {% endif %}
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </a>
+                            <div class="shop-btn-wrap">
+                                <a class="shop-btn aaa" href="{{product.url}}">
+                                    Details
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+
+{
+    "name": "Product Content",
+    "settings": [
+            {
+                "type": "text",
+                "id": "menu-heading",
+                "label": "Top shop details goes here",
+                "default": "Shop by Category"
+
+            },
+            {
+                "type": "text",
+                "id": "shop-btn",
+                "label": "Type some text for button",
+                "default": "Details"
+            },
+            {
+                "type": "collection",
+                "id":"collection",
+                "label":"collection here"
+            }
+           
+        ],
+
+
+
+    "presets": [
+            {
+                "category": "Adnan Custom",
+                "name":"Product Content Section"
+            }
+        ]
+}
+
 {% endschema %}
 
 {% stylesheet %}
