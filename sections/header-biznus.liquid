@@ -4,24 +4,27 @@
     <div class="biznus-header-block">
         <div class="biznus-header-container">
             <div class="biznus-header-container-wrap">
+                {%if section.settings.logo == blank %}
+                <img src="https://biznus-theme.myshopify.com/admin/themes/129473151221?key=assets/logonav.svg">
+                {%else%}
                 <a href="https://bit.ly/MeetAdnan" class="logo">
-                    <img class="biznus-logo" src="{{section.settings.logo |  img_url: '100x'}}">
+                    <img class="biznus-logo" src="{{section.settings.logo |  img_url: '30x'}}">
                 </a>
+                {%endif%}
                 <div class="biznus-header-rightside">
                     <nav class="biznus-header-nav">
-                        {% for link in linklists.main-menu.links %}
-                        <a href= "{{ link.url }}">{{ link.title }}</a>
+                        {% for link in section.settings.menu %}
+                        <a class="biznus-home-list" href="{{ link.url }}">{{ link.title }}</a>
                         {% endfor %}
                     </nav>
                     <nav id="mySidenav" class="sidenav" class="biznus-header-nav">
-                        {% for link in linklists.main-menu.links %}
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
-                        <a href= "{{ link.url }}">{{ link.title }}</a>
+                        {% for link in section.settings.menu %}
+                        <a  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
+                        <a class="biznus-home-list" href="{{ link.url }}">{{ link.title }}</a>
                         {% endfor %}
                     </nav>
                     <a href="{{section.settings.link-cart}}" class="cart-btn">
-<!--                         <img class="cart-icon" src=""> -->
-                      {%include "icon-cart-1"%}
+                        {%include "icon-cart-1"%}
                         <div class="items-in-cart">{{cart.item_count}}</div>
                     </a>
                     <span class="nav-btn" onclick="openNav()">&#9776;</span>
@@ -59,11 +62,6 @@
             "type": "url",
             "id": "link-cart",
             "label": "cart page url here"
-        },
-        {
-            "type": "image_picker",
-            "id": "cart",
-            "label": "select icon"
         }
 
     ]
