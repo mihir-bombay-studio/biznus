@@ -13,12 +13,12 @@
                 {%endif%}
                 <div class="biznus-header-rightside">
                     <nav class="biznus-header-nav">
-                        {% for link in section.settings.menu %}
+                        {% for link in linklists.main-menu.links %}
                         <a class="biznus-home-list" href="{{ link.url }}">{{ link.title }}</a>
                         {% endfor %}
                     </nav>
                     <nav id="mySidenav" class="sidenav" class="biznus-header-nav">
-                        {% for link in section.settings.menu %}
+                        {% for link in linklists.main-menu.links %}
                         <a  href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
                         <a class="biznus-home-list" href="{{ link.url }}">{{ link.title }}</a>
                         {% endfor %}
