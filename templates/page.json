@@ -55,8 +55,8 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/w.jpg",
-            "heading": "your-heading",
-            "para": "<p>Details of products<\/p>"
+            "heading": "Shopping Experience",
+            "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
           }
         }
       },
