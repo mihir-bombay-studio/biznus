@@ -18,11 +18,20 @@
         "featured-item-badge": "Featured item",
         "product": "white-tent"
       }
+    },
+    "16399893696f1a3031": {
+      "type": "shop-section-content",
+      "settings": {
+        "menu-heading": "Shop by Category",
+        "shop-btn": "Details",
+        "collection": "adnans-cool-shoe-collection"
+      }
     }
   },
   "order": [
     "main",
     "1639921062e47d0ab6",
-    "1639921880a9e9c2f6"
+    "1639921880a9e9c2f6",
+    "16399893696f1a3031"
   ]
 }
