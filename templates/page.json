@@ -50,10 +50,19 @@
             "heading": "lifetime warranty",
             "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
           }
+        },
+        "6b23552d-c45a-4fc2-80b0-9e6992683f7a": {
+          "type": "select",
+          "settings": {
+            "pic": "shopify:\/\/shop_images\/w.jpg",
+            "heading": "your-heading",
+            "para": "<p>Details of products<\/p>"
+          }
         }
       },
       "block_order": [
-        "e2481e96-fe43-48ac-9c91-4378335aaea5"
+        "e2481e96-fe43-48ac-9c91-4378335aaea5",
+        "6b23552d-c45a-4fc2-80b0-9e6992683f7a"
       ],
       "settings": {
       }
