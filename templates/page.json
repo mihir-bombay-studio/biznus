@@ -20,7 +20,7 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/q.jpg",
-            "heading": "Lifetime warranty",
+            "headings": "Lifetime Warranty",
             "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
           }
         },
@@ -28,7 +28,7 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/w.jpg",
-            "heading": "Shopping Experience",
+            "headings": "Shopping Experience",
             "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
           }
         },
@@ -36,7 +36,7 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/e.jpg",
-            "heading": "On time Delivery",
+            "headings": "On-time Delivery",
             "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty<\/p>"
           }
         },
@@ -44,7 +44,7 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/r.jpg",
-            "heading": "Best in Class Service",
+            "headings": "On-time Delivery",
             "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
           }
         }
