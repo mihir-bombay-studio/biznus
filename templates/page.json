@@ -13,33 +13,6 @@
         "why-acme-paragraph": "From more than 30 years, we’ve been leading the way across Oklahoma — creating the best possible customer experience since 1989."
       }
     },
-    "163998443043687d57": {
-      "type": "about-block4",
-      "blocks": {
-        "001dd93e-a838-41fd-9157-24b1cf546d88": {
-          "type": "select",
-          "settings": {
-            "owner-avatar-wrapper": "shopify:\/\/shop_images\/doe.png",
-            "heading": "John Doe",
-            "owner-bio-paragraph": "<p> Loespis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .<\/p>"
-          }
-        },
-        "eae45a43-c769-4bb1-a8f6-9755fd42c355": {
-          "type": "select",
-          "settings": {
-            "owner-avatar-wrapper": "shopify:\/\/shop_images\/john.png",
-            "heading": "Jahn Doe",
-            "owner-bio-paragraph": "<p>Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "001dd93e-a838-41fd-9157-24b1cf546d88",
-        "eae45a43-c769-4bb1-a8f6-9755fd42c355"
-      ],
-      "settings": {
-      }
-    },
     "163999377082da2848": {
       "type": "about-block2",
       "blocks": {
@@ -84,12 +57,39 @@
       ],
       "settings": {
       }
+    },
+    "163998443043687d57": {
+      "type": "about-block4",
+      "blocks": {
+        "001dd93e-a838-41fd-9157-24b1cf546d88": {
+          "type": "select",
+          "settings": {
+            "owner-avatar-wrapper": "shopify:\/\/shop_images\/doe.png",
+            "heading": "John Doe",
+            "owner-bio-paragraph": "<p> Loespis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .<\/p>"
+          }
+        },
+        "eae45a43-c769-4bb1-a8f6-9755fd42c355": {
+          "type": "select",
+          "settings": {
+            "owner-avatar-wrapper": "shopify:\/\/shop_images\/john.png",
+            "heading": "Jahn Doe",
+            "owner-bio-paragraph": "<p>Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic .<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "001dd93e-a838-41fd-9157-24b1cf546d88",
+        "eae45a43-c769-4bb1-a8f6-9755fd42c355"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "1639977700215ffca7",
-    "163998443043687d57",
-    "163999377082da2848"
+    "163999377082da2848",
+    "163998443043687d57"
   ]
 }
