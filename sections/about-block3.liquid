@@ -1,7 +1,69 @@
+{{ 'about-block3.css' | asset_url | stylesheet_tag }}
+
+    <div class="content-section3 wf-section">
+        <div class="container shop-local-container">
+            <div class="content-wrapper">
+                <div class="meet-the-owners-wrapper">
+                    <div class="meet-the-owners-left">
+                                <img src=" {{blocks.settings.meet-the-owners-left |img_url:'medium' }}"  >
+                                
+                    </div>
+                    <div class="meet-the-owners-right">
+
+                        <div class="owners-rich-text w-richtext">
+
+                            <h2 class="heading">{{section.settings.heading}}</h2>
+                            <p class="paragraph">{{section.settings.paragraph}}
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "about block3",
+    "settings": [
+                {
+                "id":"meet-the-owners-left",
+                "type":"image_picker",
+                "label":"imagepic"
+                 
+                },
+      			 {
+                "id":"heading",
+                "type":"text",
+                "label":"Heading",
+                "default":"My heading"
+                },
+                
+                {
+                "id":"paragraph",
+                "type":"richtext",
+                "label":"type paragraph",
+				"default":"<p>Details of products</p>"
+                }
+
+
+],
+      
+"presets": [
+                {
+                    "category": "about",
+                    "name":"about-block3"
+
+                }
+            ]
+
+
+      
   }
 {% endschema %}
 
