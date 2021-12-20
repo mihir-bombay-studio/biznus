@@ -63,8 +63,8 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/e.jpg",
-            "heading": "your-heading",
-            "para": "<p>Details of products<\/p>"
+            "heading": "On time Delivery",
+            "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty<\/p>"
           }
         }
       },
