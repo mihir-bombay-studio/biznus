@@ -1,0 +1,56 @@
+body {
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+ }
+ .content-section why-acme-sections {
+    padding-bottom: 0px;
+ }
+ 
+ .content-section1 {
+    padding-top: 65px;
+    
+ }
+ 
+ .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+ .why-acme-block {
+ 
+    display: flex;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    flex-direction: column;
+    align-items: center;
+ }
+ .why-acme-small-text {
+    font-size: 14px;
+    text-transform: uppercase;
+ }
+ .why-acme-heading {
+    text-align: center;
+ }
+ h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+ }
+ .why-acme-paragraph {
+    text-align: center;
+ }
+ 
+ p {
+    margin-top: 0;
+    margin-bottom: 10px;
+ }
+ 
+ 
