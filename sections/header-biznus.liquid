@@ -1,15 +1,60 @@
 {{ 'header-biznus.css' | asset_url | stylesheet_tag }}
 
+<div class="menu-wrap">
+    <div class="biznus-header-block">
+        <div class="biznus-header-container">
+            <div class="biznus-header-container-wrap">
+                <a href="https://bit.ly/MeetAdnan" class="logo">
+                    <img class="biznus-logo" src="{{section.settings.logo |  img_url: '1200x'}}">
+                </a>
+                <div class="biznus-header-rightside">
+                    <nav class="biznus-header-nav">
+                        {% for link in linklists.main-menu.links %}
+                        <a href= "{{ link.url }}">{{ link.title }}</a>
+                        {% endfor %}
+                    </nav>
+                    <nav id="mySidenav" class="sidenav" class="biznus-header-nav">
+                        {% for link in linklists.main-menu.links %}
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
+                        <a href= "{{ link.url }}">{{ link.title }}</a>
+                        {% endfor %}
+                    </nav>
+                    <a href="" class="cart-btn">
+                        <img class="cart-icon" src="CartIcon.svg">
+                        <div class="items-in-cart">0</div>
+                    </a>
+                    <span class="nav-btn" onclick="openNav()">&#9776;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% javascript %}
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+{% endjavascript %}
+
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "t:sections.header.name",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "t:sections.header.settings.logo.label"
+        },
+        {
+            "type": "link_list",
+            "id": "menu",
+            "default": "main-menu",
+            "label": "t:sections.header.settings.menu.label"
+        }
+    ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
