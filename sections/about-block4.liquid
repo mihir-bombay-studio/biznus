@@ -33,7 +33,32 @@
 {% schema %}
   {
     "name": "about block4",
-    "settings": []
+    "settings": [ 
+		{
+        "id":"heading",
+        "type":"text",
+        "label":"headings",
+       "default":"your-heading"
+         },
+		
+		 {
+                "id":"owner-bio-paragraph",
+                "type":"richtext",
+                "label":"paragraph",
+				"default":"<p>Details of products</p>"
+         }
+
+
+],
+
+"presets": [
+                {
+                    "category": "about-block4",
+                    "name":"support-section"
+
+                }
+            ]
+
   }
 {% endschema %}
 
