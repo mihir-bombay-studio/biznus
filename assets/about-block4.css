@@ -10,12 +10,6 @@ body {
     padding-bottom: 65px;
 }
 
-@media screen and (max-width: 991px){
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-}
 .container {
     max-width: 1200px;
     margin-right: auto;
@@ -23,6 +17,13 @@ body {
     padding-right: 15px;
     padding-left: 15px;
 }
+@media screen and (max-width: 991px){
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
 .owner-bios-wrapper {
    
     display: flex;
