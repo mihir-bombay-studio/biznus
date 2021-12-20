@@ -4,13 +4,16 @@
     <div class="biznus-header-block">
         <div class="biznus-header-container">
             <div class="biznus-header-container-wrap">
-                {%if section.settings.logo == blank %}
-<!--                 <img src="https://biznus-theme.myshopify.com/admin/themes/129473151221?key=assets/logonav.svg"> -->
-                {%else%}
+                {%- if section.settings.logo != blank -%}
                 <a href="https://bit.ly/MeetAdnan" class="logo">
                     <img class="biznus-logo" src="{{section.settings.logo |  img_url: '30x'}}">
                 </a>
-                {%endif%}
+                {%- else -%}
+                <div class="logo">
+                    {%- include "compamy-logo" -%}
+                </div>
+                {%- endif -%}
+                
                 <div class="biznus-header-rightside">
                     <nav class="biznus-header-nav">
                         {% for link in linklists.main-menu.links %}
