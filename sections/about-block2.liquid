@@ -3,7 +3,7 @@
 <div class="content-section2 wf-section">
      <div class="container">
        <div class="about-columns-wrapper">
-
+				{% for blocks in section.blocks %}
 
                 <div class="about-column">
                   	<div class="pic">
@@ -16,6 +16,7 @@
                         {{blocks.section.settings.para}}
                     </p>
                 </div>
+              {% endfor %}
       </div>
     </div>          
 </div>
