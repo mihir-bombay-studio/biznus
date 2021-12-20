@@ -9,7 +9,7 @@
 
                         <div class="owner-avatar-wrapper">
                             <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84d114eef39554b0e943d8_John%20Doe.png"
-                                alt="coowner john dea">
+                                alt="coowner john dea" >
                         </div>
                         <h3 class="heading">{{section.settings.heading}}</h3>
                         <p class="owner-bio-paragraph">{{section.settings.owner-bio-paragraph}}
@@ -34,11 +34,18 @@
   {
     "name": "about block4",
     "settings": [ 
+
 		{
-        "id":"heading",
-        "type":"text",
-        "label":"headings",
-       "default":"your-heading"
+                "id":"owner-avatar-wrapper",
+                "type":"image_picker",
+                "label":"imagepic"
+                 
+        },
+		{
+                "id":"heading",
+                "type":"text",
+                "label":"headings",
+               "default":"your-heading"
          },
 		
 		 {
