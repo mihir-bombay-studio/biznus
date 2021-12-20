@@ -7,9 +7,8 @@
                 <div class="owner-bios-wrapper">
                     <div class="owner-bio">
 
-                        <div class="owner-avatar-wrapper">{{section.settings.owner-avatar-wrapper}}
-                            <!--<img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84d114eef39554b0e943d8_John%20Doe.png"
-                                alt="coowner john dea" -->
+                        <div class="owner-avatar-wrapper">
+                            <img src=" {{section.settings.owner-avatar-wrapper |img_url:'large' }}"  >
                         </div>
                         <h3 class="heading">{{section.settings.heading}}</h3>
                         <p class="owner-bio-paragraph">{{section.settings.owner-bio-paragraph}}
@@ -29,7 +28,7 @@
 {% schema %}
   {
     "name": "about block4",
- 	
+	
     "settings": [ 
 
 		{
