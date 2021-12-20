@@ -20,7 +20,7 @@
           "type": "select",
           "settings": {
             "pic": "shopify:\/\/shop_images\/q.jpg",
-            "heading": "lifetime warranty",
+            "heading": "Lifetime warranty",
             "para": "<p>All our products — whether we make them or not — are backed by our lifetime warranty.<\/p>"
           }
         },
