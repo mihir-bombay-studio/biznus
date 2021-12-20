@@ -84,21 +84,12 @@
       ],
       "settings": {
       }
-    },
-    "16399968325bbb8fae": {
-      "type": "about-block3",
-      "settings": {
-        "meet-the-owners-left": "shopify:\/\/shop_images\/5.jpg",
-        "heading": "Meet the owners",
-        "paragraph": "<p>John and Jane met on a backpacking adventure in Nepal. John, a former sheep shearer, went on the trip to get some clarity about his next adventures in life. Jane — a Peloton instructor — went on the trip to explore the landscape in Nepal.<br\/><\/p>"
-      }
     }
   },
   "order": [
     "main",
     "1639977700215ffca7",
     "163999377082da2848",
-    "163998443043687d57",
-    "16399968325bbb8fae"
+    "163998443043687d57"
   ]
 }
