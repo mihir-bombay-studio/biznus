@@ -1,4 +1,4 @@
- .biznus-header-block {
+	   .biznus-header-block {
             padding-top: 20px;
             padding-bottom: 20px;
             background-color: #eb5757;
@@ -49,7 +49,8 @@
             height: 20px;
             vertical-align: middle;
         }
-                .cart-icon {
+               
+		.cart-icon {
             width: 100%;
             vertical-align: middle;
             max-width: 20px;
