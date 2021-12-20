@@ -19,8 +19,8 @@
                         <a href= "{{ link.url }}">{{ link.title }}</a>
                         {% endfor %}
                     </nav>
-                    <a href="" class="cart-btn">
-                        <img class="cart-icon" src="CartIcon.svg">
+                    <a href="{{section.settings.link-cart}}" class="cart-btn">
+                        <img class="cart-icon" src="{{section.settings.cart | img_url: '1200x'}}">
                         <div class="items-in-cart">0</div>
                     </a>
                     <span class="nav-btn" onclick="openNav()">&#9776;</span>
@@ -29,7 +29,7 @@
         </div>
     </div>
 </div>
-{% javascript %}
+<script>
     function openNav() {
         document.getElementById("mySidenav").style.width = "100%";
     }
@@ -37,8 +37,7 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
-{% endjavascript %}
-
+</script>
 
 {% schema %}
 {
@@ -54,7 +53,18 @@
             "id": "menu",
             "default": "main-menu",
             "label": "t:sections.header.settings.menu.label"
+        },
+        {
+            "type": "url",
+            "id": "link-cart",
+            "label": "cart page url here"
+        },
+        {
+            "type": "image_picker",
+            "id": "cart",
+            "label": "select icon"
         }
+
     ]
 }
 {% endschema %}
