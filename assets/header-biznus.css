@@ -26,7 +26,8 @@
         }
 
         .biznus-logo {
-            vertical-align: middle;
+          vertical-align: middle;
+          display:flex;
         }
 
         .biznus-header-rightside {
