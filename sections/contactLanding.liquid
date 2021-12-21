@@ -1,7 +1,84 @@
+{{ 'contactLanding.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="mainContactContainer">
+    <div class="mainContactContainerWrapper">
+        <div class="contactContainer">
+            <h1 class="contactHeading">Contact Acme Outdoors</h1>
+            <div class="blockWrapper">
+                {% for block in section.blocks %}
+                <div class="contactBlock">
+
+                    <img src="{{ block.settings.iconImage |  image_url: width: 48, height: 48 }}" class="contactIcon"/>
+                    <h2>{{ block.settings.heading }}</h2>
+                    <p> {{ block.settings.paragraph }} </p>
+                    <a href="#" class="contactButton">Send Us a message!</a>
+                </div>
+                {% endfor %}
+            
+            </div>
+            </div>
+            <div class="contactImage" style="background-image: linear-gradient(90deg, #222, rgba(34, 34, 34, 0.18) 76%),url({{section.settings.image_section |  img_url: '600x'  }})"> </div>
+
+        </div>
+    </div>
+</div>
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Contact form section",
+    "max_blocks":2,
+    "settings": [
+    {
+        "id":"image_section",
+        "type":"image_picker",
+        "label":"select image"
+    }
+    ],
+    "blocks":[{
+        "type": "select",
+        "name": "select",
+        "settings":[
+            {
+                "id":"heading",
+                "type":"text",
+                "label":"Heading", 
+                "default":"Contact Us"
+            
+            },
+            {
+                "id":"paragraph",
+                "type":"text",
+                "label":"Paragraph", 
+                "default":"Just want to say hi? We'd love to hear from you. We love our customers and community!"
+            
+            },
+            {
+                "id":"iconImage",
+                "type":"image_picker",
+                "label":"select image"
+            }
+
+        ]
+    }],
+    "presets":[
+        {   
+            "name":"Contact form Section",
+            "category":"Contact form Section",
+	        "blocks" : [
+                {
+                    "type":"select"
+                },
+                {
+                    "type":"select"
+                }
+
+            ]
+        }
+    ]
   }
 {% endschema %}
 
@@ -10,3 +87,5 @@
 
 {% javascript %}
 {% endjavascript %}
+
+
