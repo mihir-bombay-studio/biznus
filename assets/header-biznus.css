@@ -45,6 +45,7 @@
             padding-left: 15px;
             padding-right: 15px;
             border-radius: 5px;
+          	display: flex;
         }
 
         .cart-icon {
