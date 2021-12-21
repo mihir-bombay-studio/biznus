@@ -105,7 +105,7 @@
                   <input class="inputBox" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Enter your name">
                   <!-- <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label> -->
                 </div>
-                <div class="field field--with-error">
+                <div class="">
                   <label for="email" >Email</label>
                   <input
                     autocomplete="email"
