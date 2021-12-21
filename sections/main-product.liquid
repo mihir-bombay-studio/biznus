@@ -59,7 +59,7 @@
           data-shopify-model3d-id="{{ first_3d_model.id }}"
           data-shopify-title="{{ product.title | escape }}"
           data-shopify-xr-hidden
-        >
+        ><p>"hiiii"</p>
           {% render 'icon-3d-model' %}
           {{ 'products.product.xr_button' | t }}
         </button>
@@ -94,7 +94,7 @@
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
-                {{ product.description }} <p>"hiiii"</p>
+                {{ product.description }} 
               </div>
             {%- endif -%}
           {%- when 'custom_liquid' -%}
