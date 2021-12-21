@@ -98,6 +98,10 @@ textarea {
 
 }
 
+.inputBox:focus{
+ 	border-color: #eb5757;
+}
+
 textarea.inputBox{
     height: 58px;
 }
