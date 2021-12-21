@@ -84,12 +84,21 @@
       ],
       "settings": {
       }
+    },
+    "1640088498377a575b": {
+      "type": "about-block3",
+      "settings": {
+        "meet-the-owners-left": "shopify:\/\/shop_images\/5.jpg",
+        "head": "My heading",
+        "lines": "<p>Details of products<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "1639977700215ffca7",
     "163999377082da2848",
-    "163998443043687d57"
+    "163998443043687d57",
+    "1640088498377a575b"
   ]
 }
