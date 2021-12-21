@@ -11,7 +11,7 @@
      <div class="contain">
  {% for blocks in section.blocks %}    
 <div class="column1">
-  <div class="square">
+  <div class="square" style="background-color:{{blocks.settings.square}};">
       <div class="nos">0{{ forloop.index}}</div>
       <div class="headings">{{blocks.settings.heading}}</div>
       <div class="images{{ forloop.index}}">
@@ -62,6 +62,12 @@
                 "type":"text",
                 "label":"Heading",
                 "default":"My heading"
+                },
+				{
+                "id":"square",
+                "type":"color",
+                "label":"select color",
+                "default":"#333"
                 },
                 {
                 "id":"images",
