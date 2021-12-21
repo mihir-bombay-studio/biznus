@@ -82,7 +82,7 @@
             }
         }
         
-        @media screen and (max-width: 479px) {
+        @media screen and (max-width: 520px) {
           .hero-heading {
             font-size: 30px;
             width: 60%;
@@ -102,10 +102,10 @@
           } */
         }
 
-        @media screen and (max-width: 520px) {
+/*         @media screen and (max-width: 520px) {
           .container{
            margin-top: 210px;
           }
 
         }
- 
+  */
