@@ -83,19 +83,23 @@
         }
         
         @media screen and (max-width: 479px) {
-            .hero-heading {
-                font-size: 30px;
-                width: 60%;
-            
+          .hero-heading {
+            font-size: 30px;
+            width: 60%;
+
             }
-            .hero-para{
-                font-size: 13px;
-                width:70%;
-            }
-            .hero-wrapper {
-                justify-content: flex-end;
-   
-        }
+          .hero-para{
+            font-size: 13px;
+            width:70%;
+          }
+          .hero-wrapper {
+            justify-content: flex-end;
+
+          }
+          .hero-section{
+            background-size: auto;
+            background-position: 48% 70%;
+          }
         }
 
         @media screen and (max-width: 570px) {
