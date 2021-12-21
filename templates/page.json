@@ -84,12 +84,20 @@
       ],
       "settings": {
       }
+    },
+    "16400874881844385b": {
+      "type": "about-block3",
+      "settings": {
+        "head": "My heading",
+        "lines": "<p>Details of products<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "1639977700215ffca7",
     "163999377082da2848",
-    "163998443043687d57"
+    "163998443043687d57",
+    "16400874881844385b"
   ]
 }
