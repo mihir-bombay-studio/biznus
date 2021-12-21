@@ -96,13 +96,13 @@
             justify-content: flex-end;
 
           }
-          .hero-section{
+/*           .hero-section{
             background-size: auto;
             background-position: 48% 70%;
           }
         }
-
-        @media screen and (max-width: 570px) {
+ */
+        @media screen and (max-width: 520px) {
           .container{
            margin-top: 210px;
           }
