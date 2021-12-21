@@ -113,18 +113,11 @@
 
           }
         }
-      @media screen and (max-width: 417px) {
+      @media screen and (max-width: 396px) {
 
           .container{
             margin-top: 243px;
 
           }
         }
-/*       @media screen and (max-width: 333px) {
-
-          .container{
-            margin-top: 275px;
-
-          }
-        } */
 
