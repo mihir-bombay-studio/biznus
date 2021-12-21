@@ -3,6 +3,7 @@
 <div class="header-fixed">
     <div class="menu-wrap">
         <div class="announce-block">
+            {% for blocks in section.blocks %}
             <a class="announce" href="{{blocks.settings.announce}}">
                 <div class="announce-container">
                     <div class="announce-container-wrap">
@@ -15,6 +16,7 @@
                     </div>
                 </div>
             </a>
+            {% endfor %}
         </div>
       </div>
     <div class="menu-wrap">
