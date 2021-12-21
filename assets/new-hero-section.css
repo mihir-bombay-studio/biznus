@@ -101,7 +101,7 @@
         @media screen and (max-width: 991px) {
 
           .container{
-            margin-top: 183px;
+            margin-top: 180px;
 
           }
         }
@@ -109,14 +109,14 @@
         @media screen and (max-width: 520px) {
 
           .container{
-            margin-top: 210px;
+            margin-top: 200px;
 
           }
         }
       @media screen and (max-width: 396px) {
 
           .container{
-            margin-top: 243px;
+            margin-top: 227px;
 
           }
         }
