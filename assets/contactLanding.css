@@ -1,0 +1,195 @@
+body {
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.mainContactContainer{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #222;
+    color: #f9f9f9;
+}
+
+.mainContactContainerWrapper{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 991px){
+    .mainContactContainerWrapper{
+        flex-direction: column-reverse;
+    
+    }
+}
+
+.contactContainer{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px; 
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+@media (max-width: 991px){
+
+    .contactContainer{
+        padding-right: 15px;
+        padding-left: 15px;
+        position: static;
+        padding-bottom: 35px;
+    }
+}
+
+.contactHeading{
+    margin-top: 55px;
+}
+
+.blockWrapper{
+    display: flex;
+
+}
+
+@media (max-width: 991px){
+
+    .blockWrapper{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px){
+
+    .blockWrapper{
+        flex-direction: column;
+    }
+}
+
+.contactBlock{
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #222;
+    text-align: center;
+    display: flex;
+    width: 30%;
+    min-height: 350px;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding: 40px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px){
+
+    .contactBlock{
+        width: 48%;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .contactBlock{
+        width: 100%;
+    }
+}
+
+.contactIcon{
+    margin-bottom: 30px;   
+}
+
+.contactButton{
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    background-color: #eb5757;
+    -webkit-transition: border-color 300ms ease, background-color 300ms ease;
+    transition: border-color 300ms ease, background-color 300ms ease;
+    font-weight: 700;
+    display: inline-block;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.contactButton:hover{
+    background-color: #222;
+    border-color: #222;
+}
+
+
+.contactImage{
+    /* background-image: linear-gradient(90deg, #222, rgba(34, 34, 34, 0.18) 76%), url("	https://assets.website-files.com/5e7ff3ec0c4ef4c97…nicius-amano-4mK2KVuYrDs-unsplash%20(1)%20(1).jpg"); */
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    width: 45%;
+    height: 550px;
+}
+
+@media (max-width:991px){
+    .contactImage{
+        width: 100%;
+        height: 350px;
+        background-position: 0px 0px, 50% 35%;
+    }
+}
+
+
+@media (max-width: 767px){
+    .contactImage{
+        width: 100%;
+        height: 350px;
+        background-position: 0px 0px, 50% 35%;
+    }
+
+}
+@media (max-width: 479px){
+    .contactImage{
+        background-position: 0px 0px, 50% 50%;
+    }
+
+}
+
+
