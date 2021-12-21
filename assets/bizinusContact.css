@@ -1,0 +1,145 @@
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+input{
+    font: inherit;
+    margin: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.contactFormMainContainer{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.contactFormContainer{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contactFormWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:991px){
+    .contactFormWrapper{
+        flex-direction: column;
+    }
+}
+
+.contactLeft{
+    width: 30%;
+}
+@media (max-width:991px){
+
+    .contactLeft{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.contactRight{
+    width: 70%;
+    padding-left: 20px;
+}
+@media (max-width:991px){
+
+    .contactRight{
+        width: 100%;
+        padding-left: 0px;
+        }
+}
+
+.formWrapper{
+    margin: 0 0 15px;
+}
+
+.inputBox{
+    border: 1px solid #222;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    /* vertical-align: middle; */
+    background-color: #ffffff;
+
+}
+
+textarea.inputBox{
+    height: 58px;
+}
+
+.submitButton{
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    background-color: #eb5757;
+    transition: border-color 300ms ease, background-color 300ms ease;
+    font-weight: 700;
+    display: inline-block;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+	border-color: #333;
+    background-color: #333;
+}
+
+.formSuccess{
+    display: none;
+    padding: 20px;
+    text-align: center;
+    min-height: 280px;
+    padding-top: 125px;
+    border-radius: 5px;
+    background-color: #20c788;
+    color: #f9f9f9;
+}
+
+.formFail{
+    border-radius: 5px;
+    background-color: #e53935;
+    color: #f9f9f9;
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+}
