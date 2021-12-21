@@ -23,3 +23,32 @@
             margin: 10px 0px;
         }
         
+        @media screen and (max-width: 991px) {
+
+          .title-section-container{
+            margin-top: 188px;
+
+          }
+        }
+
+        @media screen and (max-width: 541px) {
+
+          .title-section-container{
+            margin-top: 210px;
+
+          }
+        }
+      @media screen and (max-width: 417px) {
+
+          .title-section-container{
+            margin-top: 243px;
+
+          }
+        }
+      @media screen and (max-width: 336px) {
+
+          .title-section-container{
+            margin-top: 275px;
+
+          }
+        }
