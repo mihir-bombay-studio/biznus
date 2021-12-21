@@ -29,18 +29,20 @@
 
 
 .donate-heading-1 {
-  	
+  	    font-family: Sen, sans-serif;
     margin-bottom: -5px;
     font-size: 38px;
     font-weight: 800;
     text-align: center;
 }
 .donate-heading-2 {
+      font-family: Sen, sans-serif;
   	margin-bottom: 15px;
     font-size: 30px;
     text-align: center;
 }
 .donate-paragraph {
+      font-family: Sen, sans-serif;
     width: 65%;
     margin-right: auto;
     margin-left: auto;
