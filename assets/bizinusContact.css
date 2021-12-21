@@ -122,6 +122,7 @@ textarea.inputBox{
     line-height: inherit;
     text-decoration: none;
     cursor: pointer;
+  	font-size: inherit;
 }
 
 .submitButton:hover{
