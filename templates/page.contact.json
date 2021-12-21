@@ -39,11 +39,18 @@
       "settings": {
         "heading": "Contact Form"
       }
+    },
+    "1640100785838dc806": {
+      "type": "bizinusFooter",
+      "settings": {
+        "logolink": ""
+      }
     }
   },
   "order": [
     "main",
     "16401007774f1bed02",
-    "form"
+    "form",
+    "1640100785838dc806"
   ]
 }
