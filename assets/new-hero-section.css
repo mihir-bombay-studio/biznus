@@ -108,3 +108,9 @@
           }
 
         }
+        @media screen and (max-width: 1550px) {
+          .container{
+           padding-top: 410px;
+          }
+
+        }
