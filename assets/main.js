@@ -10,7 +10,7 @@ for ( i = 0; i < btns.length; i++) {
         const filter = e.target.dataset.filter;
         // console.log(filter)
         storeProducts.forEach((product) => {
-            if (filter == "ALL") {
+            if (filter == "Shoes") {
                 product.style.display = "block"
             } else {
                 if (product.classList.contains(filter)) {
