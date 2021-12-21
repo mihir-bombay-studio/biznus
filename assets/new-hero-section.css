@@ -98,4 +98,33 @@
           }
 
         }
+        @media screen and (max-width: 991px) {
+
+          .container{
+            margin-top: 188px;
+
+          }
+        }
+
+        @media screen and (max-width: 541px) {
+
+          .container{
+            margin-top: 210px;
+
+          }
+        }
+      @media screen and (max-width: 417px) {
+
+          .container{
+            margin-top: 243px;
+
+          }
+        }
+      @media screen and (max-width: 336px) {
+
+          .container{
+            margin-top: 275px;
+
+          }
+        }
 
