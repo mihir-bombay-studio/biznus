@@ -42,6 +42,17 @@
     },
     "1640100785838dc806": {
       "type": "bizinusFooter",
+      "blocks": {
+        "22557ddc-9db7-4831-994c-43186b7a3d42": {
+          "type": "select",
+          "settings": {
+            "logolink": ""
+          }
+        }
+      },
+      "block_order": [
+        "22557ddc-9db7-4831-994c-43186b7a3d42"
+      ],
       "settings": {
         "logolink": ""
       }
