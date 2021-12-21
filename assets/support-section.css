@@ -84,6 +84,7 @@ body {
 }
 
 .heading {
+  	max-width:317;
     justify-self: center;
     align-self: center;
 }
