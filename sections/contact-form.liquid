@@ -8,7 +8,7 @@
   <div class="contactFormContainer">
       <div class="contactFormWrapper">
           <div class="contactLeft">
-              <h2>Contact Us</h2>
+              <h2>{{ section.settings.leftheading}} </h2>
               <div class="ContactInfo">
                   <p> {{ section.settings.Address1 }} <br> {{ section.settings.Address2 }} <br> {{ section.settings.Address3 }} </p>
                   <p><br> <strong>General Inquiries: </strong>  {{ section.settings.contact1 }} <br> <strong> Customer Support: </strong>  {{ section.settings.contact2 }} </p>
@@ -107,7 +107,7 @@
       "type": "text",
       "id": "heading",
       "default": "Contact form",
-      "label": "Heading"
+      "label": "Right Heading"
     },
 	
 	{
@@ -150,6 +150,13 @@
       "id": "paragraph",
       "default": "Send us a message and we'll get back to you as soon as we can!",
       "label": "Form Subheading"
+
+	},
+	{
+      "type": "text",
+      "id": "leftheading",
+      "default": "Contact Us",
+      "label": "Left Heading"	
 
 	}
 
