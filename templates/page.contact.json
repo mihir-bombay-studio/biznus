@@ -2,7 +2,36 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16401007774f1bed02": {
+      "type": "contactLanding",
+      "blocks": {
+        "1640100777c0ae9d0c-0": {
+          "type": "select",
+          "settings": {
+            "heading": "Contact Us",
+            "paragraph": "Just want to say hi? We'd love to hear from you. We love our customers and community!",
+            "iconImage": "shopify:\/\/shop_images\/iconImage.png"
+          }
+        },
+        "1640100777c0ae9d0c-1": {
+          "type": "select",
+          "settings": {
+            "heading": "Contact Us",
+            "paragraph": "Just want to say hi? We'd love to hear from you. We love our customers and community!",
+            "iconImage": "shopify:\/\/shop_images\/iconImage2.png"
+          }
+        }
+      },
+      "block_order": [
+        "1640100777c0ae9d0c-0",
+        "1640100777c0ae9d0c-1"
+      ],
+      "settings": {
+        "image_section": "shopify:\/\/shop_images\/landingImage.jpg"
       }
     },
     "form": {
@@ -14,6 +43,7 @@
   },
   "order": [
     "main",
+    "16401007774f1bed02",
     "form"
   ]
 }
