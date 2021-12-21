@@ -1,28 +1,28 @@
 {{ 'about-block3.css' | asset_url | stylesheet_tag }}
 
-    <div class="content3-section3 wf-section">
-        <div class="container3 shop-local-container">
-            <div class="content3-wrapper">
-                <div class="meet-the-owners-wrapper">
-                    <div class="meet-the-owners-left">
-                      	
+<div class="content3-section wf-section">
+    <div class="container3 shop-local-container">
+        <div class="content3-wrapper">
+            <div class="meet-the-owners-wrapper">
+                <div class="meet-the-owners-left" style="background-image: url({ section.settings.meet-the-owners-left | img_url:"lagre"});">
+                </div>
+                <div class="meet-the-owners-right">
+                    <div class="owners-rich-text w-richtext">
+                        <h2 class="head">{{section.settings.head}}
+                            
+                        </h2>
+                        <p class="lines">
+                            {{section.settings.lines}}
+                           
+                        </p>
                     </div>
-                    <div class="meet-the-owners-right">
 
-                        <div class="owners-rich-text w-richtext">
-
-                            <h2 class="head">{{section.settings.head}}</h2>
-                            <p class="lines">{{section.settings.lines}}
-                            </p>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+
     </div>
-
-
+</div>.
 
 
 
@@ -30,7 +30,12 @@
   {
     "name": "about block3",
     "settings": [
-
+                {
+                "id":"meet-the-owners-left",
+                "type":"image_picker",
+                "label":"imagepic"
+                 
+                },
       			 {
                 "id":"head",
                 "type":"text",
