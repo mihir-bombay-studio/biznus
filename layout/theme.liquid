@@ -109,6 +109,14 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    
+    
+    
+    <style>
+    	.top-margin{
+        margin-top:150px
+        }
+    </style>
   </head>
 
   <body>
@@ -119,6 +127,7 @@
    {%comment%} {% section 'announcement-bar' %} {%endcomment%}
    {%comment%} {% section 'announcement-bar-biznus' %}{%endcomment%}
     {% section 'header-biznus' %}
+    <div class="top-margin"></div>
     {%comment%}{% section 'header' %}{%endcomment%}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
