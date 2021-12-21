@@ -1,19 +1,19 @@
 {{ 'about-block3.css' | asset_url | stylesheet_tag }}
 
-    <div class="content-section3 wf-section">
-        <div class="container shop-local-container">
-            <div class="content-wrapper">
+    <div class="content3-section3 wf-section">
+        <div class="container3 shop-local-container">
+            <div class="content3-wrapper">
                 <div class="meet-the-owners-wrapper">
                     <div class="meet-the-owners-left">
-                                <img src=" {{section.settings.meet-the-owners-left |img_url:'large' }}" class="left-image"  >
-                                
+<!--                <img src=" {{section.settings.meet-the-owners-left |img_url:'large' }}" class="left-image"  >
+                                 -->
                     </div>
                     <div class="meet-the-owners-right">
 
                         <div class="owners-rich-text w-richtext">
 
-                            <h2 class="heading">{{section.settings.heading}}</h2>
-                            <p class="paragraph">{{section.settings.paragraph}}
+                            <h2 class="head">{{section.settings.head}}</h2>
+                            <p class="lines">{{section.settings.lines}}
                             </p>
 
                         </div>
@@ -38,14 +38,14 @@
                  
                 },
       			 {
-                "id":"heading",
+                "id":"head",
                 "type":"text",
                 "label":"Heading",
                 "default":"My heading"
                 },
                 
                 {
-                "id":"paragraph",
+                "id":"lines",
                 "type":"richtext",
                 "label":"type paragraph",
 				"default":"<p>Details of products</p>"
