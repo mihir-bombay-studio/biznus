@@ -16,7 +16,7 @@
           </div>
           <div class="contactRight">
             <h2>{{ section.settings.heading | escape }}</h2>
-            <p>Send us a message and we'll get back to you as soon as we can! </p>
+            <p> {{ section.settings.paragraph }} </p>
             {%- form 'contact', id: 'ContactForm' -%}
               {%- if form.posted_successfully? -%}
                 <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
@@ -143,6 +143,13 @@
       "id": "contact2",
       "default": "(405) 555-5556",
       "label": "Customer Support"
+
+	},
+	{
+      "type": "text",
+      "id": "paragraph",
+      "default": "Send us a message and we'll get back to you as soon as we can!",
+      "label": "Form Subheading"
 
 	}
 
