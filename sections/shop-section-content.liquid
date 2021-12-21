@@ -14,24 +14,12 @@
                 <ul class="indicator">
                     <li class="menu-list-items active">
                         <a data-filter="ALL" href="#" class="cat-btn">{{section.settings.cat-btn}}</a>
-                    </li>
-                  
-                  {%comment%}
-                  
+                    </li>        
                     {%- for product in section.settings.collection.products -%}
                     <li class="menu-list-items active">
                         <a data-filter="{{product.type}}" href="#" class="cat-btn">{{product.type}}</a>
                     </li>
-                    {% endfor %}
-                  
-                  {%endcomment%}
-     
-                    {% for product_type in collection.all_types %}
-                    <li class="menu-list-items active">
-                        <a data-filter="{{product.type}}" href="#" class="cat-btn">{{ product_type | link_to_type }}</a>
-                    </li>
-                    {% endfor %}
-                  
+                    {% endfor %}                              
                   
                 </ul>
             </div>
