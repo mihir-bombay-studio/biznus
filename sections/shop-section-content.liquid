@@ -14,7 +14,7 @@
                 <ul class="indicator">
                     {%- for product in section.settings.collection.products -%}
                     <li data-filter="{{product.type}}" class="menu-list-items active">
-                        <a data-filter="{{product.type}}" href="#" class="cat-btn">{{product.type}}</a>
+                        <a data-filter="{{product.type}}" href="#" class="cat-btn">{{product.tags}}</a>
                     </li>
                     {% endfor %}
                 </ul>
