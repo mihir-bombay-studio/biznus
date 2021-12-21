@@ -11,7 +11,7 @@
               <h2>Contact Us</h2>
               <div class="ContactInfo">
                   <p> {{ section.settings.Address1 }} <br> {{ section.settings.Address2 }} <br> {{ section.settings.Address3 }} </p>
-                  <p><br> <strong>General Inquiries: </strong>  (405) 555-5555 <br> <strong> Customer Support: </strong>  (405) 555-5556 </p>
+                  <p><br> <strong>General Inquiries: </strong>  {{ section.settings.contact1 }} <br> <strong> Customer Support: </strong>  {{ section.settings.contact2 }} </p>
               </div>
           </div>
           <div class="contactRight">
@@ -129,6 +129,20 @@
       "id": "Address3",
       "default": "Oklahoma City, OK 73129",
       "label": "Address Line 3"
+
+	},
+	{
+      "type": "text",
+      "id": "contact1",
+      "default": "(405) 555-5555",
+      "label": "General Inquiries"
+
+	},
+	{
+      "type": "text",
+      "id": "contact2",
+      "default": "(405) 555-5556",
+      "label": "Customer Support"
 
 	}
 
