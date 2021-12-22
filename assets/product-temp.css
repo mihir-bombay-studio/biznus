@@ -38,3 +38,25 @@ h1 {
     padding-top: 65px;
     padding-bottom: 65px;
 }
+.shopping-page-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.shopping-page-left {
+    width: 40%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.shopping-page-image {
+    position: relative;
+    min-height: 450px;
+    border-radius: 5px;
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
