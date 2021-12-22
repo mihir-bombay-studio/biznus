@@ -45,7 +45,7 @@ h1 {
     display: flex;
 }
 .shopping-page-left {
-    width: 40%;
+    width: 50%;
 }
 * {
     -webkit-box-sizing: border-box;
