@@ -93,7 +93,7 @@
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
-              <div >
+              <div class="product__description rte">
                 {% assign: Disc= product.description | split:"..." %}
                 <h2>{{Disc[0]}}</h2>
                 <p>{{Disc[1]}}</p>
