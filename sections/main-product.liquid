@@ -94,8 +94,14 @@
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
-                {{ product.description }}
-              </div>
+                {% assign: Disc= product.description | split:"..." %}
+                <h2>{{desc[0]}}</h2>
+                <p>{{desc[1]}}</p>
+                 <h4>{{desc[0]}}</h4>
+                <p>{{desc[1]}}</p>
+                 <h4>{{desc[0]}}</h4>
+                <p>{{desc[1]}}</p>
+        </div>
             {%- endif -%}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
