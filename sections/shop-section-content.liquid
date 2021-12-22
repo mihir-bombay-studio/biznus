@@ -1,9 +1,5 @@
 {{ 'shop-section-content.css' | asset_url | stylesheet_tag }}
 
-
-
-
-
 <div class="main-content-section">
 
     <div class="main-content-container">
@@ -20,10 +16,8 @@
                         <a data-filter="ALL" href="#" class="cat-btn">{{section.settings.cat-btn}}</a>
                     </li>        
                     {%- for product in section.settings.collection.products -%}
-                  	{% assign product_type_array = product.type | split: ", " %}
-                  	{{ product_type_array | uniq | join: ", " }}
                     <li class="menu-list-items active">
-                        <a data-filter="{{product.type}}" href="#" class="cat-btn">{{ product_type_array }}</a>
+                        <a data-filter="{{product.type}}" href="#" class="cat-btn">{{product.type }}</a>
                     </li>
                     {% endfor %}                              
                   
