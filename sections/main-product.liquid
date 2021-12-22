@@ -78,11 +78,11 @@
               
             </p>
           {%- when 'title' -%}
-            <h1 class="product__title" {{ block.shopify_attributes }} style="font-weight: bold;font-family: Sen, sans-serif;margin-bottom:0px;">
+            <h1 class="product__title" {{ block.shopify_attributes }} style="font-weight: bold;font-family: Sen, sans-serif;">
               {{ product.title | escape }} 
             </h1>
           {%- when 'price' -%}
-            <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }} style="font-size: 9px; margin-top:0px;font-weight: 600;">
+            <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }} style="font-size: 9px;font-weight: 600;">
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
             <div {{ block.shopify_attributes }}>
