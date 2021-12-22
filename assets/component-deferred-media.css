@@ -15,7 +15,7 @@
 }
 
 .deferred-media__poster img {
-  width: auto;
+  width: 75%;
   height: 100%;
 }
 
