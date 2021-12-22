@@ -60,3 +60,7 @@ h1 {
     background-position: 50% 50%;
     background-size: cover;
 }
+.shipping-page-right {
+    width: 60%;
+    padding-left: 60px;
+}
