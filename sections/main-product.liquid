@@ -14,47 +14,7 @@
     <h1 class="page-title">{{ product.title }}</h1>
   </div>
 </div>
-<style>
-.page-title-section {
-  	padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #222;
-    color: #f9f9f9;
-}
-@media screen and (max-width: 991px)
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.container {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.page-title {
-    margin-top: 10px;
-  color:white;
-}
-h1 {
-    font-size: 38px;
-    line-height: 44px;
-    margin-top: 20px;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-.content-section {
-    padding-top: 65px;
-    padding-bottom: 65px;
-}
-</style>
+
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
   {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
