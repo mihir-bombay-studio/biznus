@@ -24,11 +24,9 @@
 {%- endif -%}
 
 <section class="page-width content-section">
-  <div class="content-section wf-section">
-  <div class="container">
-    <div class="shopping-page-wrapper">
-    <div class="shopping-page-left">
-      <slider-component class="slider-mobile-gutter">
+  <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+    <div class="grid__item product__media-wrapper" style="padding-left:0px;">
+      <slider-component class="slider-mobile-gutter" style="padding-left:10%;width:75%;">
         <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
           {{ "accessibility.skip_to_product_info" | t }}
         </a>
@@ -73,7 +71,7 @@
         </button>
       {%- endif -%}
     </div>
-    <div class="class="shipping-page-right"" >
+    <div class="product__info-wrapper grid__item" >
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -324,8 +322,6 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
-    </div>
-  </div>
     </div>
   </div>
   {%- render 'cart-notification' -%}
