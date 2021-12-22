@@ -9,7 +9,11 @@
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-
+<div class="page-title-section">
+  <div class="container">
+    <h1 class="page-title">{{ product.title }}</h1>
+  </div>
+</div>
 <style>
 .page-title-section {
     padding-top: 30px;
@@ -57,13 +61,8 @@ h1 {
   <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
- <div class="page-title-section content-section">
-  <div class="container">
-    <h1 class="page-title">{{ product.title }}</h1>
-  </div>
-</div>
-<section class="page-width">
- 
+
+<section class="page-width content-section">
   <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper" style="padding-left:0px;">
       <slider-component class="slider-mobile-gutter" style="padding-left:10%;width:75%;">
