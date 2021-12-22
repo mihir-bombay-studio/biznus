@@ -35,9 +35,15 @@
               {{ product.title | escape }} 
             </h1></h2>
         <div class="page-price-wrapping">
-          <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="shop-item-price-page">$&nbsp;200.00&nbsp;USD</div>
-          <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D" class="shop-item-price-page compare-at w-condition-invisible w-dyn-bind-empty">
-          </div>
+          <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }} style="font-size: 9px;font-weight: 600;">
+              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+            </div>
+            <div {{ block.shopify_attributes }}>
+              {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
+                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                {{ form | payment_terms }}
+              {%- endform -%}
+            </div>
         </div>
         <div>
           <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="5e856e69d83133dc75ed8681" data-loading-text="Adding to cart..." data-commerce-product-id="5e856e699643ac82dd7744dd" class="w-commerce-commerceaddtocartform">
