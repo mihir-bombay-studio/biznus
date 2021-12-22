@@ -95,7 +95,7 @@
             {%- if product.description != blank -%}
               <div class="product__description rte">
                 {% assign: Disc= product.description | split:"..." %}
-                <h2 style="font-weight:bold">{{Disc[0]}}</h2>
+                <h2>{{Disc[0]}}</h2>
                 <p>{{Disc[1]}}</p>
                  <h4>{{Disc[2]}}</h4>
                 <p>{{Disc[3]}}</p>
