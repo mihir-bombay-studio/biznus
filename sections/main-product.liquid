@@ -82,8 +82,8 @@
               {{ product.title | escape }} 
             </h1>
           {%- when 'price' -%}
-            <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }} style="font-size: 12px;
-    font-weight: 700;">
+            <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }} style="font-size: 9px;
+    font-weight: 600;">
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
             <div {{ block.shopify_attributes }}>
