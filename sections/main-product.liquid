@@ -15,6 +15,12 @@
     <h1 class="page-title">{{ product.title }}</h1>
   </div>
 </div>
+{%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
+{%- if first_3d_model -%}
+  {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
+  <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
+  <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
+{%- endif -%}
 
 <div class="content-section wf-section">
   <div class="container">
@@ -57,6 +63,11 @@
           <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/tweet_button.html#counturl=biznus-template.io&amp;dnt=true&amp;height=28&amp;show_count=false&amp;size=l&amp;text=You'll%20love%20the%20product%20from%20Acme%20Outdoors!&amp;url=http%3A%2F%2Fbiznus-template.io&amp;width=76" style="border: none; height: 28px; overflow: hidden; width: 76px;"></iframe>
         </div>
         </div></div></div></div></div>
+
+
+
+
+
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
