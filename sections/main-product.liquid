@@ -31,7 +31,9 @@
         </div>
       </div>
       <div class="shipping-page-right">
-        <h2 class="page-product-headin">White Tent</h2>
+        <h2 class="page-product-headin"><h1 class="product__title" {{ block.shopify_attributes }} style="font-weight: bold;font-family: Sen, sans-serif;">
+              {{ product.title | escape }} 
+            </h1></h2>
         <div class="page-price-wrapping">
           <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="shop-item-price-page">$&nbsp;200.00&nbsp;USD</div>
           <div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22America%2FChicago%22%7D" class="shop-item-price-page compare-at w-condition-invisible w-dyn-bind-empty">
