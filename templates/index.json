@@ -1,14 +1,5 @@
 {
   "sections": {
-    "164024343148f09d74": {
-      "type": "xd-section",
-      "settings": {
-        "mybox-header": "De Kaasconnaisseur",
-        "mybox-contents": "<p>De Vlaming houdt van lekkere dingen, het feit dat de top 10 best verkopende boeken wordt door kookboeken is een bewijs dat culinair levensgeluk bij ons hoog in het vaande  wordt gedragen.<\/p><p><\/p>",
-        "mybox-footer": "Leer de kaasconnaisseur beter kennen>>",
-        "mybox-right": "shopify:\/\/shop_images\/Image.png"
-      }
-    },
     "16394784353b4b60ea": {
       "type": "support-section",
       "blocks": {
@@ -49,6 +40,15 @@
         "top-details": "WAYS TO SUPPORT",
         "top-heading": "Support Acme Outdoors.",
         "para": "Covid-19 has forced us to close our retail price,but we need to support from patrons                     like yourself                     now more than ever.Below we've the best way to help us through this season."
+      }
+    },
+    "164024343148f09d74": {
+      "type": "xd-section",
+      "settings": {
+        "mybox-header": "De Kaasconnaisseur",
+        "mybox-contents": "<p>De Vlaming houdt van lekkere dingen, het feit dat de top 10 best verkopende boeken wordt door kookboeken is een bewijs dat culinair levensgeluk bij ons hoog in het vaande  wordt gedragen.<\/p><p><\/p>",
+        "mybox-footer": "Leer de kaasconnaisseur beter kennen>>",
+        "mybox-right": "shopify:\/\/shop_images\/Image.png"
       }
     },
     "163958331980c88b5a": {
@@ -247,8 +247,8 @@
     }
   },
   "order": [
-    "164024343148f09d74",
     "16394784353b4b60ea",
+    "164024343148f09d74",
     "163958331980c88b5a",
     "image_banner",
     "rich_text",
