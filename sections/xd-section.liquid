@@ -1,7 +1,63 @@
+{{ 'xd-section.css' | asset_url | stylesheet_tag }}
+
+<div class="mainbox">
+    <div class="mybox">
+        <div class="mybox-left">
+            <div class="mybox-header"> {{section.settings.mybox-header}}</div>
+            <div class="mybox-contents">{{section.settings.mybox-contents}}
+            </div>
+            <div class="mybox-footer">{{section.settings.mybox-footer}}</div>
+        </div>
+
+
+        <div class="mybox-right">
+            <img src="{{section.settings.mybox-right | img_url: 'medium'}}"/>
+        </div>
+
+    </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "xd-section",
+    "settings": [
+
+		{
+        "id":"mybox-header",
+        "type":"text",
+        "label":"toptext",
+       "default":"header-name"
+        },
+        {
+                 "id":"mybox-contents",
+                "type":"richtext",
+                "label":"contents here",
+				"default":"<p>contents</p>"
+        },
+        {
+            "id":"mybox-footer",
+            "type":"text",
+            "label":"footer",
+            "default":"your-footer"
+         },
+         {
+            "id":"mybox-right",
+            "type":"image_picker",
+            "label":"imagepic" 
+       }
+
+		
+],
+	"presets": [
+                {
+                    "category": "section",
+                    "name":"xd-section"
+
+                }
+            ]
+
+
+
   }
 {% endschema %}
 
