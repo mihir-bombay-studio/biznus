@@ -58,7 +58,7 @@
     border: 1px solid #011936;  
 }
 
-@media screen and (max-width: 613px){
+@media screen and (max-width: 743px){
     .mybox{
         flex-wrap: wrap-reverse;
         
