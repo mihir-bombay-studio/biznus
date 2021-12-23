@@ -60,7 +60,9 @@
 
 @media screen and (max-width: 743px){
     .mybox{
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse
+          
+        margin-bottom:100px;
         
     }
 }
