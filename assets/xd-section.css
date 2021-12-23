@@ -8,8 +8,8 @@
 }
 .mybox{
     display: flex;
-    flex-direction: row;
-    gap: 24px;
+/*     flex-direction: row; */
+    column-gap: 24px;
     margin-bottom:100px;
 }
 
