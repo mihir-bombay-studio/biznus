@@ -1,0 +1,65 @@
+
+.mainbox{
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 441px;
+   
+}
+.mybox{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+   
+}
+
+.mybox-left{
+    width: 588px;
+    top: 1145px;
+    left: 120px;
+    height: 271px;
+}
+.mybox-header{
+    margin-top: 85px;
+
+    width: 588px;
+    height: 39px;
+    letter-spacing: 0px;
+    color: #011936;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 600 26px/39px Cormorant Garamond;
+}
+.mybox-contents{
+    margin-top: 39px;
+    margin-bottom:40px;
+    text-align: left;
+    font: normal normal 300 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #011936;
+    opacity: 1;
+}
+.mybox-footer{
+    max-width: 319px;
+    text-align: left;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #011936;
+    opacity: 1;
+}
+.mybox-right{
+    width:588px;
+}
+.de-images{
+    width: 588px;
+    height: 441px;
+    border: 1px solid #011936;  
+}
+
+@media screen and (max-width: 613px){
+    .mybox{
+        display: table-cell;
+        
+    }
+}
+
