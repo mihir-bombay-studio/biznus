@@ -21,7 +21,6 @@
 }
 .mybox-header{
     margin-top: 85px;
-
     width: 588px;
     height: 39px;
     letter-spacing: 0px;
@@ -51,14 +50,17 @@
     width:588px;
 }
 .de-images{
-    width: 588px;
+    width: 100%;
+    object-fit: cover;
+    background-position: 50% 50%;
+    max-width: 588px;
     height: 441px;
     border: 1px solid #011936;  
 }
 
 @media screen and (max-width: 613px){
     .mybox{
-        display: table-cell;
+        flex-wrap: wrap-reverse;
         
     }
 }
