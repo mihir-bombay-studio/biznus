@@ -1,33 +1,34 @@
 
 .mainbox{
-/*     padding-top: 100px; */
+    padding-top: 100px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 1200px;
-    
-/*     padding-bottom: 100px; */
+    height: 441px;
+    margin-bottom: 100px;
 }
 .mybox{
     display: flex;
-/*     flex-direction: row; */
+    /* flex-direction: row; */
     column-gap: 24px;
-    margin-bottom:100px;
+   
 }
 
 .mybox-left{
-    width: 588px;
-    top: 1145px;
-    left: 120px;
-    height: 271px;
+    max-width: 588px;
+    
 }
 .mybox-header{
     margin-top: 85px;
-    width: 588px;
+
+    max-width: 588px;
     height: 39px;
     letter-spacing: 0px;
     color: #011936;
     opacity: 1;
     text-align: left;
-    font: normal normal 500 26px/39px Cormorant Garamond;
+    font: normal normal 600 26px/39px Cormorant Garamond;
 }
 .mybox-contents{
     margin-top: 39px;
@@ -56,14 +57,12 @@
     max-width: 588px;
     height: 441px;
     border: 1px solid #011936;  
-}
+} 
 
-@media screen and (max-width: 743px){
+@media screen and (max-width: 613px){
     .mybox{
-        flex-wrap: wrap-reverse
-          
-     
         
+        flex-wrap: wrap-reverse;
+
     }
 }
-
