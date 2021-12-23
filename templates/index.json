@@ -7,6 +7,7 @@
           "type": "infocard",
           "settings": {
             "heading": "SHOP PRODUCT",
+            "square": "#333",
             "images": "shopify:\/\/shop_images\/circle.png",
             "para": "<p>Our full product line is still available online here on our site! Getting outside and hiking is still something you can do. Get your gear now!<\/p>"
           }
@@ -15,6 +16,7 @@
           "type": "infocard",
           "settings": {
             "heading": "DONATE",
+            "square": "#333",
             "images": "shopify:\/\/shop_images\/Triangle.png",
             "para": "<p>Since we've changed the way we operate to online only, and to ensure your safety, not all our staff is working. Donate to keep them afloat.<\/p>"
           }
@@ -23,6 +25,7 @@
           "type": "infocard",
           "settings": {
             "heading": "BUY GIFT CARD",
+            "square": "#333",
             "images": "shopify:\/\/shop_images\/rectangle.png",
             "para": "<p>Have all the outdoor gear you need for now? Buy a gift card and use it later or share it with friends and family.<\/p>"
           }
@@ -44,7 +47,10 @@
       "settings": {
         "top-details": "SHOP-PRODUCT",
         "top-heading": "Open 24\/7\/365",
-        "collection": "ankitcollection"
+        "collection": "ankitcollection",
+        "btn": "Details",
+        "shop-more-product": "",
+        "shop-more": "View All Products"
       }
     },
     "image_banner": {
@@ -224,7 +230,18 @@
       "settings": {
         "top-details": "your-details",
         "top-heading": "your-heading",
-        "collection": "ankitcollection"
+        "collection": "ankitcollection",
+        "btn": "Details",
+        "shop-more-product": "",
+        "shop-more": "View All Products"
+      }
+    },
+    "164024343148f09d74": {
+      "type": "xd-section",
+      "settings": {
+        "mybox-header": "header-name",
+        "mybox-contents": "<p>contents<\/p>",
+        "mybox-footer": "your-footer"
       }
     }
   },
@@ -237,6 +254,7 @@
     "collage",
     "video",
     "multi_column",
-    "1639659365e14c7b87"
+    "1639659365e14c7b87",
+    "164024343148f09d74"
   ]
 }
