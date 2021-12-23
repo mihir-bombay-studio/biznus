@@ -239,9 +239,10 @@
     "164024343148f09d74": {
       "type": "xd-section",
       "settings": {
-        "mybox-header": "header-name",
-        "mybox-contents": "<p>contents<\/p>",
-        "mybox-footer": "your-footer"
+        "mybox-header": "De Kaasconnaisseur",
+        "mybox-contents": "<p>De Vlaming houdt van lekkere dingen, het feit dat de top 10 best verkopende boeken wordt door kookboeken is een bewijs dat culinair levensgeluk bij ons hoog in het vaande  wordt gedragen.<\/p><p><\/p>",
+        "mybox-footer": "Leer de kaasconnaisseur beter kennen>>",
+        "mybox-right": "shopify:\/\/shop_images\/Image.png"
       }
     }
   },
