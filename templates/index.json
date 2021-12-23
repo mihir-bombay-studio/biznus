@@ -7,7 +7,7 @@
           "type": "infocard",
           "settings": {
             "heading": "SHOP PRODUCT",
-            "square": "#333",
+            "square": "#333333",
             "images": "shopify:\/\/shop_images\/circle.png",
             "para": "<p>Our full product line is still available online here on our site! Getting outside and hiking is still something you can do. Get your gear now!<\/p>"
           }
@@ -16,7 +16,7 @@
           "type": "infocard",
           "settings": {
             "heading": "DONATE",
-            "square": "#333",
+            "square": "#333333",
             "images": "shopify:\/\/shop_images\/Triangle.png",
             "para": "<p>Since we've changed the way we operate to online only, and to ensure your safety, not all our staff is working. Donate to keep them afloat.<\/p>"
           }
@@ -25,7 +25,7 @@
           "type": "infocard",
           "settings": {
             "heading": "BUY GIFT CARD",
-            "square": "#333",
+            "square": "#333333",
             "images": "shopify:\/\/shop_images\/rectangle.png",
             "para": "<p>Have all the outdoor gear you need for now? Buy a gift card and use it later or share it with friends and family.<\/p>"
           }
@@ -51,6 +51,15 @@
         "btn": "Details",
         "shop-more-product": "",
         "shop-more": "View All Products"
+      }
+    },
+    "164024343148f09d74": {
+      "type": "xd-section",
+      "settings": {
+        "mybox-header": "De Kaasconnaisseur",
+        "mybox-contents": "<p>De Vlaming houdt van lekkere dingen, het feit dat de top 10 best verkopende boeken wordt door kookboeken is een bewijs dat culinair levensgeluk bij ons hoog in het vaande  wordt gedragen.<\/p><p><\/p>",
+        "mybox-footer": "Leer de kaasconnaisseur beter kennen>>",
+        "mybox-right": "shopify:\/\/shop_images\/Image.png"
       }
     },
     "image_banner": {
@@ -135,6 +144,47 @@
         "show_vendor": false
       }
     },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -184,47 +234,6 @@
         "full_width": false
       }
     },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "1639659365e14c7b87": {
       "type": "product-section",
       "settings": {
@@ -235,27 +244,18 @@
         "shop-more-product": "",
         "shop-more": "View All Products"
       }
-    },
-    "164024343148f09d74": {
-      "type": "xd-section",
-      "settings": {
-        "mybox-header": "De Kaasconnaisseur",
-        "mybox-contents": "<p>De Vlaming houdt van lekkere dingen, het feit dat de top 10 best verkopende boeken wordt door kookboeken is een bewijs dat culinair levensgeluk bij ons hoog in het vaande  wordt gedragen.<\/p><p><\/p>",
-        "mybox-footer": "Leer de kaasconnaisseur beter kennen>>",
-        "mybox-right": "shopify:\/\/shop_images\/Image.png"
-      }
     }
   },
   "order": [
     "16394784353b4b60ea",
     "163958331980c88b5a",
+    "164024343148f09d74",
     "image_banner",
     "rich_text",
     "featured_products",
+    "multi_column",
     "collage",
     "video",
-    "multi_column",
-    "1639659365e14c7b87",
-    "164024343148f09d74"
+    "1639659365e14c7b87"
   ]
 }
