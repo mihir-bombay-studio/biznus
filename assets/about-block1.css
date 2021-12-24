@@ -53,4 +53,7 @@ body {
     margin-bottom: 10px;
  }
  
- 
+ @media screen and (max-width: 479px)
+.why-acme-block {
+    width: 100%;
+}
