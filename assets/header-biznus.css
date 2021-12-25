@@ -208,13 +208,15 @@
             justify-content: center;
             font-size: 18px;
             align-items: center;
+            flex-wrap: wrap;
+            row-gap: 15px;
+            column-gap: 18px;
 
         }
 
         .announce-text {
             background-color: #eb5757;
             font-size: 16px;
-            margin-right: 10px;
             padding: 5px 20px;
             border-radius: 20px;
             color: #f9f9f9;
@@ -227,4 +229,20 @@
           	z-index:1000;
             letter-spacing: 0;
     		line-height: 1.5;
+        }
+
+
+
+        @media screen and (max-width: 429px) {
+            .announce-text {
+                font-size: 12px;
+
+            }
+
+            .announce-container-wrap {
+                font-size: 15px;
+                flex-direction: column;
+
+            }
+
         }
