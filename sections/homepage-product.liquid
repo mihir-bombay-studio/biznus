@@ -1,8 +1,128 @@
+{{ 'homepage-product.css' | asset_url | stylesheet_tag }}
+
+
+<div class="pro-section">
+    <div class="pro-container">
+        <div class="pro-heading">
+            {{section.settings.pro-heading}}
+        </div>
+
+        <div class="pro-product">
+            {% for blocks in section.blocks %}
+            <div class="pro-product-1">
+                <div class="card-content">
+                    <div class="card-image">
+                        {%- if section.settings.image-wrap != blank -%}
+                            <img class="image-wrap" src="{{blocks.settings.image-wrap | img_url: 'large'}}">
+                        {%- else -%}
+                            <div class="image-wrap">{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}</div>
+                        {%- endif -%}
+                        <div class="overlayer">
+                            <a href="{{blocks.settings.product-link}}" class="overlayer-btn">
+                                <div class="overlayer-btn-text">
+                                    {{blocks.settings.overlayer-btn-text}}
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-text">
+                            {{blocks.settings.card-text}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+        </div>
+
+        <a href="{{section.settings.view-all-btn-link}}" class="pro-view-all">
+            <div class="view-all-btn" >
+                {{section.settings.view-all-btn}}
+            </div>
+        </a>
+
+    </div>
+
+</div>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Product type section",
+    "max_blocks": 4,
+    "settings": [
+        {
+            "type": "text",
+            "id": "pro-heading",
+            "label": "Section Heading here",
+            "default": "Samen genieten van de lekkerste kazen"
+
+        },
+        {
+            "type": "url",
+            "id": "view-all-btn-link",
+            "label": "Your Button URL here"
+        },
+        {
+            "type": "text",
+            "id": "view-all-btn",
+            "label": "Button Text Here",
+            "default": "Ontdek alle producten"
+        }       
+    ],
+    "blocks":[
+        {
+            "type": "select",
+            "name": "Cards",
+            "settings": [
+                {
+                    "id":"image-wrap",
+                    "type": "image_picker",
+                    "label":"select your product image"
+                },
+                {
+                    "type": "text",
+                    "id": "card-text",
+                    "label": "Product name here",
+                    "default": "Gezellig met z’n tweetjes"
+                },
+                {
+                    "type": "url",
+                    "id": "product-link",
+                    "label": "Your Button URL here"
+                },
+                {
+                    "type": "text",
+                    "id": "overlayer-btn-text",
+                    "label": "Button Text on hover Here",
+                    "default": "Bekijk producten"
+                }  
+
+                
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "category": "Adnan Custom",
+            "name":"Product Type section",
+			"blocks":[
+				{
+				    "type":"select"
+				},
+                {
+                    "type":"select"
+                },
+                {
+                    "type":"select"
+                },
+                {
+                    "type":"select"
+                }
+
+			]
+        }
+    ]
   }
+
 {% endschema %}
 
 {% stylesheet %}
