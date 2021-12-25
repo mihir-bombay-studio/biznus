@@ -10,12 +10,65 @@
         "btn-txt": "Shop Merch"
       }
     },
+    "1640408428af93d7b8": {
+      "type": "homepage-product",
+      "blocks": {
+        "164040842808c60628-0": {
+          "type": "select",
+          "settings": {
+            "image-wrap": "shopify:\/\/shop_images\/image1.png",
+            "card-text": "Gezellig met z’n tweetjes",
+            "product-link": "shopify:\/\/collections\/all",
+            "overlayer-btn-text": "Bekijk producten"
+          }
+        },
+        "164040842808c60628-1": {
+          "type": "select",
+          "settings": {
+            "image-wrap": "shopify:\/\/shop_images\/Image2.png",
+            "card-text": "Gezellig met z’n tweetjes",
+            "product-link": "shopify:\/\/collections\/all",
+            "overlayer-btn-text": "Bekijk producten"
+          }
+        },
+        "164040842808c60628-2": {
+          "type": "select",
+          "settings": {
+            "image-wrap": "shopify:\/\/shop_images\/image3.png",
+            "card-text": "Gezellig met z’n tweetjes",
+            "product-link": "",
+            "overlayer-btn-text": "Bekijk producten"
+          }
+        },
+        "164040842808c60628-3": {
+          "type": "select",
+          "settings": {
+            "image-wrap": "shopify:\/\/shop_images\/image4.png",
+            "card-text": "Gezellig met z’n tweetjes",
+            "product-link": "",
+            "overlayer-btn-text": "Bekijk producten"
+          }
+        }
+      },
+      "block_order": [
+        "164040842808c60628-0",
+        "164040842808c60628-1",
+        "164040842808c60628-2",
+        "164040842808c60628-3"
+      ],
+      "settings": {
+        "pro-heading": "Samen genieten van de lekkerste kazen",
+        "view-all-btn-link": "",
+        "view-all-btn": "Ontdek alle producten"
+      }
+    },
     "163963879953078b7e": {
       "type": "new-product-section",
       "settings": {
         "shop-top-details": "SHOP PRODUCTS",
         "shop-top-heading": "Open 24\/7\/365.",
         "collection": "adnans-cool-shoe-collection",
+        "shop-btn1": "Details",
         "shop-more-product": "shopify:\/\/collections\/all",
         "shop-more": "View All Products"
       }
@@ -195,6 +248,7 @@
   },
   "order": [
     "1639397768d3dcaef3",
+    "1640408428af93d7b8",
     "163963879953078b7e",
     "image_banner",
     "rich_text",
