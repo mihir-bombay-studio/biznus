@@ -116,7 +116,7 @@
     padding-bottom: 30px;
     background-color: #eb5757;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 400ms ease 0s;
     text-align: center;
   }
 
