@@ -129,7 +129,7 @@
         font-weight: 600;
         color: #011936;
         display: flex;
-        padding: 24px 49px;
+        padding: 24px 43px;
         justify-content: center;
         align-items: center;
         transition: border-color 300ms ease, background-color 300ms ease;
