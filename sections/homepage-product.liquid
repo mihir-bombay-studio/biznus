@@ -12,11 +12,7 @@
             <div class="pro-product-1">
                 <div class="card-content">
                     <div class="card-image">
-                        {%- if section.settings.image-wrap != blank -%}
-                            <img class="image-wrap" src="{{blocks.settings.image-wrap | img_url: 'large'}}">
-                        {%- else -%}
-                            <div class="image-wrap">{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}</div>
-                        {%- endif -%}
+                        <img class="image-wrap" src="{{blocks.settings.image-wrap | img_url: 'large'}}">
                         <div class="overlayer">
                             <a href="{{blocks.settings.product-link}}" class="overlayer-btn">
                                 <div class="overlayer-btn-text">
