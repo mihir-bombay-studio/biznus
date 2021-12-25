@@ -232,16 +232,7 @@
 
 
   @media screen and (max-width: 768px) {
-    .announce-text {
-      font-size: 12px;
 
-    }
-
-    .announce-container-wrap {
-      font-size: 15px;
-      flex-direction: column;
-
-    }
     .sidenav {
       margin-top: 74.5px;
     }
