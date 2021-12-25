@@ -149,14 +149,18 @@
 
   }
 
-  .closebtn {
-    padding: 18px;
-    color: #f9f9f9;
-    font-weight: bold;
-    line-height: 1.5;
-    cursor: pointer;
 
-  }
+        .closebtn {
+            padding: 16px 22px;
+            color: #f9f9f9;
+            font-weight: bold;
+            line-height: 1.5;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #222;
+
+        }
+
 
   @media screen and (max-height: 450px) {
     .sidenav {
