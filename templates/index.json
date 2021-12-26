@@ -1,5 +1,18 @@
 {
   "sections": {
+    "16405297107da58e87": {
+      "type": "landingSection",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_3456c868-062b-4b7d-96ec-5d8a6a5ce64e.png",
+        "image_mobile": "shopify:\/\/shop_images\/Image_mobile.png",
+        "bottleimage": "shopify:\/\/shop_images\/Glazen.png",
+        "bottleimage_mobile": "shopify:\/\/shop_images\/Glazen_8374a8d6-5f15-4e5b-827d-1c5704f9c4db.png",
+        "heading": "Moederdag",
+        "subheading": "Culinair levensgeluk om te delen met anderen. Speciaal voor jouw moeder ontwikkelden we onze nieuwste plank",
+        "btntext": "Verwen je moeder",
+        "belowbtn": "Ontdek alle producten"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -215,22 +228,10 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16405297107da58e87": {
-      "type": "landingSection",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image_3456c868-062b-4b7d-96ec-5d8a6a5ce64e.png",
-        "image_mobile": "shopify:\/\/shop_images\/Image_mobile.png",
-        "bottleimage": "shopify:\/\/shop_images\/Glazen.png",
-        "bottleimage_mobile": "shopify:\/\/shop_images\/Glazen_8374a8d6-5f15-4e5b-827d-1c5704f9c4db.png",
-        "heading": "Moederdag",
-        "subheading": "Culinair levensgeluk om te delen met anderen. Speciaal voor jouw moeder ontwikkelden we onze nieuwste plank",
-        "btntext": "Verwen je moeder",
-        "belowbtn": "Ontdek alle producten"
-      }
     }
   },
   "order": [
+    "16405297107da58e87",
     "image_banner",
     "1639493413bfd153ce",
     "1639639392de2ad562",
@@ -238,7 +239,6 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16405297107da58e87"
+    "multi_column"
   ]
 }
