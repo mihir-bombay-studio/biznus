@@ -5,7 +5,7 @@
 <div class="mainContactContainer">
   <div class="mainContactContainerWrapper">
     <div class="contactContainer">
-      <h1 class="contactHeading">Contact Acme Outdoors</h1>
+      <h1 class="contactHeading">{{ section.settings.mainHeading }}</h1>
       <div class="blockWrapper">
         {% for block in section.blocks %}
         <div class="contactBlock">
@@ -13,7 +13,7 @@
           <img src="{{ block.settings.iconImage |  image_url: width: 48, height: 48 }}" class="contactIcon"/>
           <h2>{{ block.settings.heading }}</h2>
           <p> {{ block.settings.paragraph }} </p>
-          <a href="#" class="contactButton">Send Us a message!</a>
+          <a href="#" class="contactButton">{{ section.settings.btnText }}</a>
         </div>
         {% endfor %}
 
@@ -35,6 +35,20 @@
         "id":"image_section",
         "type":"image_picker",
         "label":"select image"
+    },
+	{
+        "id":"mainHeading",
+        "type":"text",
+        "label":"Main Heading", 
+        "default":"Contact Acme Outdoors"
+            
+    },
+	{
+        "id":"btnText",
+        "type":"text",
+        "label":"Button Text", 
+        "default":"Send Us a message!"
+            
     }
     ],
     "blocks":[{
