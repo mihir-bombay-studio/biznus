@@ -44,6 +44,7 @@ img{
 .logoLink{
     max-width: 100%;
     display: inline-block;
+  	text-decortion: none;
 }
 
 .socialMedia{
