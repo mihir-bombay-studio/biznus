@@ -98,9 +98,13 @@ textarea {
 
 }
 
+.inputBox:hover{
+    border-color: #e53935;
+}
+
 .inputBox:focus{
- 	border-color: #eb5757;
-  	outline:none;
+    outline: none;
+    box-shadow: none;
 }
 
 textarea.inputBox{
@@ -122,12 +126,6 @@ textarea.inputBox{
     line-height: inherit;
     text-decoration: none;
     cursor: pointer;
-  	font-size: inherit;
-}
-
-.submitButton:hover{
-	border-color: #333;
-    background-color: #333;
 }
 
 .formSuccess{
@@ -149,3 +147,4 @@ textarea.inputBox{
     margin-top: 10px;
     padding: 10px;
 }
+
