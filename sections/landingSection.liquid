@@ -1,0 +1,92 @@
+{{ 'homeLanding.css' | asset_url | stylesheet_tag }}
+
+
+
+<div class="landing-MainContainer">
+    <div class="landing-leftContainer">
+        <img src="{{section.settings.image | image_url: master }}" width="100%" height="780px" alt="Landing Image" class="hide"/>
+        <img src="{{section.settings.image_mobile | image_url: large }}" width="100%" height="374px" alt="Landing Image" class="mobileHidden"/>
+    </div>
+    <div class="landing-rightContainer">
+        <div class="landing-containerWrapper">
+
+            <h2 class="landing-heading">{{section.settings.heading}}</h2>
+                <p class="landing-paragraph">{{section.settings.subheading}}</p>
+            <a href="#" class="landing-button">
+                <p class="landing-buttonText">{{section.settings.btntext}}</p>
+                <img class="landing-bottleimg hide" src="{{ section.settings.bottleimage | image_url: small }}" width="38px" height="26px" alt="Bottle"/>
+                <img class="landing-bottleimg mobileHidden" src="{{ section.settings.bottleimage_mobile | image_url: small }}" width="38px" height="26px" alt="Bottle"/>
+            </a>
+            <p class="landing-bottom landing-paragraph">{{section.settings.belowbtn}}</p>
+            <a href="#"><img src={{ "down.png" | asset_url }} alt="down" height="12px" width="10px" class="arrow" alt="Arrow"/></a>
+        </div>
+
+
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Landing Page",
+    "settings": [
+    {
+        "id":"image",
+        "type":"image_picker",
+        "label":"Desktop Image"
+    },
+    {
+        "id":"image_mobile",
+        "type":"image_picker",
+        "label":"Mobile View Image"
+    },
+    {
+        "id":"bottleimage",
+        "type":"image_picker",
+        "label":"Bottle Image for desktop"
+    },
+    {
+        "id":"bottleimage_mobile",
+        "type":"image_picker",
+        "label":"Bottle image for mobile"
+    },
+    {
+        "id":"heading",
+        "type":"text",
+        "label":"Heading",
+        "default":"Moederdag"
+    },
+    {
+        "id":"subheading",
+        "type":"text",
+        "label":"Sub Heading",
+        "default":"Culinair levensgeluk om te delen met anderen. Speciaal voor jouw moeder ontwikkelden we onze nieuwste plank"
+    },
+    {
+        "id":"btntext",
+        "type":"text",
+        "label":"Button Text",
+        "default":"Verwen je moeder"
+    },
+    {
+        "id":"belowbtn",
+        "type":"text",
+        "label":"Text Below Button",
+        "default":"Ontdek alle producten"
+
+    }
+
+    ],
+    "presets":[
+        {   
+            "name":"Landing Page",
+            "category":"Landing Page"
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
