@@ -13,9 +13,10 @@
             <h2 class="landing-heading">{{section.settings.heading}}</h2>
                 <p class="landing-paragraph">{{section.settings.subheading}}</p>
             <a href="#" class="landing-button">
-                <p class="landing-buttonText">{{section.settings.btntext}}</p>
+                <p class="landing-buttonText">{{section.settings.btntext}}
                 <img class="landing-bottleimg hide" src="{{ section.settings.bottleimage | image_url: small }}" width="38px" height="26px" alt="Bottle"/>
                 <img class="landing-bottleimg mobileHidden" src="{{ section.settings.bottleimage_mobile | image_url: small }}" width="38px" height="26px" alt="Bottle"/>
+                </p>
             </a>
             <p class="landing-bottom landing-paragraph">{{section.settings.belowbtn}}</p>
             <a href="#"><img src={{ "down.png" | asset_url }} alt="down" height="12px" width="10px" class="arrow" alt="Arrow"/></a>
