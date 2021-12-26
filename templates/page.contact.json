@@ -37,31 +37,20 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "Contact Form"
-      }
-    },
-    "1640100785838dc806": {
-      "type": "bizinusFooter",
-      "blocks": {
-        "22557ddc-9db7-4831-994c-43186b7a3d42": {
-          "type": "select",
-          "settings": {
-            "logolink": ""
-          }
-        }
-      },
-      "block_order": [
-        "22557ddc-9db7-4831-994c-43186b7a3d42"
-      ],
-      "settings": {
-        "logolink": ""
+        "heading": "Contact Form",
+        "Address1": "Acme Outdoors",
+        "Address2": "123 Rainy Street",
+        "Address3": "Oklahoma City, OK 73129",
+        "contact1": "(405) 555-5555",
+        "contact2": "(405) 555-5556",
+        "paragraph": "Send us a message and we'll get back to you as soon as we can!",
+        "leftheading": "Contact Us"
       }
     }
   },
   "order": [
     "main",
     "16401007774f1bed02",
-    "form",
-    "1640100785838dc806"
+    "form"
   ]
 }

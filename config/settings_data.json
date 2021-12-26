@@ -71,6 +71,23 @@
           "enable_language_selector": false,
           "payment_enable": false
         }
+      },
+      "bizinusFooter": {
+        "type": "bizinusFooter",
+        "blocks": {
+          "d73cae1e-77fc-490c-bdfc-61d6bc1cc73e": {
+            "type": "select",
+            "settings": {
+              "logolink": ""
+            }
+          }
+        },
+        "block_order": [
+          "d73cae1e-77fc-490c-bdfc-61d6bc1cc73e"
+        ],
+        "settings": {
+          "logolink": ""
+        }
       }
     },
     "content_for_index": [
