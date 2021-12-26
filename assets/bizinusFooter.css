@@ -44,12 +44,12 @@ img{
 .logoLink{
     max-width: 100%;
     display: inline-block;
-  	text-decortion: none;
 }
 
 .socialMedia{
     margin-left: 20px;
-    transition: all 300ms ease;   
+    transition: all 300ms ease; 
+  	text-decoration: none;
 }
 
 @media (max-width:479px){
