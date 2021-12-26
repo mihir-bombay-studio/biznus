@@ -1,6 +1,8 @@
 .landing-MainContainer{
     display: flex;
     background-color: #011936;
+  	max-width: 1440px;
+    margin: auto;
 }
 
 @media (max-width:991px){
