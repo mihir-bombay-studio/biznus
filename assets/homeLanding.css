@@ -136,17 +136,21 @@
 }
 
 
-
+@media (max-width:991px){
+  
 .landing-button:hover .hide{
       display: none;
 
 }
 
-.landing-button:hover .mobileHidden{
-      display: inherit;
-
 }
 
+@media (min-width:991px){
+.landing-button:hover .mobileHidden{
+      display: none;
+
+}
+}
 
 .landing-button:hover{
     background: #E69239 0% 0% no-repeat padding-box;
