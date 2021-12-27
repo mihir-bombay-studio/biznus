@@ -137,10 +137,13 @@
 
 
 
-.landing-button:hover @media (max-width:991px){ .hide{
+.landing-button:hover .hide{
       display: none;
+
 }
 
+.landing-button:hover .mobileHidden{
+      display: block;
 
 }
 
