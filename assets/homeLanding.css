@@ -137,27 +137,28 @@
 
 
 
-.landing-button:hover{
+.landing-button:hover .hide{
     background: #E69239 0% 0% no-repeat padding-box;
-  @media(max-width:991px){
-    .hide{
-      display: none;
-    }
-  }
-
-/*   @media(min-width:991px){ */
-    .mobileHidden{
+/*   @media(max-width:991px){ */
+/*     .hide{ */
       display: none;
 /*     } */
-  }
+/*   } */
+
+
+/*     .mobileHidden{
+      display: none;
+  } */
 }
 
-/* @media (min-width:991px){
-    .landing-button{
 
-    }
+.landing-button:hover{
+    background: #E69239 0% 0% no-repeat padding-box;
+
 }
- */
+
+
+
 .landing-bottleimg{
     margin-left: 12px;
     vertical-align: bottom;
