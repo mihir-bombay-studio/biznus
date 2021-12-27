@@ -101,7 +101,7 @@
 }
 
 .landing-button{
-    background: #E69239 0% 0% no-repeat padding-box;
+  	background: #E6AA68 0% 0% no-repeat padding-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,13 +141,12 @@
     background: #E69239 0% 0% no-repeat padding-box;
 }
 
-@media (min-width:991px){
+/* @media (min-width:991px){
     .landing-button{
-    background: #E6AA68 0% 0% no-repeat padding-box;
 
     }
 }
-
+ */
 .landing-bottleimg{
     margin-left: 12px;
     vertical-align: bottom;
