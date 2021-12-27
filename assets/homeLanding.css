@@ -137,18 +137,11 @@
 
 
 
-.landing-button:hover .hide{
-    background: #E69239 0% 0% no-repeat padding-box;
-/*   @media(max-width:991px){ */
-/*     .hide{ */
+.landing-button:hover @media (max-width:991px){ .hide{
       display: none;
-/*     } */
-/*   } */
+}
 
 
-/*     .mobileHidden{
-      display: none;
-  } */
 }
 
 
