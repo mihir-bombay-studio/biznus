@@ -139,6 +139,17 @@
 
 .landing-button:hover{
     background: #E69239 0% 0% no-repeat padding-box;
+  @media(max-width:991px){
+    .hide{
+      display: none;
+    }
+  }
+
+  @media(min-width:991px){
+    .mobileHidden{
+      display: none;
+    }
+  }
 }
 
 /* @media (min-width:991px){
