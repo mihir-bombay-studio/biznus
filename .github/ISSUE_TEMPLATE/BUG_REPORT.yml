@@ -83,6 +83,7 @@ body:
     options:
     - label: Yes, I have provided as much detail as possible
       required: true
+
 - type: textarea
     id: solution-hint
     attributes:
@@ -91,42 +92,27 @@ body:
       placeholder: Your suggestion or idea for a solution...
     validations:
       required: false
-
-  - type: dropdown
+  - type: input
     id: files-to-create
     attributes:
       label: "Files to Create"
       description: Specify any new files that need to be created to resolve the bug.
-      multiple: true
-      options:
-        - File 1
-        - File 2
-        - File 3
+      placeholder: "File name(s) to create"
     validations:
       required: false
-
-  - type: dropdown
+  - type: input
     id: files-to-update
     attributes:
       label: "Files to Update"
       description: Specify existing files that require updates as part of the bug resolution.
-      multiple: true
-      options:
-        - File 1
-        - File 2
-        - File 3
+      placeholder: "File name(s) to update"
     validations:
       required: false
-
-  - type: dropdown
+  - type: input
     id: files-to-delete
     attributes:
       label: "Files to Delete"
       description: Indicate if any files should be deleted to fix the bug.
-      multiple: true
-      options:
-        - File 1
-        - File 2
-        - File 3
+      placeholder: "File name(s) to delete"
     validations:
       required: false
