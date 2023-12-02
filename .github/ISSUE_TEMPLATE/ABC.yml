@@ -45,14 +45,14 @@ body:
       placeholder: "Any additional information that can help understand the feature."
     validations:
       required: false
-- type: textarea
-  id: files-modified
-  attributes:
-    label: "File Modifications"
-    description: "Write name(s) of file(s) you want to Create, Update or Delete as part of the solution (optional)."
-    placeholder: "e.g., Create: file1.liquid, Update: file2.css, Delete: file3.js"
-  validations:
-    required: false
+  - type: textarea
+    id: files-modified
+    attributes:
+      label: "File Modifications"
+      description: "Write name(s) of file(s) you want to Create, Update or Delete as part of the solution (optional)."
+      placeholder: "e.g., Create: file1.liquid, Update: file2.css, Delete: file3.js"
+    validations:
+      required: false
   - type: checkboxes
     attributes:
       label: Information Completeness
