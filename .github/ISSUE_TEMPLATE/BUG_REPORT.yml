@@ -92,3 +92,42 @@ body:
     placeholder: "A concise description of a potential solution..."
   validations:
     required: false
+
+- type: dropdown
+  id: files-to-create
+  attributes:
+    label: "Files to Create"
+    description: Specify any new files that need to be created to resolve the bug.
+    multiple: true
+    options:
+      - File 1
+      - File 2
+      - File 3
+  validations:
+    required: false
+
+- type: dropdown
+  id: files-to-update
+  attributes:
+    label: "Files to Update"
+    description: Specify existing files that require updates as part of the bug resolution.
+    multiple: true
+    options:
+      - File 1
+      - File 2
+      - File 3
+  validations:
+    required: false
+
+- type: dropdown
+  id: files-to-delete
+  attributes:
+    label: "Files to Delete"
+    description: Indicate if any files should be deleted to fix the bug.
+    multiple: true
+    options:
+      - File 1
+      - File 2
+      - File 3
+  validations:
+    required: false
