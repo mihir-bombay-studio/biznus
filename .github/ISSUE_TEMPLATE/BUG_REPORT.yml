@@ -84,35 +84,11 @@ body:
     - label: Yes, I have provided as much detail as possible
       required: true
 
-- type: textarea
+  - type: textarea
     id: solution-hint
     attributes:
       label: "Solution Hint"
       description: If you have any hints or ideas for a possible solution, please share them here.
       placeholder: Your suggestion or idea for a solution...
-    validations:
-      required: false
-  - type: input
-    id: files-to-create
-    attributes:
-      label: "Files to Create"
-      description: Specify any new files that need to be created to resolve the bug.
-      placeholder: "File name(s) to create"
-    validations:
-      required: false
-  - type: input
-    id: files-to-update
-    attributes:
-      label: "Files to Update"
-      description: Specify existing files that require updates as part of the bug resolution.
-      placeholder: "File name(s) to update"
-    validations:
-      required: false
-  - type: input
-    id: files-to-delete
-    attributes:
-      label: "Files to Delete"
-      description: Indicate if any files should be deleted to fix the bug.
-      placeholder: "File name(s) to delete"
     validations:
       required: false
