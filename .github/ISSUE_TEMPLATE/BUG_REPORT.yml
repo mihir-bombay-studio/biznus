@@ -84,11 +84,11 @@ body:
     - label: Yes, I have provided as much detail as possible
       required: true
 
-  - type: textarea
+- type: textarea
     id: solution-hint
     attributes:
-      label: "Solution Hint"
-      description: If you have any hints or ideas for a possible solution, please share them here.
-      placeholder: Your suggestion or idea for a solution...
+      label: Solution Hint
+      description: "If you have a solution in mind, please describe it (optional)."
+      placeholder: "A concise description of a potential solution..."
     validations:
       required: false
