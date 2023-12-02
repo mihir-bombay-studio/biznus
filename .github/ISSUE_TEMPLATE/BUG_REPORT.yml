@@ -93,41 +93,11 @@ body:
   validations:
     required: false
 
-- type: dropdown
-  id: files-to-create
+- type: textarea
+  id: files-modified
   attributes:
-    label: "Files to Create"
-    description: Specify any new files that need to be created to resolve the bug.
-    multiple: true
-    options:
-      - File 1
-      - File 2
-      - File 3
-  validations:
-    required: false
-
-- type: dropdown
-  id: files-to-update
-  attributes:
-    label: "Files to Update"
-    description: Specify existing files that require updates as part of the bug resolution.
-    multiple: true
-    options:
-      - File 1
-      - File 2
-      - File 3
-  validations:
-    required: false
-
-- type: dropdown
-  id: files-to-delete
-  attributes:
-    label: "Files to Delete"
-    description: Indicate if any files should be deleted to fix the bug.
-    multiple: true
-    options:
-      - File 1
-      - File 2
-      - File 3
+    label: "File Modifications"
+    description: "Write name(s) of file(s) you want to Create, Update or Delete as part of the solution (optional)."
+    placeholder: "e.g., Create: file1.liquid, Update: file2.css, Delete: file3.js"
   validations:
     required: false
