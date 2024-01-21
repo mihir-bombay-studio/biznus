@@ -25,13 +25,9 @@ body:
       description: "Select the primary goal of this issue."
       options:
         - label: New Feature
-          value: "new-feature"
         - label: Bug Fix
-          value: "bug-fix"
         - label: Improvement
-          value: "improvement"
         - label: Documentation
-          value: "documentation"
     validations:
       required: true
 
@@ -60,15 +56,10 @@ body:
       description: "Identify your role in relation to this issue."
       options:
         - label: Product Owner
-          value: "product-owner"
         - label: Developer
-          value: "developer"
         - label: QA Tester
-          value: "qa-tester"
         - label: End User
-          value: "end-user"
         - label: Other
-          value: "other"
     validations:
       required: true
 
@@ -106,11 +97,8 @@ body:
       description: "Provide an initial estimate of the effort required."
       options:
         - label: Low
-          value: "low"
         - label: Medium
-          value: "medium"
         - label: High
-          value: "high"
     validations:
       required: true
 
@@ -121,19 +109,12 @@ body:
       description: "Estimate the effort in story points."
       options:
         - label: "1"
-          value: "1"
         - label: "2"
-          value: "2"
         - label: "3"
-          value: "3"
         - label: "5"
-          value: "5"
         - label: "8"
-          value: "8"
         - label: "13"
-          value: "13"
         - label: "21"
-          value: "21"
     validations:
       required: false
 
@@ -144,11 +125,8 @@ body:
       description: "Select the urgency level for this issue."
       options:
         - label: High
-          value: "high"
         - label: Medium
-          value: "medium"
         - label: Low
-          value: "low"
     validations:
       required: true
 
@@ -180,4 +158,4 @@ body:
     attributes:
       label: Issue Creator Details
       description: "Provide details about yourself for better context and analysis."
-      placeholder: "Name/Handle: [Your Name/Handle]\nExperience Level: [Beginner/Intermediate/Advanced]\nContact Information: [Optional]"
+      placeholder: "Name/Handle: [Your Name/Handle]\nExperience Level with Project: [Beginner/Intermediate/Advanced]\nContact Information (Optional): [Your Contact Info]"
