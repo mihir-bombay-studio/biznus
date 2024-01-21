@@ -1,0 +1,183 @@
+name: Custom Issue Form
+description: Create an issue with structured data.
+title: "Issue: [TITLE]"
+labels: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: "Please fill out this form with detailed information for issue tracking."
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: "Enter a brief, descriptive title for your issue."
+      placeholder: "Feature/Bug/Task: [Brief Description]"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: objective
+    attributes:
+      label: Objective
+      description: "Select the primary goal of this issue."
+      options:
+        - label: New Feature
+          value: "new-feature"
+        - label: Bug Fix
+          value: "bug-fix"
+        - label: Improvement
+          value: "improvement"
+        - label: Documentation
+          value: "documentation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: "Describe the user story in the format: As a [type of user], I want [an action] so that [a benefit/value]."
+      placeholder: "As a [type of user], I want [an action] so that [a benefit/value]."
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Background/Context
+      description: "Provide any background or context relevant to this issue."
+      placeholder: "Related issues, documentation, etc."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: user-role
+    attributes:
+      label: User Role
+      description: "Identify your role in relation to this issue."
+      options:
+        - label: Product Owner
+          value: "product-owner"
+        - label: Developer
+          value: "developer"
+        - label: QA Tester
+          value: "qa-tester"
+        - label: End User
+          value: "end-user"
+        - label: Other
+          value: "other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: "List the conditions that must be met for this issue to be considered complete."
+      placeholder: "1. Condition A\n2. Condition B\n3. Condition C"
+    validations:
+      required: true
+
+  - type: textarea
+    id: non-technical-description
+    attributes:
+      label: Non-Technical Description
+      description: "Explain the expected outcome and impact on the end user in non-technical terms."
+      placeholder: "Describe how this issue affects the user or the project."
+    validations:
+      required: false
+
+  - type: textarea
+    id: technical-details
+    attributes:
+      label: Technical Details (If Known)
+      description: "Provide any known technical details or constraints related to this issue."
+      placeholder: "API endpoints, data models, architecture considerations, etc."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: estimated-effort
+    attributes:
+      label: Estimated Effort
+      description: "Provide an initial estimate of the effort required."
+      options:
+        - label: Low
+          value: "low"
+        - label: Medium
+          value: "medium"
+        - label: High
+          value: "high"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: story-points
+    attributes:
+      label: Story Points
+      description: "Estimate the effort in story points."
+      options:
+        - label: "1"
+          value: "1"
+        - label: "2"
+          value: "2"
+        - label: "3"
+          value: "3"
+        - label: "5"
+          value: "5"
+        - label: "8"
+          value: "8"
+        - label: "13"
+          value: "13"
+        - label: "21"
+          value: "21"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: "Select the urgency level for this issue."
+      options:
+        - label: High
+          value: "high"
+        - label: Medium
+          value: "medium"
+        - label: Low
+          value: "low"
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attachments
+      description: "Include any mockups, diagrams, or reference materials relevant to this issue."
+      placeholder: "Links to external documents or images."
+    validations:
+      required: false
+
+  - type: textarea
+    id: progress-updates
+    attributes:
+      label: Progress Updates
+      description: "Use this space for regular updates on the progress of this issue."
+      placeholder: "Update 1: [Date] - Description of progress."
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback and Suggestions
+      description: "Provide any feedback or suggestions related to this issue."
+      placeholder: "Your thoughts and ideas on how to improve or address this issue."
+
+  - type: textarea
+    id: creator-details
+    attributes:
+      label: Issue Creator Details
+      description: "Provide details about yourself for better context and analysis."
+      placeholder: "Name/Handle: [Your Name/Handle]\nExperience Level: [Beginner/Intermediate/Advanced]\nContact Information: [Optional]"
