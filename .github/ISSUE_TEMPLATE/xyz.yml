@@ -24,10 +24,10 @@ body:
       label: Objective
       description: "Select the primary goal of this issue."
       options:
-        - New Feature
-        - Bug Fix
-        - Improvement
-        - Documentation
+        - label: New Feature
+        - label: Bug Fix
+        - label: Improvement
+        - label: Documentation
     validations:
       required: true
 
