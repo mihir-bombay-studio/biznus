@@ -24,10 +24,10 @@ body:
       label: Objective
       description: "Select the primary goal of this issue."
       options:
-        - label: New Feature
-        - label: Bug Fix
-        - label: Improvement
-        - label: Documentation
+        - New Feature
+        - Bug Fix
+        - Improvement
+        - Documentation
     validations:
       required: true
 
@@ -55,11 +55,11 @@ body:
       label: User Role
       description: "Identify your role in relation to this issue."
       options:
-        - label: Product Owner
-        - label: Developer
-        - label: QA Tester
-        - label: End User
-        - label: Other
+        - Product Owner
+        - Developer
+        - QA Tester
+        - End User
+        - Other
     validations:
       required: true
 
@@ -96,9 +96,9 @@ body:
       label: Estimated Effort
       description: "Provide an initial estimate of the effort required."
       options:
-        - label: Low
-        - label: Medium
-        - label: High
+        - Low
+        - Medium
+        - High
     validations:
       required: true
 
@@ -108,13 +108,13 @@ body:
       label: Story Points
       description: "Estimate the effort in story points."
       options:
-        - label: "1"
-        - label: "2"
-        - label: "3"
-        - label: "5"
-        - label: "8"
-        - label: "13"
-        - label: "21"
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "8"
+        - "13"
+        - "21"
     validations:
       required: false
 
@@ -124,9 +124,9 @@ body:
       label: Priority
       description: "Select the urgency level for this issue."
       options:
-        - label: High
-        - label: Medium
-        - label: Low
+        - High
+        - Medium
+        - Low
     validations:
       required: true
 
